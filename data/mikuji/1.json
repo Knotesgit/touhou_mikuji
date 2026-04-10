@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "fortune": "超大吉",
+  "title": "传达神谕的巫女",
+  "character": "博丽灵梦",
+  "ability": "在空中飞行程度的能力",
+  "mainText": "能抽出我来，就是说，你已经发现了幸运的秘诀吧。",
+  "image": "images/characters/reimu.png",
+  "details": [
+    {
+      "key": "运势",
+      "text": "整体非常顺利。",
+      "enabled": true
+    },
+    {
+      "key": "学业",
+      "text": "完全不学习也能阴差阳错地搞定。",
+      "enabled": true
+    }
+  ]
+}
