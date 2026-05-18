@@ -13,22 +13,20 @@ const historyToggle = document.getElementById("history-toggle");
 const historyPanel = document.getElementById("history-panel");
 const historyClose = document.getElementById("history-close");
 const historyList = document.getElementById("history-list");
+const reviewPanel = document.getElementById("review-panel");
 const reviewCard = document.getElementById("review-card");
 
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
     drawButton.disabled = true;
+    renderHistory();
+    drawButton.addEventListener("click", drawMikuji);
+    historyToggle.addEventListener("click", toggleHistory);
+    historyClose.addEventListener("click", closeHistory);
 
     try {
         state.fortunes = await loadFortunes();
-        state.currentFortune = state.fortunes[0];
-        renderFortune(state.currentFortune);
-        renderReview(state.currentFortune);
-        renderHistory();
-        drawButton.addEventListener("click", drawMikuji);
-        historyToggle.addEventListener("click", toggleHistory);
-        historyClose.addEventListener("click", closeHistory);
         drawButton.disabled = false;
     } catch (error) {
         resultEl.innerHTML = '<p class="error-text">签文载入失败。请确认 data/mikuji/1.json 可访问。</p>';
@@ -69,6 +67,10 @@ function secureRandomIndex(length) {
 }
 
 function drawMikuji() {
+    if (state.fortunes.length === 0) {
+        return;
+    }
+
     const index = secureRandomIndex(state.fortunes.length);
     const fortune = state.fortunes[index];
 
@@ -96,6 +98,7 @@ function renderReview(fortune) {
         : ["暂无评价。"];
 
     reviewCard.innerHTML = "";
+    reviewPanel.hidden = false;
     const titleEl = createElement("h2", "", title);
     titleEl.id = "review-title";
     reviewCard.appendChild(titleEl);

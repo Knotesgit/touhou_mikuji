@@ -150,6 +150,7 @@ h2 {
     width: min(100%, var(--paper-width));
 }
 
+.idle-text,
 .loading-text,
 .error-text {
     margin: 24px 0;
@@ -332,6 +333,10 @@ h2 {
     margin: 32px auto 0;
 }
 
+.review-panel[hidden] {
+    display: none;
+}
+
 .history-tab-button {
     position: fixed;
     top: 96px;
@@ -447,6 +452,11 @@ h2 {
     margin: var(--space-md) 0 0;
     color: var(--muted-color);
     line-height: 1.75;
+}
+
+.source-panel a {
+    color: var(--accent-color);
+    font-weight: 700;
 }
 
 @media (max-width: 520px) {
