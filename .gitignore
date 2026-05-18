@@ -15,9 +15,11 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
+*.zip
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +33,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+codex_note/

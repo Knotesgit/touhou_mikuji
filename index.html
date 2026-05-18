@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-Hans">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>东方御神签</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <main class="site-shell">
+        <header class="site-header">
+            <p class="eyebrow">Touhou fan omikuji</p>
+            <h1>东方御神签</h1>
+        </header>
 
-<h1>东方御神签</h1>
+        <section class="draw-panel" aria-labelledby="draw-title">
+            <div class="draw-controls">
+                <h2 id="draw-title">今日一签</h2>
+                <button id="draw-button" class="draw-button" type="button">抽签</button>
+            </div>
 
-<button onclick="drawMikuji()">抽签</button>
+            <div id="result" class="result" aria-live="polite">
+                <p class="loading-text">正在载入签文。</p>
+            </div>
+        </section>
 
-<div id="result"></div>
+        <section class="history-panel" aria-labelledby="history-title">
+            <h2 id="history-title">最近抽签</h2>
+            <ol id="history-list" class="history-list"></ol>
+        </section>
 
-<script src="js/draw.js"></script>
+        <section class="source-panel" aria-labelledby="source-title">
+            <h2 id="source-title">来源与声明</h2>
+            <p>
+                本站为非商业同人作品，基于 Touhou Project / 東方Project 的世界观制作。
+                Touhou Project、Team Shanghai Alice / 上海アリス幻樂団、ZUN 及相关作品权利归其原权利方所有。
+            </p>
+            <p>
+                御神签概念与后续签文资料计划参考《東方幻存神籤 / 东方幻存神签》。
+                若未来从 THWiki 手动录入资料，将在数据和页面中保留对应来源标注。
+            </p>
+            <p>
+                本站不是官方作品，也不表示 ZUN、Team Shanghai Alice、THWiki 或任何官方出版方的认可、授权或背书。
+            </p>
+        </section>
+    </main>
+
+    <script src="js/draw.js"></script>
 </body>
 </html>

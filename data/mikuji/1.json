@@ -1,21 +1,30 @@
 {
-  "id": 1,
-  "fortune": "超大吉",
-  "title": "传达神谕的巫女",
-  "character": "博丽灵梦",
-  "ability": "在空中飞行程度的能力",
-  "mainText": "能抽出我来，就是说，你已经发现了幸运的秘诀吧。",
-  "image": "images/characters/reimu.png",
-  "details": [
+  "id": "1",
+  "numberLabel": "第1号",
+  "rank": "凶",
+  "characterTitle": "使用四周变暗的妖怪",
+  "characterName": "露米娅",
+  "abilityText": "操纵黑暗程度的能力",
+  "mainOracleText": "若心怀黑暗，此事需谨记：不速之客已悄然潜于胸。",
+  "mainOracleColumns": [],
+  "detailSections": [
     {
-      "key": "运势",
-      "text": "整体非常顺利。",
-      "enabled": true
-    },
-    {
-      "key": "学业",
-      "text": "完全不学习也能阴差阳错地搞定。",
-      "enabled": true
+      "items": [
+        {
+          "label": "运势",
+          "text": "即便身处明亮之处也会突然失去视野。"
+        },
+        {
+          "label": "健康",
+          "text": "只能睡觉，别无他选。"
+        }
+      ]
     }
-  ]
+  ],
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签",
+    "note": "Text to be manually entered later. Do not scrape automatically."
+  }
 }
