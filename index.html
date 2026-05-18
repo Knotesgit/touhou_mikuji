@@ -17,20 +17,11 @@
             <div class="draw-controls">
                 <h2 id="draw-title">今日一签</h2>
                 <button id="draw-button" class="draw-button" type="button">抽签</button>
-                <button id="history-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="history-panel">查看抽签记录</button>
             </div>
 
             <div id="result" class="result" aria-live="polite">
                 <p class="loading-text">正在载入签文。</p>
             </div>
-
-            <section id="history-panel" class="history-panel" aria-labelledby="history-title" hidden>
-                <div class="panel-heading">
-                    <h2 id="history-title">抽签记录</h2>
-                    <button id="history-close" class="secondary-button" type="button">关闭</button>
-                </div>
-                <ol id="history-list" class="history-list"></ol>
-            </section>
         </section>
 
         <section class="review-panel" aria-labelledby="review-title">
@@ -55,6 +46,15 @@
             </p>
         </section>
     </main>
+
+    <button id="history-toggle" class="history-tab-button" type="button" aria-expanded="false" aria-controls="history-panel">抽签记录</button>
+    <aside id="history-panel" class="history-drawer" aria-labelledby="history-title" hidden>
+        <div class="history-drawer-header">
+            <h2 id="history-title">抽签记录</h2>
+            <button id="history-close" class="history-close-button" type="button">关闭</button>
+        </div>
+        <ol id="history-list" class="history-list"></ol>
+    </aside>
 
     <script src="js/draw.js"></script>
 </body>

@@ -213,10 +213,12 @@ function toggleHistory() {
 function openHistory() {
     renderHistory();
     historyPanel.hidden = false;
+    historyPanel.classList.add("is-open");
     historyToggle.setAttribute("aria-expanded", "true");
 }
 
 function closeHistory() {
+    historyPanel.classList.remove("is-open");
     historyPanel.hidden = true;
     historyToggle.setAttribute("aria-expanded", "false");
 }
