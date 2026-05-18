@@ -7,7 +7,7 @@
   "abilityText": "操纵黑暗程度的能力",
   "mainOracleText": "若心怀黑暗，此事需谨记：不速之客已悄然潜于胸。",
   "mainOracleColumns": [],
-  "detailSections": [
+  "detailLayers": [
     {
       "items": [
         {
@@ -17,6 +17,34 @@
         {
           "label": "健康",
           "text": "只能睡觉，别无他选。"
+        },
+        {
+          "label": "出行",
+          "text": "无妨。但仅限夜间。"
+        },
+        {
+          "label": "学业",
+          "text": "唯数学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "寻物",
+          "text": "断念为妙。"
+        },
+        {
+          "label": "姻缘",
+          "text": "形影单只。"
+        },
+        {
+          "label": "争端",
+          "text": "形影单只反倒无人侵犯。"
+        },
+        {
+          "label": "动物",
+          "text": "不知为何受夜视能力强的猫科动物亲近。或许是被轻视了。"
         }
       ]
     }

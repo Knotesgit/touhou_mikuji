@@ -73,7 +73,11 @@ function drawMikuji() {
 
 function renderFortune(fortune) {
     resultEl.innerHTML = "";
-    resultEl.appendChild(createSlip(fortune));
+
+    const resultContent = document.createElement("div");
+    resultContent.className = "result-content";
+    resultContent.append(createSlip(fortune), createSourceNote(fortune));
+    resultEl.appendChild(resultContent);
 }
 
 function createSlip(fortune) {
@@ -101,25 +105,25 @@ function createSlip(fortune) {
     oracle.appendChild(createOracle(fortune));
 
     const detail = document.createElement("section");
-    detail.className = "detail-area";
-    getDetailSections(fortune).forEach((section) => {
-        const sectionEl = document.createElement("div");
-        sectionEl.className = "detail-section";
+    detail.className = "detail-layers";
+    getDetailLayers(fortune).forEach((layer) => {
+        const layerEl = document.createElement("div");
+        layerEl.className = "detail-layer";
 
-        (section.items || []).forEach((item) => {
+        (layer.items || []).forEach((item) => {
             const itemEl = document.createElement("div");
             itemEl.className = "detail-item";
             itemEl.append(
-                createElement("div", "detail-label", item.label || ""),
-                createElement("div", "detail-text", item.text || "")
+                createElement("span", "detail-label", item.label || ""),
+                createElement("span", "detail-text", item.text || "")
             );
-            sectionEl.appendChild(itemEl);
+            layerEl.appendChild(itemEl);
         });
 
-        detail.appendChild(sectionEl);
+        detail.appendChild(layerEl);
     });
 
-    slip.append(top, character, oracle, detail, createSourceNote(fortune));
+    slip.append(top, character, oracle, detail);
     return slip;
 }
 
@@ -138,7 +142,11 @@ function createOracle(fortune) {
     return createElement("div", "oracle-auto", fortune.mainOracleText || "");
 }
 
-function getDetailSections(fortune) {
+function getDetailLayers(fortune) {
+    if (Array.isArray(fortune.detailLayers)) {
+        return fortune.detailLayers;
+    }
+
     if (Array.isArray(fortune.detailSections)) {
         return fortune.detailSections;
     }

@@ -119,6 +119,13 @@ h2 {
     width: 100%;
 }
 
+.result-content {
+    display: grid;
+    justify-items: center;
+    gap: var(--space-md);
+    width: min(100%, var(--paper-width));
+}
+
 .loading-text,
 .error-text {
     margin: 24px 0;
@@ -245,25 +252,37 @@ h2 {
     white-space: pre-wrap;
 }
 
-.detail-area {
+.detail-layers {
     display: grid;
-    gap: var(--space-md);
     padding-top: var(--space-lg);
     font-size: var(--detail-size);
 }
 
-.detail-section {
-    display: grid;
-    gap: 0.65rem;
+.detail-layer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: clamp(0.45rem, 2vw, 0.9rem);
+    min-height: clamp(132px, 30vw, 172px);
+    padding: 0.85rem 0.25rem;
+    border-top: 1px solid rgba(110, 31, 36, 0.28);
+    overflow: hidden;
+}
+
+.detail-layer:last-child {
+    border-bottom: 1px solid rgba(110, 31, 36, 0.28);
 }
 
 .detail-item {
-    display: grid;
-    grid-template-columns: minmax(4em, auto) 1fr;
-    gap: var(--space-sm);
-    align-items: start;
-    border-bottom: 1px solid rgba(110, 31, 36, 0.18);
-    padding-bottom: 0.55rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-height: clamp(112px, 26vw, 148px);
+    min-width: 1.9em;
+    max-width: 5.5em;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+    word-break: break-all;
 }
 
 .detail-label {
@@ -271,16 +290,22 @@ h2 {
     font-weight: 700;
 }
 
+.detail-label::after {
+    content: "：";
+}
+
 .detail-text {
-    min-width: 0;
+    color: var(--ink-color);
 }
 
 .source-note {
-    margin: var(--space-lg) 0 0;
+    width: min(100%, var(--paper-width));
+    margin: 0;
     color: var(--muted-color);
     font-family: var(--font-ui);
     font-size: 0.78rem;
     line-height: 1.6;
+    text-align: left;
 }
 
 .source-note a {
@@ -352,7 +377,15 @@ h2 {
         max-height: 230px;
     }
 
+    .detail-layer {
+        gap: 0.35rem;
+        min-height: clamp(118px, 36vw, 150px);
+        padding: 0.75rem 0;
+    }
+
     .detail-item {
-        grid-template-columns: 1fr;
+        max-height: clamp(100px, 32vw, 132px);
+        max-width: 4.6em;
+        line-height: 1.55;
     }
 }
