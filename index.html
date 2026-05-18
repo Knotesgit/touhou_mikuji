@@ -17,16 +17,27 @@
             <div class="draw-controls">
                 <h2 id="draw-title">今日一签</h2>
                 <button id="draw-button" class="draw-button" type="button">抽签</button>
+                <button id="history-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="history-panel">查看抽签记录</button>
             </div>
 
             <div id="result" class="result" aria-live="polite">
                 <p class="loading-text">正在载入签文。</p>
             </div>
+
+            <section id="history-panel" class="history-panel" aria-labelledby="history-title" hidden>
+                <div class="panel-heading">
+                    <h2 id="history-title">抽签记录</h2>
+                    <button id="history-close" class="secondary-button" type="button">关闭</button>
+                </div>
+                <ol id="history-list" class="history-list"></ol>
+            </section>
         </section>
 
-        <section class="history-panel" aria-labelledby="history-title">
-            <h2 id="history-title">最近抽签</h2>
-            <ol id="history-list" class="history-list"></ol>
+        <section class="review-panel" aria-labelledby="review-title">
+            <article id="review-card" class="review-card">
+                <h2 id="review-title">评价 / 评论</h2>
+                <p>暂无评价。</p>
+            </article>
         </section>
 
         <section class="source-panel" aria-labelledby="source-title">

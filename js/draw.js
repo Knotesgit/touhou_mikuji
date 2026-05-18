@@ -9,7 +9,11 @@ const state = {
 
 const resultEl = document.getElementById("result");
 const drawButton = document.getElementById("draw-button");
+const historyToggle = document.getElementById("history-toggle");
+const historyPanel = document.getElementById("history-panel");
+const historyClose = document.getElementById("history-close");
 const historyList = document.getElementById("history-list");
+const reviewCard = document.getElementById("review-card");
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -20,8 +24,11 @@ async function init() {
         state.fortunes = await loadFortunes();
         state.currentFortune = state.fortunes[0];
         renderFortune(state.currentFortune);
+        renderReview(state.currentFortune);
         renderHistory();
         drawButton.addEventListener("click", drawMikuji);
+        historyToggle.addEventListener("click", toggleHistory);
+        historyClose.addEventListener("click", closeHistory);
         drawButton.disabled = false;
     } catch (error) {
         resultEl.innerHTML = '<p class="error-text">签文载入失败。请确认 data/mikuji/1.json 可访问。</p>';
@@ -67,6 +74,7 @@ function drawMikuji() {
 
     state.currentFortune = fortune;
     renderFortune(fortune);
+    renderReview(fortune);
     saveHistory(fortune);
     renderHistory();
 }
@@ -76,8 +84,25 @@ function renderFortune(fortune) {
 
     const resultContent = document.createElement("div");
     resultContent.className = "result-content";
-    resultContent.append(createSlip(fortune), createSourceNote(fortune));
+    resultContent.appendChild(createSlip(fortune));
     resultEl.appendChild(resultContent);
+}
+
+function renderReview(fortune) {
+    const review = fortune.review || {};
+    const title = review.title || "评价 / 评论";
+    const paragraphs = Array.isArray(review.paragraphs) && review.paragraphs.length > 0
+        ? review.paragraphs
+        : ["暂无评价。"];
+
+    reviewCard.innerHTML = "";
+    const titleEl = createElement("h2", "", title);
+    titleEl.id = "review-title";
+    reviewCard.appendChild(titleEl);
+
+    paragraphs.forEach((paragraph) => {
+        reviewCard.appendChild(createElement("p", "", paragraph));
+    });
 }
 
 function createSlip(fortune) {
@@ -154,28 +179,6 @@ function getDetailLayers(fortune) {
     return [];
 }
 
-function createSourceNote(fortune) {
-    const source = fortune.source || {};
-    const note = document.createElement("p");
-    note.className = "source-note";
-
-    const publication = source.publication || "来源未填写";
-    const author = source.author ? ` / ${source.author}` : "";
-    const plainText = `${publication}${author}. ${source.note || ""}`;
-    note.textContent = plainText.trim();
-
-    if (source.referenceUrl) {
-        note.append(" ");
-        const link = document.createElement("a");
-        link.href = source.referenceUrl;
-        link.textContent = "参考链接";
-        link.rel = "noreferrer";
-        note.appendChild(link);
-    }
-
-    return note;
-}
-
 function saveHistory(fortune) {
     const history = readHistory();
     const entry = {
@@ -199,6 +202,25 @@ function readHistory() {
     }
 }
 
+function toggleHistory() {
+    if (historyPanel.hidden) {
+        openHistory();
+    } else {
+        closeHistory();
+    }
+}
+
+function openHistory() {
+    renderHistory();
+    historyPanel.hidden = false;
+    historyToggle.setAttribute("aria-expanded", "true");
+}
+
+function closeHistory() {
+    historyPanel.hidden = true;
+    historyToggle.setAttribute("aria-expanded", "false");
+}
+
 function renderHistory() {
     const history = readHistory();
     historyList.innerHTML = "";
@@ -206,11 +228,19 @@ function renderHistory() {
     history.forEach((entry) => {
         const item = document.createElement("li");
         item.className = "history-item";
-        const time = new Date(entry.drawnAt);
-        const timeLabel = Number.isNaN(time.getTime()) ? "" : time.toLocaleString();
+        const timeLabel = formatHistoryTime(entry.drawnAt);
         item.textContent = `${entry.numberLabel || entry.id} ${entry.rank} ${entry.characterName} ${timeLabel}`;
         historyList.appendChild(item);
     });
+}
+
+function formatHistoryTime(value) {
+    const time = new Date(value);
+    if (Number.isNaN(time.getTime())) {
+        return "";
+    }
+
+    return time.toLocaleString("zh-CN", { hour12: false });
 }
 
 function createElement(tagName, className, text) {
