@@ -1,0 +1,87 @@
+{
+  "id": "9",
+  "pageTitle": "东方幻存神签/芙兰朵露·斯卡蕾特",
+  "bilingualPageTitle": "东方幻存神签/芙兰朵露·斯卡蕾特/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/芙兰朵露·斯卡蕾特",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/芙兰朵露·斯卡蕾特/中日对照",
+  "numberLabel": "第9号",
+  "rank": "【凶猛】",
+  "rankDisplay": [
+    {
+      "text": "【凶猛】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "毁灭一切的吸血鬼",
+  "characterName": "芙兰朵露·斯卡蕾特",
+  "abilityText": "将一切悉数破坏程度的能力",
+  "mainOracleText": "饱含心血的作品更应该轰轰烈烈地去破坏殆尽！",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "渴望破坏既有成就。不幸或亦将一并粉碎。"
+        },
+        {
+          "label": "工作",
+          "text": "重整之机。跳槽前须妥善了结工作。拆迁业为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "近乎溃败。攻克薄弱科目的良机。粒子物理学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "避开紫外线。亦须注意运动量不足。"
+        },
+        {
+          "label": "住所",
+          "text": "倾颓。筹划重建吧。"
+        },
+        {
+          "label": "出行",
+          "text": "当下不宜。尤忌近水。"
+        },
+        {
+          "label": "恋爱",
+          "text": "幻灭。"
+        },
+        {
+          "label": "寻物",
+          "text": "永不复得。"
+        },
+        {
+          "label": "人缘",
+          "text": "主动疏离他人。"
+        },
+        {
+          "label": "爱好",
+          "text": "破而后立。独处为上。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是自初登场便备受欢迎、却至今谜团重重的吸血鬼。",
+      "特别是她翅膀的材质，至今也没人知道是什么。想来她最初应该和姐姐一样长着形似蝙蝠的翅膀，或许是在破坏和修复的无限循环中，她将翅膀变成了更易于复原的简单造型吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/芙兰朵露·斯卡蕾特",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

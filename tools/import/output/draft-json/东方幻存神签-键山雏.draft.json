@@ -1,0 +1,95 @@
+{
+  "id": "38",
+  "pageTitle": "东方幻存神签/键山雏",
+  "bilingualPageTitle": "东方幻存神签/键山雏/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/键山雏",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/键山雏/中日对照",
+  "numberLabel": "第38号",
+  "rank": "大凶",
+  "rankDisplay": [
+    {
+      "text": "大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "注定被抛弃的流雏",
+  "characterName": "键山雏",
+  "abilityText": "储存厄运程度的能力",
+  "mainOracleText": "雏人偶注定要顺流而下。而你却不慎拾起了它呢。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "很快就会自行拾起厄运的祸端。需在坏事发生前先行袪厄。"
+        },
+        {
+          "label": "健康",
+          "text": "维持最高级警惕。"
+        },
+        {
+          "label": "交易",
+          "text": "投资遭遇损失。"
+        },
+        {
+          "label": "学业",
+          "text": "因身体不适而失利。"
+        },
+        {
+          "label": "农事",
+          "text": "必有纰漏。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "姻缘",
+          "text": "静候为妙。"
+        },
+        {
+          "label": "贵人",
+          "text": "渐行渐远。"
+        },
+        {
+          "label": "寻物",
+          "text": "相继丢失。"
+        },
+        {
+          "label": "财运",
+          "text": "钱财散尽。"
+        },
+        {
+          "label": "弹幕",
+          "text": "被流弹击中。"
+        },
+        {
+          "label": "家庭",
+          "text": "当心人偶。"
+        },
+        {
+          "label": "出行",
+          "text": "漂流可转运。可期一举逆转困局。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "将雏人偶投入河中是部分地区实际存在的习俗。这一习俗的寓意是让厄运随河漂走，但人偶直接流入海洋会破坏环境，所以现在似乎会统一回收起来。",
+      "也就是说，好不容易送走的厄运又被尽数收回了。哎哟喂。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/键山雏",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "1",
+  "pageTitle": "东方幻存神签/露米娅",
+  "bilingualPageTitle": "东方幻存神签/露米娅/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/露米娅",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/露米娅/中日对照",
+  "numberLabel": "第1号",
+  "rank": "凶",
+  "characterTitle": "使用四周变暗的妖怪",
+  "characterName": "露米娅",
+  "abilityText": "操纵黑暗程度的能力",
+  "mainOracleText": "若心怀黑暗，此事需谨记：不速之客已悄然潜于胸。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "即便身处明亮之处也会突然失去视野。可谓前途一片黑暗。"
+        },
+        {
+          "label": "健康",
+          "text": "只能睡觉，别无他选。"
+        },
+        {
+          "label": "出行",
+          "text": "无妨。但仅限夜间。"
+        },
+        {
+          "label": "学业",
+          "text": "唯数学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "寻物",
+          "text": "断念为妙。"
+        },
+        {
+          "label": "姻缘",
+          "text": "形影单只。"
+        },
+        {
+          "label": "争端",
+          "text": "形影单只反倒无人侵扰。"
+        },
+        {
+          "label": "动物",
+          "text": "不知为何受夜视能力强的猫科动物亲近。或许是被轻视了。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她在行踪成谜的妖怪里算是头号角色，在故事中也几乎毫无存在感。抽到这个角色的你，或许心中也暗藏着一抹黑暗。",
+      "就设定而言她本与吸血鬼颇为契合，可惜鲜有机会一展身手，实在遗憾。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/露米娅",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

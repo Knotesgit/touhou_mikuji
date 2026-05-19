@@ -1,0 +1,88 @@
+{
+  "id": "8",
+  "pageTitle": "东方幻存神签/蕾米莉亚·斯卡蕾特",
+  "bilingualPageTitle": "东方幻存神签/蕾米莉亚·斯卡蕾特/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/蕾米莉亚·斯卡蕾特",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/蕾米莉亚·斯卡蕾特/中日对照",
+  "numberLabel": "第8号",
+  "rank": "吉凶未卜",
+  "rankDisplay": [
+    {
+      "text": "吉凶未卜",
+      "struck": false
+    }
+  ],
+  "characterTitle": "永远鲜红的吸血鬼",
+  "characterName": "蕾米莉亚·斯卡蕾特",
+  "abilityText": "操纵命运程度的能力",
+  "mainOracleText": "区区未来事，何须去占卜？未来要如何，亲手可抉择。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "重大抉择接踵而至，务必心怀决意做出选择。"
+        },
+        {
+          "label": "工作",
+          "text": "面临命运分歧点。切忌逃避选择。"
+        },
+        {
+          "label": "学业",
+          "text": "若因择校而踌躇，则更当挑战难关。"
+        },
+        {
+          "label": "恋爱",
+          "text": "抉择之时迫近。三心二意必遭不幸。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "防晒措施需万全。忌食沙丁鱼与大蒜。"
+        },
+        {
+          "label": "出行",
+          "text": "宜古城。忌水畔。"
+        },
+        {
+          "label": "财运",
+          "text": "些许牺牲可换来巨大收益。"
+        },
+        {
+          "label": "人缘",
+          "text": "幸遇得力下属。"
+        },
+        {
+          "label": "争端",
+          "text": "未尝一败。"
+        },
+        {
+          "label": "爱好",
+          "text": "品鉴红茶为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "在各种作品里，吸血鬼这一种族往往以充满领袖魅力的形象出现。",
+      "这一形象的源头多半要归功于德古拉伯爵的深远影响吧。毕竟这种怪物作为凌驾于人类之上的掠食者，绝不可能弱小。",
+      "不过，蕾米莉亚总是保持着天真无邪、不太靠谱的孩童模样。这说不定是为让人类放松警惕而进行的伪装呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/蕾米莉亚·斯卡蕾特",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

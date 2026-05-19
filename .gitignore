@@ -35,3 +35,7 @@ build/
 .vscode/
 
 codex_note/
+
+tools/import/cache/
+tools/import/output/raw/
+tools/import/import-config.local.json

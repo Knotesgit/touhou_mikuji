@@ -117,7 +117,7 @@ function createSlip(fortune) {
     top.append(
         createElement("div", "number-label", fortune.numberLabel || fortune.id || ""),
         createElement("div", "top-separator", ""),
-        createElement("div", "rank-label", fortune.rank || "")
+        createRankLabel(fortune)
     );
 
     const character = document.createElement("section");
@@ -153,6 +153,24 @@ function createSlip(fortune) {
 
     slip.append(top, character, oracle, detail);
     return slip;
+}
+
+function createRankLabel(fortune) {
+    const rankEl = createElement("div", "rank-label", "");
+    if (!Array.isArray(fortune.rankDisplay) || fortune.rankDisplay.length === 0) {
+        rankEl.textContent = fortune.rank || "";
+        return rankEl;
+    }
+
+    fortune.rankDisplay.forEach((part) => {
+        const partEl = createElement("span", "rank-part", part.text || "");
+        if (part.struck) {
+            partEl.classList.add("is-struck");
+        }
+        rankEl.appendChild(partEl);
+    });
+
+    return rankEl;
 }
 
 function createOracle(fortune) {

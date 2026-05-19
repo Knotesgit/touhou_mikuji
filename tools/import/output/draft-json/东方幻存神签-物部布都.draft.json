@@ -1,0 +1,84 @@
+{
+  "id": "69",
+  "pageTitle": "东方幻存神签/物部布都",
+  "bilingualPageTitle": "东方幻存神签/物部布都/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/物部布都",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/物部布都/中日对照",
+  "numberLabel": "第69号",
+  "rank": "自行决定",
+  "rankDisplay": [
+    {
+      "text": "自行决定",
+      "struck": false
+    }
+  ],
+  "characterTitle": "能辨龙脉流向的尸解仙",
+  "characterName": "物部布都",
+  "abilityText": "操纵风水程度的能力",
+  "mainOracleText": "运势当然是一时之福祸。若识得龙脉，则另当别论。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "是福是祸，全由自身行动决定。当观察世界，解读天机。"
+        },
+        {
+          "label": "交易",
+          "text": "办公场所的物品需及时清理，杂物过多将招来厄运。"
+        },
+        {
+          "label": "学业",
+          "text": "古代史为吉。建筑学亦可。"
+        },
+        {
+          "label": "健康",
+          "text": "时时保养。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "移徙",
+          "text": "迁入聚气宝宅的良机。"
+        },
+        {
+          "label": "财运",
+          "text": "接触农活或陶艺可提升财运。"
+        },
+        {
+          "label": "晋升",
+          "text": "排除竞争对手便大有前途。"
+        },
+        {
+          "label": "出行",
+          "text": "多多益善。"
+        },
+        {
+          "label": "恋爱",
+          "text": "唯独此事风水无法左右。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的脑袋似乎在长年沉眠中出了点毛病，现在整个人都变得相当脱线。",
+      "在一般印象中，风水是一种很玄乎的法术。这在幻想乡也是一样的，大多数人都不信风水。",
+      "由于她是脱线系角色，我总感觉她随时有可能掏出“地形”指令、施展毁天灭地的超强攻击。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/物部布都",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

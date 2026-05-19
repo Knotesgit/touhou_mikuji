@@ -1,0 +1,84 @@
+{
+  "id": "5",
+  "pageTitle": "东方幻存神签/小恶魔",
+  "bilingualPageTitle": "东方幻存神签/小恶魔/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/小恶魔",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/小恶魔/中日对照",
+  "numberLabel": "第5号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "就职于蒙尘图书馆的魔物",
+  "characterName": "小恶魔（姓名不详）",
+  "abilityText": "瞬间找出所需书籍程度的能力",
+  "mainOracleText": "请保持安静。若是太嘈杂，书本的低语便要听漏了。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "勤恳努力终归平凡，但能切实得以成长。"
+        },
+        {
+          "label": "学业",
+          "text": "正是用功时。朴实努力最为有效。"
+        },
+        {
+          "label": "就业",
+          "text": "教育行业为吉。"
+        },
+        {
+          "label": "交易",
+          "text": "未雨绸缪，潜心研习吧。当下并非谋利之时。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "稍示殷勤便可成功。"
+        },
+        {
+          "label": "健康",
+          "text": "状况不佳。缺乏运动终致恶果。"
+        },
+        {
+          "label": "晋升",
+          "text": "虽得上司青睐，升迁仍非易事。"
+        },
+        {
+          "label": "人缘",
+          "text": "八面玲珑反成败笔。"
+        },
+        {
+          "label": "爱好",
+          "text": "唯有阅读，别无他选。出现死者的故事为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她与大妖精一样，都是无名的途中小头目。",
+      "红魔馆以包宿的条件雇佣了众多妖精在馆中工作，她也同样是受雇佣的魔物。",
+      "虽然通称“小恶魔”，但她其实是与帕秋莉性质类似的魔法生物，更近似于她的使魔。小恶魔这一称谓，或许源自她的性格特质。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/小恶魔",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

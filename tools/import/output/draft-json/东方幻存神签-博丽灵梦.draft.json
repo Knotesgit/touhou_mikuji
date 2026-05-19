@@ -1,0 +1,89 @@
+{
+  "id": "128",
+  "pageTitle": "东方幻存神签/博丽灵梦",
+  "bilingualPageTitle": "东方幻存神签/博丽灵梦/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/博丽灵梦",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/博丽灵梦/中日对照",
+  "numberLabel": "第128号",
+  "rank": "超大吉",
+  "characterTitle": "传达神谕的巫女",
+  "characterName": "博丽灵梦",
+  "abilityText": "飞翔于空中程度的能力",
+  "mainOracleText": "竟能抽到我看来你已经参透了幸运背后的玄机。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "最强运势，幸运不请自来。无论做什么都一帆风顺。"
+        },
+        {
+          "label": "学业",
+          "text": "不必费心学习，总之会一帆风顺。"
+        },
+        {
+          "label": "工作",
+          "text": "即便有大规模异变总之也能一帆风顺。"
+        },
+        {
+          "label": "交易",
+          "text": "虽然赚不到钱但总之会一帆风顺。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "尤宜空中旅行。"
+        },
+        {
+          "label": "求医",
+          "text": "信仰神明则旧疾自愈。"
+        },
+        {
+          "label": "健康",
+          "text": "福寿延年。"
+        },
+        {
+          "label": "住所",
+          "text": "久居为安。"
+        },
+        {
+          "label": "恋爱",
+          "text": "虔信之人为吉。"
+        },
+        {
+          "label": "方位",
+          "text": "东方为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "与奇人怪客有缘。"
+        },
+        {
+          "label": "爱好",
+          "text": "多方尝试便会一帆风顺。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是毋庸置疑的主角。这本御神签主要是灵梦在神谕的启示之下创作的，但内容却似乎充斥着她本人的主观偏见和一己之私。",
+      "她所谓的「一帆风顺」其实近似于预言的性质，意在通过这样反复的自我暗示，让一帆风顺（无论如何都能）成为现实。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/博丽灵梦",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

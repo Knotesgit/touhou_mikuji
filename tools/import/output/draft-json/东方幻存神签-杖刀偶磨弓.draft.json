@@ -1,0 +1,87 @@
+{
+  "id": "103",
+  "pageTitle": "东方幻存神签/杖刀偶磨弓",
+  "bilingualPageTitle": "东方幻存神签/杖刀偶磨弓/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/杖刀偶磨弓",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/杖刀偶磨弓/中日对照",
+  "numberLabel": "第103号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "挂甲武人（国宝）",
+  "characterName": "杖刀偶磨弓",
+  "abilityText": "让忠心直接化为实力程度的能力",
+  "mainOracleText": "尽情颤抖吧，我的忠诚心如假包换的世界第二硬。",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "生性较真，故得安稳运势。切忌逞能蛮干。"
+        },
+        {
+          "label": "工作",
+          "text": "宣誓效忠公司则能力自会提升。警卫工作为大吉。"
+        },
+        {
+          "label": "交易",
+          "text": "勤能致富。"
+        },
+        {
+          "label": "学业",
+          "text": "古代史、陶艺、剑术、马术为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "肉体强韧，却暗藏脆弱要害。千万当心外伤。"
+        },
+        {
+          "label": "争端",
+          "text": "亲族和睦，从无纠纷。"
+        },
+        {
+          "label": "恋爱",
+          "text": "脆弱不堪。分手在即。"
+        },
+        {
+          "label": "姻缘",
+          "text": "倾心信任便能一帆风顺。"
+        },
+        {
+          "label": "出行",
+          "text": "古墓为吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "尝试骑马可提升运势。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "据说最近的研究发现，她的原型挂甲武人原本是涂有色彩的。而且还是红白配色。那串可爱的绳结是红色的，和磨弓的颜色相同，让我松了口气。",
+      "她类似于机器人，会依照制作者的指令行动。她的自主意志并不强烈，因此似乎鲜有烦恼。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/杖刀偶磨弓",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

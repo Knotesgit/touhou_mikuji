@@ -1,0 +1,91 @@
+{
+  "id": "117",
+  "pageTitle": "东方幻存神签/天火人血枪",
+  "bilingualPageTitle": "东方幻存神签/天火人血枪/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/天火人血枪",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/天火人血枪/中日对照",
+  "numberLabel": "第117号",
+  "rank": "【大大凶】",
+  "rankDisplay": [
+    {
+      "text": "【大大凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "被诅咒的谜之天火人",
+  "characterName": "天火人血枪",
+  "abilityText": "操纵血与火程度的能力",
+  "mainOracleText": "我不吉利啊？那又怎么了。就这么着呗，不也挺好的？",
+  "mainOracleColumns": [],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "会让周遭陷入不幸，结果自己也连带着倒霉。"
+        },
+        {
+          "label": "工作",
+          "text": "不宜从事集体工作。倒是很适合当艺术家。"
+        },
+        {
+          "label": "学业",
+          "text": "医学、生物学为宜。此外皆凶。"
+        },
+        {
+          "label": "健康",
+          "text": "身虚体弱，萎靡不振。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "住所",
+          "text": "立刻做好防火措施。"
+        },
+        {
+          "label": "出行",
+          "text": "深恶痛绝，闭门不出为宜。"
+        },
+        {
+          "label": "爱好",
+          "text": "献血为吉。"
+        },
+        {
+          "label": "饮食",
+          "text": "多吃蔬菜为吉，需控制肉食摄入量。"
+        },
+        {
+          "label": "人缘",
+          "text": "无需交友。"
+        },
+        {
+          "label": "恋爱",
+          "text": "怪麻烦的。"
+        },
+        {
+          "label": "财运",
+          "text": "反正没处花。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是一种名为天火人的、知者寥寥的神秘妖怪。对于妖怪而言，岌岌无名是事关生死存亡的致命危机。幸好她凭借凌厉的攻击成功给人留下了深刻印象，真是可喜可贺。",
+      "另外，因为穿着宽松的T恤又总驼着背，她整个人显得松松垮垮的，但衣服下面其实是缺乏运动的瘦弱身材。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/天火人血枪",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}
