@@ -225,9 +225,9 @@ h2 {
 
 .rank-badge {
     position: absolute;
-    top: -0.34em;
-    right: -0.58em;
-    z-index: 3;
+    top: -0.18em;
+    right: -0.45em;
+    z-index: 5;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -237,12 +237,19 @@ h2 {
     background: rgba(255, 253, 247, 0.96);
     color: var(--accent-color);
     box-shadow: 0 5px 12px rgba(68, 38, 27, 0.16);
-    font-size: 0.72em;
+    width: max-content;
+    max-width: none;
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
+    font-weight: 900;
     line-height: 1;
     white-space: nowrap;
-    transform: rotate(-8deg);
+    transform: rotate(8deg);
     transform-origin: center;
     pointer-events: none;
+}
+
+.rank-badge--long {
+    font-size: clamp(2.8rem, 4.4vw, 3rem);
 }
 
 .rank-part.is-struck {

@@ -294,6 +294,9 @@ function createRankLabel(fortune) {
 
     if (isBadge) {
         rankEl.classList.add("rank-label--badge-mode");
+        if (shouldUseLongRankBadge(fortune, parts)) {
+            rankContent.classList.add("rank-badge--long");
+        }
     }
 
     parts.forEach((part) => {
@@ -332,6 +335,12 @@ function shouldUseRankBadge(fortune, parts) {
         parts.some((part) => part.struck) ||
         rankWithoutBrackets.length >= 4
     );
+}
+
+function shouldUseLongRankBadge(fortune, parts) {
+    const visibleRank = parts.map((part) => part.text || "").join("") || fortune.rank || "";
+    const rankWithoutBrackets = visibleRank.replace(/[【】\s]/g, "");
+    return parts.length > 1 || rankWithoutBrackets.length >= 4;
 }
 
 function createOracle(fortune) {
