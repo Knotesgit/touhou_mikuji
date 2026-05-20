@@ -180,6 +180,7 @@ h2 {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -226,7 +227,7 @@ h2 {
 .rank-badge {
     position: absolute;
     top: -0.45em;
-    right: -0.85em;
+    right: -1.5em;
     z-index: 5;
     display: inline-flex;
     flex: 0 0 auto;
@@ -383,7 +384,7 @@ h2 {
     min-height: var(--detail-row-height, 185px);
 }
 
-.detail-layer-row + .detail-layer-row {
+.detail-layer-row+.detail-layer-row {
     padding-top: 0.48rem;
     border-top: 1px solid rgba(165, 31, 45, 0.22);
 }
