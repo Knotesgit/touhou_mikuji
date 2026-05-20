@@ -145,24 +145,90 @@ function createSlip(fortune) {
     const detail = document.createElement("section");
     detail.className = "detail-layers";
     getDetailLayers(fortune).forEach((layer) => {
-        const layerEl = document.createElement("div");
-        layerEl.className = "detail-layer";
+        detail.appendChild(createDetailLayer(layer, fortune));
+    });
 
-        (layer.items || []).forEach((item) => {
+    slip.append(top, character, oracle, detail);
+    return slip;
+}
+
+function createDetailLayer(layer, fortune) {
+    const items = Array.isArray(layer.items) ? layer.items : [];
+    const itemCount = items.length;
+    const textLengths = items.map((item) => getDetailItemLength(item));
+    const maxChars = textLengths.length > 0 ? Math.max(...textLengths) : 0;
+    const totalChars = textLengths.reduce((sum, length) => sum + length, 0);
+    const density = getDetailDensity(itemCount, maxChars, totalChars);
+    const rows = splitDetailRows(items, maxChars);
+
+    if (itemCount > 6 || maxChars > 28) {
+        console.warn("Dense detail layer detected", fortune.pageTitle || fortune.characterName || fortune.id || "", itemCount, maxChars);
+    }
+
+    const layerEl = document.createElement("div");
+    layerEl.className = `detail-layer detail-layer--${density}`;
+    layerEl.style.setProperty("--detail-item-count", itemCount);
+    layerEl.style.setProperty("--detail-max-chars", maxChars);
+    layerEl.style.setProperty("--detail-total-chars", totalChars);
+
+    rows.forEach((rowItems) => {
+        const rowEl = document.createElement("div");
+        rowEl.className = "detail-layer-row";
+        const rowMaxChars = rowItems.reduce((max, item) => Math.max(max, getDetailItemLength(item)), 0);
+        rowEl.style.setProperty("--row-item-count", rowItems.length);
+        rowEl.style.setProperty("--row-max-chars", rowMaxChars);
+        rowEl.style.setProperty("--row-min-height", `${getDetailRowMinHeight(rowMaxChars, density)}px`);
+
+        rowItems.forEach((item) => {
             const itemEl = document.createElement("div");
             itemEl.className = "detail-item";
             itemEl.append(
                 createElement("span", "detail-label", item.label || ""),
                 createElement("span", "detail-text", item.text || "")
             );
-            layerEl.appendChild(itemEl);
+            rowEl.appendChild(itemEl);
         });
 
-        detail.appendChild(layerEl);
+        layerEl.appendChild(rowEl);
     });
 
-    slip.append(top, character, oracle, detail);
-    return slip;
+    return layerEl;
+}
+
+function getDetailItemLength(item) {
+    return `${item?.label || ""}${item?.text || ""}`.replace(/\s+/g, "").length;
+}
+
+function getDetailDensity(itemCount, maxChars, totalChars) {
+    if (itemCount > 7 || maxChars > 28 || totalChars > 120) {
+        return "dense";
+    }
+
+    if (itemCount <= 5 && maxChars <= 18) {
+        return "normal";
+    }
+
+    return "compact";
+}
+
+function splitDetailRows(items, maxChars) {
+    if (items.length <= 6) {
+        return [items];
+    }
+
+    const rowSize = maxChars > 28 || items.length <= 8 ? 4 : 5;
+    const rows = [];
+    for (let index = 0; index < items.length; index += rowSize) {
+        rows.push(items.slice(index, index + rowSize));
+    }
+    return rows;
+}
+
+function getDetailRowMinHeight(maxChars, density) {
+    const base = density === "dense" ? 220 : 160;
+    const scale = density === "dense" ? 18 : density === "compact" ? 17 : 16;
+    const max = density === "dense" ? 680 : 520;
+    return Math.max(base, Math.min(max, Math.ceil(maxChars * scale)));
 }
 
 function createRankLabel(fortune) {
