@@ -192,6 +192,7 @@ h2 {
     align-items: center;
     min-height: 86px;
     border-bottom: 2px solid var(--paper-border-color);
+    overflow: visible;
 }
 
 .number-label,
@@ -201,6 +202,7 @@ h2 {
     min-width: 0;
     padding: 0 var(--space-sm);
     text-align: center;
+    overflow: visible;
 }
 
 .number-label {
@@ -209,10 +211,38 @@ h2 {
 }
 
 .rank-label {
+    position: relative;
     color: var(--accent-color);
     font-size: var(--rank-size);
     font-weight: 700;
     line-height: 1;
+    white-space: nowrap;
+}
+
+.rank-label--badge-mode {
+    min-height: 1.4em;
+}
+
+.rank-badge {
+    position: absolute;
+    top: -0.34em;
+    right: -0.58em;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.06em;
+    padding: 0.08em 0.16em;
+    border: 2px solid var(--paper-border-color);
+    background: rgba(255, 253, 247, 0.96);
+    color: var(--accent-color);
+    box-shadow: 0 5px 12px rgba(68, 38, 27, 0.16);
+    font-size: 0.72em;
+    line-height: 1;
+    white-space: nowrap;
+    transform: rotate(-8deg);
+    transform-origin: center;
+    pointer-events: none;
 }
 
 .rank-part.is-struck {
@@ -321,11 +351,13 @@ h2 {
 }
 
 .detail-layer-row {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(var(--row-item-count), minmax(0, 1fr));
+    direction: rtl;
+    justify-items: center;
     align-items: flex-start;
-    gap: clamp(0.24rem, 1.3vw, 0.55rem);
+    gap: clamp(0.38rem, 2vw, 0.85rem);
+    width: 100%;
     min-height: var(--detail-row-height, 154px);
     padding: 0.1rem 0;
     overflow: visible;
@@ -341,6 +373,7 @@ h2 {
 }
 
 .detail-item {
+    justify-self: center;
     writing-mode: vertical-rl;
     text-orientation: upright;
     height: var(--detail-row-height, 154px);
@@ -543,7 +576,7 @@ h2 {
     }
 
     .detail-layer-row {
-        gap: 0.22rem;
+        gap: clamp(0.22rem, 1.7vw, 0.46rem);
         min-height: var(--detail-row-height, 150px);
     }
 

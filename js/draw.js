@@ -288,20 +288,50 @@ function getDetailRowHeight(maxChars, density) {
 
 function createRankLabel(fortune) {
     const rankEl = createElement("div", "rank-label", "");
-    if (!Array.isArray(fortune.rankDisplay) || fortune.rankDisplay.length === 0) {
-        rankEl.textContent = fortune.rank || "";
-        return rankEl;
+    const parts = getRankDisplayParts(fortune);
+    const isBadge = shouldUseRankBadge(fortune, parts);
+    const rankContent = isBadge ? createElement("span", "rank-badge rank-badge--special", "") : rankEl;
+
+    if (isBadge) {
+        rankEl.classList.add("rank-label--badge-mode");
     }
 
-    fortune.rankDisplay.forEach((part) => {
+    parts.forEach((part) => {
         const partEl = createElement("span", "rank-part", part.text || "");
         if (part.struck) {
             partEl.classList.add("is-struck");
         }
-        rankEl.appendChild(partEl);
+        rankContent.appendChild(partEl);
     });
 
+    if (isBadge) {
+        rankEl.appendChild(rankContent);
+    }
+
     return rankEl;
+}
+
+function getRankDisplayParts(fortune) {
+    if (Array.isArray(fortune.rankDisplay) && fortune.rankDisplay.length > 0) {
+        return fortune.rankDisplay.map((part) => ({
+            text: part?.text || "",
+            struck: Boolean(part?.struck)
+        }));
+    }
+
+    return [{ text: fortune.rank || "", struck: false }];
+}
+
+function shouldUseRankBadge(fortune, parts) {
+    const visibleRank = parts.map((part) => part.text || "").join("") || fortune.rank || "";
+    const rankWithoutBrackets = visibleRank.replace(/[【】\s]/g, "");
+
+    return (
+        /^【.*】$/.test(visibleRank) ||
+        parts.length > 1 ||
+        parts.some((part) => part.struck) ||
+        rankWithoutBrackets.length >= 4
+    );
 }
 
 function createOracle(fortune) {
