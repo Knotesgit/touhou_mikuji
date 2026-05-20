@@ -234,7 +234,21 @@ h2 {
 }
 
 .normal-rank-display--long {
-    font-size: clamp(1.45rem, 4vw, 2.25rem);
+    font-size: clamp(2rem, 4vw, 3rem);
+    letter-spacing: -0.04em;
+}
+
+.normal-rank-display--very-long {
+    font-size: clamp(1.6rem, 3.3vw, 2.4rem);
+    letter-spacing: -0.06em;
+}
+
+.rank-color-red {
+    color: var(--line-red);
+}
+
+.rank-color-black {
+    color: #111;
 }
 
 .rank-badge {

@@ -290,18 +290,29 @@ function createRankLabel(fortune) {
     const rankEl = createElement("div", "rank-label", "");
     const parts = getRankDisplayParts(fortune);
     const isBadge = shouldUseRankBadge(fortune);
+    const visibleRankLength = getVisibleRankLength(parts, fortune);
+    const rankColorClass = getRankColorClass(fortune);
     const rankContent = isBadge
         ? createElement("span", "rank-badge rank-badge--special", "")
         : createElement("span", "normal-rank-display", "");
 
+    if (rankColorClass) {
+        rankContent.classList.add(rankColorClass);
+    }
+
     if (isBadge) {
         rankEl.classList.add("rank-label--badge-mode");
-    } else if (isLongNormalRank(parts, fortune)) {
+    } else if (visibleRankLength >= 7) {
+        rankContent.classList.add("normal-rank-display--very-long");
+    } else if (visibleRankLength >= 5) {
         rankContent.classList.add("normal-rank-display--long");
     }
 
     parts.forEach((part) => {
         const partEl = createElement("span", "rank-part", part.text || "");
+        if (rankColorClass) {
+            partEl.classList.add(rankColorClass);
+        }
         if (part.struck) {
             partEl.classList.add("is-struck");
         }
@@ -324,16 +335,27 @@ function getRankDisplayParts(fortune) {
     return [{ text: fortune.rank || "", struck: false }];
 }
 
-function isLongNormalRank(parts, fortune) {
+function getVisibleRankLength(parts, fortune) {
     const visibleRank = parts.map((part) => part.text || "").join("") || fortune.rank || "";
     const openBracket = String.fromCharCode(0x3010);
     const closeBracket = String.fromCharCode(0x3011);
-    const rankWithoutBrackets = visibleRank
+    return visibleRank
         .split(openBracket).join("")
         .split(closeBracket).join("")
-        .replace(/\s/g, "");
+        .replace(/\s/g, "")
+        .length;
+}
 
-    return rankWithoutBrackets.length >= 4;
+function getRankColorClass(fortune) {
+    if (fortune.rankColor === "red") {
+        return "rank-color-red";
+    }
+
+    if (fortune.rankColor === "black") {
+        return "rank-color-black";
+    }
+
+    return "";
 }
 
 function shouldUseRankBadge(fortune) {
