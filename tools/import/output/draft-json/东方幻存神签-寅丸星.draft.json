@@ -1,0 +1,88 @@
+{
+  "id": "58",
+  "pageTitle": "东方幻存神签/寅丸星",
+  "bilingualPageTitle": "东方幻存神签/寅丸星/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/寅丸星",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/寅丸星/中日对照",
+  "numberLabel": "第58号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "乘着宝船的七福神弟子",
+  "characterName": "寅丸星",
+  "abilityText": "招财进宝程度的能力",
+  "mainOracleText": "宝船之上，你想要的一切珍品应有尽有。",
+  "mainOracleColumns": [
+    "宝船之上，",
+    "你想要的",
+    "一切珍品",
+    "应有尽有。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "财运亨通，且会带来种种好运。"
+        },
+        {
+          "label": "财运",
+          "text": "天赐良机。此时不挣，更待何时？"
+        },
+        {
+          "label": "交易",
+          "text": "若从事服务业，则业绩蒸蒸日上。宝石、古董行业为大吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "佛学为吉。"
+        },
+        {
+          "label": "寻物",
+          "text": "遗失贵重宝物，下属代为寻回。"
+        },
+        {
+          "label": "恋爱",
+          "text": "邂逅不断。纠纷难免。"
+        },
+        {
+          "label": "出行",
+          "text": "宜船旅。豪华客船尤佳。"
+        },
+        {
+          "label": "健康",
+          "text": "从不感冒。"
+        },
+        {
+          "label": "方位",
+          "text": "北方为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的外表酷似毘沙门天，但本质上是个虎妖。由于长年扮演毘沙门天，她与备受信仰的神明已经相差无几。招财进宝的神明无论在哪里都是大受欢迎的。",
+      "不过，兴许是因为腰上的虎纹围裙，她的造型颇似鬼族，甚至有些侵略者的凶相呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/寅丸星",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,79 @@
+{
+  "checkedFiles": 128,
+  "filesWithIssues": [
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-埴安神袿姬.draft.json",
+      "pageTitle": "东方幻存神签/埴安神袿姬",
+      "issueCount": 1
+    },
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-秦心.draft.json",
+      "pageTitle": "东方幻存神签/秦心",
+      "issueCount": 1
+    },
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-露娜切露德.draft.json",
+      "pageTitle": "东方幻存神签/露娜切露德",
+      "issueCount": 1
+    }
+  ],
+  "safeFixesApplied": [],
+  "ambiguousIssues": [
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-埴安神袿姬.draft.json",
+      "pageTitle": "东方幻存神签/埴安神袿姬",
+      "fieldPath": "review.paragraphs[0]",
+      "originalValue": "她是位手办原型师。最近3D建模也许更为主流，但她是粘土派的。",
+      "issueType": "ambiguous-digit-marker",
+      "fixed": false,
+      "fixable": false
+    },
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-秦心.draft.json",
+      "pageTitle": "东方幻存神签/秦心",
+      "fieldPath": "review.paragraphs[2]",
+      "originalValue": "她的感情多达66种，想必其中也会有些颇为古怪的感情吧。",
+      "issueType": "ambiguous-digit-marker",
+      "fixed": false,
+      "fixable": false
+    },
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-露娜切露德.draft.json",
+      "pageTitle": "东方幻存神签/露娜切露德",
+      "fieldPath": "review.paragraphs[1]",
+      "originalValue": "阿波罗11号的着陆点名为静海，她消除声音的能力便是由此联想得来的。月光的亮度虽然远远不及阳光，但对人类而言，月亮终归还是要比太阳更温柔可亲吧。",
+      "issueType": "ambiguous-digit-marker",
+      "fixed": false,
+      "fixable": false
+    }
+  ],
+  "remainingIssues": [
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-埴安神袿姬.draft.json",
+      "pageTitle": "东方幻存神签/埴安神袿姬",
+      "fieldPath": "review.paragraphs[0]",
+      "originalValue": "她是位手办原型师。最近3D建模也许更为主流，但她是粘土派的。",
+      "issueType": "ambiguous-digit-marker",
+      "fixed": false,
+      "fixable": false
+    },
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-秦心.draft.json",
+      "pageTitle": "东方幻存神签/秦心",
+      "fieldPath": "review.paragraphs[2]",
+      "originalValue": "她的感情多达66种，想必其中也会有些颇为古怪的感情吧。",
+      "issueType": "ambiguous-digit-marker",
+      "fixed": false,
+      "fixable": false
+    },
+    {
+      "file": "tools/import/output/draft-json/东方幻存神签-露娜切露德.draft.json",
+      "pageTitle": "东方幻存神签/露娜切露德",
+      "fieldPath": "review.paragraphs[1]",
+      "originalValue": "阿波罗11号的着陆点名为静海，她消除声音的能力便是由此联想得来的。月光的亮度虽然远远不及阳光，但对人类而言，月亮终归还是要比太阳更温柔可亲吧。",
+      "issueType": "ambiguous-digit-marker",
+      "fixed": false,
+      "fixable": false
+    }
+  ]
+}

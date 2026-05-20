@@ -1,0 +1,92 @@
+{
+  "id": "64",
+  "pageTitle": "东方幻存神签/斯塔萨菲雅",
+  "bilingualPageTitle": "东方幻存神签/斯塔萨菲雅/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/斯塔萨菲雅",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/斯塔萨菲雅/中日对照",
+  "numberLabel": "第64号",
+  "rank": "小小吉",
+  "rankDisplay": [
+    {
+      "text": "小小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "倾泻星辉妖精",
+  "characterName": "斯塔萨菲雅",
+  "abilityText": "感知生物程度的能力",
+  "mainOracleText": "夜空这么暗，只因我们能观测的星星数量太有限。",
+  "mainOracleColumns": [
+    "夜空这么暗，",
+    "只因我们能",
+    "观测的星星",
+    "数量太有限。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "太过在意他人，以至心力交瘁。当淡然处之。"
+        },
+        {
+          "label": "工作",
+          "text": "管理他人的工作为吉。警卫、教师、保姆为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "勿存期待。生物成绩小有长进。"
+        },
+        {
+          "label": "健康",
+          "text": "无碍。注意心理健康。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "远离都市为吉。"
+        },
+        {
+          "label": "住所",
+          "text": "务必驱鼠。"
+        },
+        {
+          "label": "恋爱",
+          "text": "一帆风顺得不可思议。"
+        },
+        {
+          "label": "人缘",
+          "text": "除了同伴，难以相信他人。"
+        },
+        {
+          "label": "争端",
+          "text": "化纠纷于未然。"
+        },
+        {
+          "label": "爱好",
+          "text": "最宜观星、游览星象馆。占卜亦可。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是光之三妖精中的一个。她总与其他两人保持着些许距离，扮演作壁上观的角色。",
+      "星星的光芒非常微弱，往往难以察觉，但大多数星星的光度其实并不逊色于太阳。广义而言，阳光、月光都属于星光。三妖精里她显得最为沉稳大方，这便是原因之一。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/斯塔萨菲雅",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

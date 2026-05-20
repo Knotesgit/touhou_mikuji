@@ -16,7 +16,12 @@
   "characterName": "小恶魔（姓名不详）",
   "abilityText": "瞬间找出所需书籍程度的能力",
   "mainOracleText": "请保持安静。若是太嘈杂，书本的低语便要听漏了。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "请保持安静。",
+    "若是太嘈杂，",
+    "书本的低语",
+    "便要听漏了。"
+  ],
   "detailLayers": [
     {
       "items": [

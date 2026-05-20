@@ -1,0 +1,84 @@
+{
+  "id": "22",
+  "pageTitle": "东方幻存神签/莉格露·奈特巴格",
+  "bilingualPageTitle": "东方幻存神签/莉格露·奈特巴格/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/莉格露·奈特巴格",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/莉格露·奈特巴格/中日对照",
+  "numberLabel": "第22号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "无端被嫌恶者",
+  "characterName": "莉格露·奈特巴格",
+  "abilityText": "操纵虫子程度的能力",
+  "mainOracleText": "寸身之虫啊，唯余五分魂。你们的恐怖，世人来见证。",
+  "mainOracleColumns": [
+    "寸身之虫啊，",
+    "唯余五分魂。",
+    "你们的恐怖，",
+    "世人来见证。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "眼下困顿但终得转机。纵使如今遭受庞然大物厌恨，世间终是虫子的天下。"
+        },
+        {
+          "label": "交易",
+          "text": "运势上佳。"
+        },
+        {
+          "label": "财运",
+          "text": "金龟子相助。"
+        },
+        {
+          "label": "疾病",
+          "text": "慎防恙虫病。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "家宅",
+          "text": "木制房屋恐遭蛀蚀。"
+        },
+        {
+          "label": "学业",
+          "text": "囊萤为吉。"
+        },
+        {
+          "label": "农事",
+          "text": "歉收。若有蝗灾则断念为妙。"
+        },
+        {
+          "label": "虫缘",
+          "text": "备受喜爱。欣然接受吧。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "我是很喜欢昆虫的，常去参观昆虫展，也会阅读和虫有关的书籍。但若家中突然出现虫子，还是难免会被吓一跳。",
+      "虽说昆虫这般遭人厌弃，但它们的数量近来似乎明显减少了。以前就算是骑骑单车，都会有飞虫迎面撞进嘴里的……"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/莉格露·奈特巴格",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

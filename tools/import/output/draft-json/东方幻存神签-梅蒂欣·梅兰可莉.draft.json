@@ -1,0 +1,89 @@
+{
+  "id": "31",
+  "pageTitle": "东方幻存神签/梅蒂欣·梅兰可莉",
+  "bilingualPageTitle": "东方幻存神签/梅蒂欣·梅兰可莉/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/梅蒂欣·梅兰可莉",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/梅蒂欣·梅兰可莉/中日对照",
+  "numberLabel": "第31号",
+  "rank": "末凶",
+  "rankDisplay": [
+    {
+      "text": "末凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "以毒维生的人偶",
+  "characterName": "梅蒂欣·梅兰可莉",
+  "abilityText": "操纵毒素程度的能力",
+  "mainOracleText": "生物都是由毒素驱动的，活着的家伙哪能弄得懂。",
+  "mainOracleColumns": [
+    "生物都是由",
+    "毒素驱动的，",
+    "活着的家伙",
+    "哪能弄得懂。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "诸事渐趋恶化，旧毒亦将复发。"
+        },
+        {
+          "label": "健康",
+          "text": "体质日渐衰颓，当重整饮食规律。"
+        },
+        {
+          "label": "疾病",
+          "text": "谨防药物过量。"
+        },
+        {
+          "label": "交易",
+          "text": "体况拖累，四处碰壁。委任他人为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "当放弃弱势科目，专攻单一领域。"
+        },
+        {
+          "label": "出行",
+          "text": "温泉疗养为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "当有意选择难以相处的对象。"
+        },
+        {
+          "label": "人缘",
+          "text": "泛泛之交增多。"
+        },
+        {
+          "label": "寻物",
+          "text": "一度遗弃的人偶会自行归来。且手持凶器。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是未经供养便被遗弃的人偶，实在令人唏嘘。",
+      "生物的行为由激素驱动，而这类物质既可成药亦能成毒。本质上来说，由外部制造的激素皆为毒物，但她身为人偶，反而是凭借毒花之力才得以自主行动。",
+      "她对毒素想必是心怀感激的吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/梅蒂欣·梅兰可莉",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

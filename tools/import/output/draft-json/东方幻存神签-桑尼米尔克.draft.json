@@ -1,0 +1,101 @@
+{
+  "id": "62",
+  "pageTitle": "东方幻存神签/桑尼米尔克",
+  "bilingualPageTitle": "东方幻存神签/桑尼米尔克/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/桑尼米尔克",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/桑尼米尔克/中日对照",
+  "numberLabel": "第62号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "顽皮日光妖精",
+  "characterName": "桑尼米尔克",
+  "abilityText": "折射光线程度的能力",
+  "mainOracleText": "天气这么好，怎么不出门？你该不会是翘辫子了吧？",
+  "mainOracleColumns": [
+    "天气这么好，",
+    "怎么不出门？",
+    "你该不会是",
+    "翘辫子了吧？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "行动力增强。受此影响，屡屡碰壁。"
+        },
+        {
+          "label": "工作",
+          "text": "意外发挥领导能力。最终失败也无人怪罪。"
+        },
+        {
+          "label": "学业",
+          "text": "断念为妙。光学尚可。"
+        },
+        {
+          "label": "交易",
+          "text": "路边摆摊可挣大钱。"
+        },
+        {
+          "label": "健康",
+          "text": "生龙活虎。烦恼一扫而空。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "一帆风顺，如有天意捉弄。"
+        },
+        {
+          "label": "出行",
+          "text": "快乐就在不远处。"
+        },
+        {
+          "label": "争端",
+          "text": "捉迷藏所向无敌。除此之外有输无赢。"
+        },
+        {
+          "label": "人缘",
+          "text": "幸遇知己同伴。"
+        },
+        {
+          "label": "寻物",
+          "text": "灯下黑。"
+        },
+        {
+          "label": "住所",
+          "text": "窗户敞亮的房间为吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "所栽植物皆能茁壮成长。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是光之三妖精中的一个。她时常会扮演发号施令的角色，但三妖精其实地位平等，并没有上下之分。",
+      "妖精是自然的化身，本质上不死不灭。对她而言，只要阳光尚能照射大地，她便不会失去力量。",
+      "岁月漫漫不见尽头，妖精始终嬉闹无休。想到这里，不由得感叹人类真是渺小呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/桑尼米尔克",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

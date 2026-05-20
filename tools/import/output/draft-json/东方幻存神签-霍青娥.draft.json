@@ -1,0 +1,94 @@
+{
+  "id": "67",
+  "pageTitle": "东方幻存神签/霍青娥",
+  "bilingualPageTitle": "东方幻存神签/霍青娥/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/霍青娥",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/霍青娥/中日对照",
+  "numberLabel": "第67号",
+  "rank": "末凶",
+  "rankDisplay": [
+    {
+      "text": "末凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "无法囚禁的邪仙",
+  "characterName": "霍青娥",
+  "abilityText": "穿越墙壁程度的能力",
+  "mainOracleText": "世上墙拆尽，万物皆自由。这才称得上是全球主义。",
+  "mainOracleColumns": [
+    "世上墙拆尽，",
+    "万物皆自由。",
+    "这才称得上",
+    "是全球主义。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "侥幸之事增多。日后将有报应。"
+        },
+        {
+          "label": "住所",
+          "text": "当心盗贼。"
+        },
+        {
+          "label": "交易",
+          "text": "打破壁垒便能大获成功。也会因此招人怨恨。"
+        },
+        {
+          "label": "学业",
+          "text": "无法专注，惯于逃避。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "性命无虞。"
+        },
+        {
+          "label": "出行",
+          "text": "地狱之外皆为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "抽身而逃。"
+        },
+        {
+          "label": "姻缘",
+          "text": "须有自知之明。"
+        },
+        {
+          "label": "财运",
+          "text": "得来全不费功夫。但灰色产业万万不可染指。"
+        },
+        {
+          "label": "人缘",
+          "text": "警惕他人甜言蜜语。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的能力确实挺方便的，但能想到的用途全都跟犯罪有关，真不愧是邪仙。",
+      "她从很久以前开始便一直在暗中活动，无论现在还是过去，她都没有引人注目的打算。",
+      "这是因为邪仙要躲避地狱鬼卒与死神的追捕，自然不能大摇大摆地抛头露面。",
+      "一旦放弃逃亡，她便只有死路一条。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/霍青娥",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

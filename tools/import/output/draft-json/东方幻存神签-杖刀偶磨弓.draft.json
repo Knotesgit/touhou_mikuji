@@ -16,7 +16,12 @@
   "characterName": "杖刀偶磨弓",
   "abilityText": "让忠心直接化为实力程度的能力",
   "mainOracleText": "尽情颤抖吧，我的忠诚心如假包换的世界第二硬。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "尽情颤抖吧，",
+    "我的忠诚心",
+    "如假包换的",
+    "世界第二硬。"
+  ],
   "detailLayers": [
     {
       "items": [

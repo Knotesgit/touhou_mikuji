@@ -1,0 +1,88 @@
+{
+  "id": "13",
+  "pageTitle": "东方幻存神签/莉莉霍瓦特",
+  "bilingualPageTitle": "东方幻存神签/莉莉霍瓦特/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/莉莉霍瓦特",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/莉莉霍瓦特/中日对照",
+  "numberLabel": "第13号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "从头到脚都是春的妖精",
+  "characterName": "莉莉霍瓦特",
+  "abilityText": "告知春天已经来临程度的能力",
+  "mainOracleText": "天翻地覆也不是大问题。全都归咎于春意袭人吧。",
+  "mainOracleColumns": [
+    "天翻地覆也",
+    "不是大问题。",
+    "全都归咎于",
+    "春意袭人吧。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "漫长寒冬已过，运势稳步上升。得意忘形也无妨。"
+        },
+        {
+          "label": "交易",
+          "text": "一路看涨。若添雇人手则更佳。"
+        },
+        {
+          "label": "就业",
+          "text": "华丽亮相，无须羞怯。"
+        },
+        {
+          "label": "学业",
+          "text": "不再在意成绩高低。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "疾病",
+          "text": "深受杉树花粉困扰。"
+        },
+        {
+          "label": "出行",
+          "text": "且随风之所向。"
+        },
+        {
+          "label": "移徙",
+          "text": "各处皆吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "春风得意，八卦渐增。赏花席间见良机。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜栽春日花木。樱树为佳。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "报春这种能力十分符合妖精的形象，真是太美妙了。我个人最喜爱的季节也是春天，草木次第萌发、人间喧嚣再起，一切都令人心潮澎湃。",
+      "不过，或许是受花粉症的影响，总觉得近来春天的风评有所下降。如今越来越多的人似乎不是通过莉莉的能力，而是通过杉树花粉来感知春天的到来了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/莉莉霍瓦特",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

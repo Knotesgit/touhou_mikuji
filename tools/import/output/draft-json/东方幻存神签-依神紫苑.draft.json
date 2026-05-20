@@ -16,7 +16,12 @@
   "characterName": "依神紫苑",
   "abilityText": "让一切陷入不幸程度的能力",
   "mainOracleText": "像我这样的倒霉蛋穷神，肯定到死也得不到幸福。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "像我这样的",
+    "倒霉蛋穷神，",
+    "肯定到死也",
+    "得不到幸福。"
+  ],
   "detailLayers": [
     {
       "items": [

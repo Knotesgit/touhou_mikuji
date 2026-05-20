@@ -1,0 +1,81 @@
+{
+  "id": "10",
+  "pageTitle": "东方幻存神签/蕾蒂·霍瓦特洛克",
+  "bilingualPageTitle": "东方幻存神签/蕾蒂·霍瓦特洛克/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/蕾蒂·霍瓦特洛克",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/蕾蒂·霍瓦特洛克/中日对照",
+  "numberLabel": "第10号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "适合寒冷季节的妖怪",
+  "characterName": "蕾蒂·霍瓦特洛克",
+  "abilityText": "操纵寒冷程度的能力",
+  "mainOracleText": "主动拥抱冬季之人，内心一定温暖如春。（自称）",
+  "mainOracleColumns": [
+    "主动拥抱",
+    "冬季之人，",
+    "内心一定",
+    "温暖如春。",
+    "（自称）"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "诸事顺遂得恰到好处。但气运难长久，宜速速行动。"
+        },
+        {
+          "label": "方位",
+          "text": "北方为吉。"
+        },
+        {
+          "label": "健康",
+          "text": "谨防受寒。"
+        },
+        {
+          "label": "移徙",
+          "text": "早迁为上。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "囊萤映雪。但拢雪照明终究亮度不足，还请正常点灯。"
+        },
+        {
+          "label": "火锅",
+          "text": "宜食兽肉。"
+        },
+        {
+          "label": "沐浴",
+          "text": "宜香橙浴。温泉更佳。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是冬之妖怪，可以说是季节限定角色。不知道夏天她在做什么，想必是躲在某处静待冬来吧。",
+      "说不定夏天她会去山间之类的地方纳凉。如果幻想乡没被封锁，她或许还会去南半球呢……"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/蕾蒂·霍瓦特洛克",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

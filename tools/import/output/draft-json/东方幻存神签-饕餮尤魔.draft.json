@@ -16,7 +16,12 @@
   "characterName": "饕餮尤魔",
   "abilityText": "什么都能吸收程度的能力",
   "mainOracleText": "捕食者横行，猎物任宰割。谁才是强者，自然不必说。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "捕食者横行，",
+    "猎物任宰割。",
+    "谁才是强者，",
+    "自然不必说。"
+  ],
   "detailLayers": [
     {
       "items": [

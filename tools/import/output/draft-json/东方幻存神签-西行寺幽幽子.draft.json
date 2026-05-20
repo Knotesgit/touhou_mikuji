@@ -1,0 +1,84 @@
+{
+  "id": "18",
+  "pageTitle": "东方幻存神签/西行寺幽幽子",
+  "bilingualPageTitle": "东方幻存神签/西行寺幽幽子/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/西行寺幽幽子",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/西行寺幽幽子/中日对照",
+  "numberLabel": "第18号",
+  "rank": "末大吉",
+  "rankDisplay": [
+    {
+      "text": "末大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "咏花舞雪的亡灵",
+  "characterName": "西行寺幽幽子",
+  "abilityText": "操纵死亡程度的能力",
+  "mainOracleText": "亡灵和活人，有什么不同？日子挺舒坦，到点也会饿。",
+  "mainOracleColumns": [
+    "亡灵和活人，",
+    "有什么不同？",
+    "日子挺舒坦，",
+    "到点也会饿。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "平和安稳，不为外物所扰。假以时日气运自旺。"
+        },
+        {
+          "label": "工作",
+          "text": "简单工作为吉。事务过多则难以应付。"
+        },
+        {
+          "label": "交易",
+          "text": "需目光长远。"
+        },
+        {
+          "label": "学业",
+          "text": "顺利通过升学考试。古典文学、和歌、哲学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "人生为旅。"
+        },
+        {
+          "label": "姻缘",
+          "text": "寻得生死与共的伴侣。"
+        },
+        {
+          "label": "健康",
+          "text": "虽终有一死，但可得善终。虚度光阴则必留遗憾。"
+        },
+        {
+          "label": "爱好",
+          "text": "三分钟热度，但不妨多加尝试。可防心智衰退。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她那悠然自得的神情让人难以想象她的不幸过往。而那操纵死亡的能力更是与死神无异。毕竟这能力在弹幕对战里也没派上什么用场嘛。",
+      "据说蝴蝶会带走亡者的灵魂。在她身边翩跹飞舞的蝶群，想必便是在做这样的事吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/西行寺幽幽子",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "46",
+  "pageTitle": "东方幻存神签/琪斯美",
+  "bilingualPageTitle": "东方幻存神签/琪斯美/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/琪斯美",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/琪斯美/中日对照",
+  "numberLabel": "第46号",
+  "rank": "末凶",
+  "rankDisplay": [
+    {
+      "text": "末凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "秋阳与人生皆如钓瓶落",
+  "characterName": "琪斯美",
+  "abilityText": "降下鬼火程度的能力",
+  "mainOracleText": "摇啊摇，落啊落，待在桶里别乱动。",
+  "mainOracleColumns": [
+    "摇啊摇，",
+    "落啊落，",
+    "待在桶里",
+    "别乱动。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "必将下落。若欲抗争，切勿坐以待毙。"
+        },
+        {
+          "label": "住所",
+          "text": "当心火灾，排除隐患。"
+        },
+        {
+          "label": "健康",
+          "text": "不甚理想。当心经济舱综合征。"
+        },
+        {
+          "label": "恋爱",
+          "text": "主动出击尚有希望。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "马马虎虎。常有一落千丈之虞。务必于风起之日采取行动。"
+        },
+        {
+          "label": "移徙",
+          "text": "或可转凶为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "注意健康则可与日俱进。"
+        },
+        {
+          "label": "水井",
+          "text": "愈深愈为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "这个妖怪的真身究竟是桶里坐着的小姑娘，还是小姑娘坐着的桶呢？谁也说不准。",
+      "她和那个下半身套在瓮里、靠抡锤子移动的大叔应该是同类吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/琪斯美",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

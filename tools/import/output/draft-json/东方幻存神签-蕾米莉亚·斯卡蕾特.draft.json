@@ -16,7 +16,12 @@
   "characterName": "蕾米莉亚·斯卡蕾特",
   "abilityText": "操纵命运程度的能力",
   "mainOracleText": "区区未来事，何须去占卜？未来要如何，亲手可抉择。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "区区未来事，",
+    "何须去占卜？",
+    "未来要如何，",
+    "亲手可抉择。"
+  ],
   "detailLayers": [
     {
       "items": [

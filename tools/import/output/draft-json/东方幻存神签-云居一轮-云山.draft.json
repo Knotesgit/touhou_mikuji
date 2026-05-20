@@ -16,7 +16,12 @@
   "characterName": "云居一轮&云山",
   "abilityText": "驱使入道程度的能力（云山:变形程度的能力）",
   "mainOracleText": "人生如浮云。愁苦压身重，则有泪如雨，终至雾散时。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "人生如浮云。",
+    "愁苦压身重，",
+    "则有泪如雨，",
+    "终至雾散时。"
+  ],
   "detailLayers": [
     {
       "items": [

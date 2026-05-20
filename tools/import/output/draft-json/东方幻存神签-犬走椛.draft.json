@@ -1,0 +1,97 @@
+{
+  "id": "40",
+  "pageTitle": "东方幻存神签/犬走椛",
+  "bilingualPageTitle": "东方幻存神签/犬走椛/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/犬走椛",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/犬走椛/中日对照",
+  "numberLabel": "第40号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "对幻想观察入微的天狗",
+  "characterName": "犬走椛",
+  "abilityText": "看见千里之外程度的能力",
+  "mainOracleText": "世界的形成皆基于观测。眼力是至宝，谁也不嫌多。",
+  "mainOracleColumns": [
+    "世界的形成",
+    "皆基于观测。",
+    "眼力是至宝，",
+    "谁也不嫌多。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "视野开阔，遇到难关总想逃避。难有长进。"
+        },
+        {
+          "label": "交易",
+          "text": "依赖观察力的行业可获成功，研究员、侦探、投资家为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "整体平稳。考试不知为何能拿高分。"
+        },
+        {
+          "label": "健康",
+          "text": "视力提升。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "人迹罕至之处为吉。"
+        },
+        {
+          "label": "争端",
+          "text": "纵使刻意回避，终将卷入其中。"
+        },
+        {
+          "label": "恋爱",
+          "text": "眼光过高，而难遇良缘。"
+        },
+        {
+          "label": "住所",
+          "text": "宜高地。"
+        },
+        {
+          "label": "寻物",
+          "text": "将在远处寻得。"
+        },
+        {
+          "label": "动物",
+          "text": "提防野生猿猴。"
+        },
+        {
+          "label": "爱好",
+          "text": "需沉心凝神投入的游戏为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是居于山中的天狗之一，负责巡视妖怪之山、防备入侵。",
+      "这类岗哨通常由底层人员担任。正因底层出身的岗哨多半无能，才总让潜入者得逞。",
+      "但就能力而言，她堪称是最强哨兵。不过，即便发现了入侵者，她似乎也不怎么在乎……"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/犬走椛",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

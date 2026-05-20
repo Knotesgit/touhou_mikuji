@@ -1,0 +1,88 @@
+{
+  "id": "84",
+  "pageTitle": "东方幻存神签/铃瑚",
+  "bilingualPageTitle": "东方幻存神签/铃瑚/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/铃瑚",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/铃瑚/中日对照",
+  "numberLabel": "第84号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "赏月不如品团子的月兔",
+  "characterName": "铃瑚",
+  "abilityText": "吃团子越多变得越强程度的能力",
+  "mainOracleText": "鲜花跟团子哪能相并论。月亮和团子才能比一比。",
+  "mainOracleColumns": [
+    "鲜花跟团子",
+    "哪能相并论。",
+    "月亮和团子",
+    "才能比一比。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "纵然身处困境，也能泰然自乐。"
+        },
+        {
+          "label": "交易",
+          "text": "适合进入信息处理行业。经营团子店亦可。"
+        },
+        {
+          "label": "学业",
+          "text": "颇为顺遂。但严禁空腹学习。"
+        },
+        {
+          "label": "住所",
+          "text": "不归之日渐多。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "忌暴饮暴食。"
+        },
+        {
+          "label": "恋爱",
+          "text": "兴趣相投者为佳。"
+        },
+        {
+          "label": "出行",
+          "text": "率性远行为吉。空想之旅亦可。"
+        },
+        {
+          "label": "争端",
+          "text": "如影随形，能避则避。"
+        },
+        {
+          "label": "财运",
+          "text": "无望暴富。当顺其自然。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的角色形象简单易懂，就是个喜欢吃团子的月兔。对集体意识淡漠的她来说，住处无论是在月之都还是在地上似乎都无所谓，她一心只想做自己感兴趣的事。",
+      "要问她对什么感兴趣，那就是吃团子了。难怪她无论在月亮还是在地上都能照常生活。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/铃瑚",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

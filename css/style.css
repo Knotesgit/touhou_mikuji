@@ -267,19 +267,21 @@ h2 {
     max-height: 260px;
 }
 
-.oracle-columns {
+.main-oracle-columns {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     align-items: flex-start;
-    gap: 0.8rem;
-    font-size: var(--oracle-size);
+    gap: var(--oracle-column-gap, clamp(0.55rem, 3vw, 1.1rem));
+    font-size: var(--oracle-column-font-size, var(--oracle-size));
+    font-weight: 700;
     line-height: 1.9;
 }
 
 .oracle-column {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    white-space: pre-wrap;
+    white-space: nowrap;
 }
 
 .detail-layers {

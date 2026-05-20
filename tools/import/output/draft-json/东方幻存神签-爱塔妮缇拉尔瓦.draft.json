@@ -1,0 +1,80 @@
+{
+  "id": "92",
+  "pageTitle": "东方幻存神签/爱塔妮缇拉尔瓦",
+  "bilingualPageTitle": "东方幻存神签/爱塔妮缇拉尔瓦/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/爱塔妮缇拉尔瓦",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/爱塔妮缇拉尔瓦/中日对照",
+  "numberLabel": "第92号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "身带神性的凤蝶妖精",
+  "characterName": "爱塔妮缇拉尔瓦",
+  "abilityText": "播撒鳞粉程度的能力",
+  "mainOracleText": "蝴蝶思虑浅，招摇诱猎手。双翅太绚丽，反招杀身祸。",
+  "mainOracleColumns": [
+    "蝴蝶思虑浅，",
+    "招摇诱猎手。",
+    "双翅太绚丽，",
+    "反招杀身祸。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "只要注重养生便能逐渐转运。但切忌大意。"
+        },
+        {
+          "label": "健康",
+          "text": "时常留心。猎手尤为危险，务必万分提防。"
+        },
+        {
+          "label": "疾病",
+          "text": "当心肺疾。其余疾病皆会好转。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "转机将至。大胆决断为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "每逢考试便能大幅成长。"
+        },
+        {
+          "label": "移徙",
+          "text": "姑且为吉。可近可远。"
+        },
+        {
+          "label": "爱好",
+          "text": "让自己面目一新的良机。华丽变身吧。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "妖精是自然的化身，本质上是不死不灭的。而她在此之上还有变身（昆虫的变态发育）的能力，可以说距离成神只有半步之遥。",
+      "然而很遗憾，她并没有几分实力呢——而且蝴蝶翅膀倒是美丽，毛毛虫却很恶心呢——"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/爱塔妮缇拉尔瓦",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

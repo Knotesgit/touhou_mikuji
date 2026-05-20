@@ -1,0 +1,85 @@
+{
+  "id": "57",
+  "pageTitle": "东方幻存神签/村纱水蜜",
+  "bilingualPageTitle": "东方幻存神签/村纱水蜜/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/村纱水蜜",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/村纱水蜜/中日对照",
+  "numberLabel": "第57号",
+  "rank": "【大大凶】",
+  "rankDisplay": [
+    {
+      "text": "【大大凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "想拖人下水的船幽灵",
+  "characterName": "村纱水蜜",
+  "abilityText": "引发水难事故程度的能力",
+  "mainOracleText": "破水勺可以对付船幽灵，这蠢话是谁编出来的啊？",
+  "mainOracleColumns": [
+    "破水勺可以",
+    "对付船幽灵，",
+    "这蠢话是谁",
+    "编出来的啊？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "恐遭事故。此外亦有水厄之相。"
+        },
+        {
+          "label": "健康",
+          "text": "忌酗酒。切忌受寒，然泡澡亦危。"
+        },
+        {
+          "label": "出行",
+          "text": "忌乘船、近水。宜前往山地、沙漠。"
+        },
+        {
+          "label": "学业",
+          "text": "深陷泥潭。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "渔业需小心事故，无事则一切安稳。"
+        },
+        {
+          "label": "财运",
+          "text": "存款损失惨重，如坠无底深渊。"
+        },
+        {
+          "label": "恋爱",
+          "text": "深陷爱河，难以自拔。"
+        },
+        {
+          "label": "寻物",
+          "text": "失物落水，但万万不可下水寻找。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "居然让她这个船幽灵来当船长，妖怪们的思维也真是异想天开。",
+      "其实这应该是考虑到船幽灵的悠久传承（对妖怪而言这意味着地位更高）而作的决定，但船终归要沉的心态也昭然若揭。",
+      "话说回来，要靠水勺一次次舀水把船弄沉，船幽灵害起人来倒还挺有耐心的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/村纱水蜜",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

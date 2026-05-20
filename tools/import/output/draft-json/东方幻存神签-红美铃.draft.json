@@ -1,0 +1,88 @@
+{
+  "id": "4",
+  "pageTitle": "东方幻存神签/红美铃",
+  "bilingualPageTitle": "东方幻存神签/红美铃/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/红美铃",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/红美铃/中日对照",
+  "numberLabel": "第4号",
+  "rank": "平",
+  "rankDisplay": [
+    {
+      "text": "平",
+      "struck": false
+    }
+  ],
+  "characterTitle": "THE·门卫",
+  "characterName": "红美铃",
+  "abilityText": "运用气程度的能力",
+  "mainOracleText": "门卫有啥用。反正所有人都是从天上飞进来的嘛。",
+  "mainOracleColumns": [
+    "门卫有啥用。",
+    "反正所有人",
+    "都是从天上",
+    "飞进来的嘛。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "无论做什么，境况都没有显著改变。不会好转也不会恶化。"
+        },
+        {
+          "label": "交易",
+          "text": "躺平等待，机遇自来。不过睡着的话会被骂。"
+        },
+        {
+          "label": "学业",
+          "text": "别妄想能边睡边学。"
+        },
+        {
+          "label": "住所",
+          "text": "务必好好看家。"
+        },
+        {
+          "label": "出行",
+          "text": "见不着好脸色。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "爱好",
+          "text": "种植花卉为吉。植物从不背叛。"
+        },
+        {
+          "label": "恋爱",
+          "text": "毫无进展。"
+        },
+        {
+          "label": "比试",
+          "text": "必输无疑。回避为上。"
+        },
+        {
+          "label": "心愿",
+          "text": "隐有龙相，但极稀薄。常怀逆风翻盘之梦吧。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "吸血鬼们到底为什么会选她当门卫呢？说到底，红魔馆这座宅邸本就不像是需要门卫的样子。与其说是被选中，不如说是她自己赖着不走吧。",
+      "红魔馆的门卫哪怕怠工摸鱼也无妨，对想要悠闲度日的她而言，也许这算得上是份神仙差事了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/红美铃",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

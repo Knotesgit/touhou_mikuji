@@ -1,0 +1,88 @@
+{
+  "id": "14",
+  "pageTitle": "东方幻存神签/露娜萨·普莉兹姆利巴",
+  "bilingualPageTitle": "东方幻存神签/露娜萨·普莉兹姆利巴/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/露娜萨·普莉兹姆利巴",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/露娜萨·普莉兹姆利巴/中日对照",
+  "numberLabel": "第14号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "抚平心境的骚灵三姐妹长姐",
+  "characterName": "露娜萨·普莉兹姆利巴",
+  "abilityText": "演奏忧郁之音程度的能力",
+  "mainOracleText": "这种紧张感火候正绝妙。琴弦松垮垮，哪有乐音来。",
+  "mainOracleColumns": [
+    "这种紧张感",
+    "火候正绝妙。",
+    "琴弦松垮垮，",
+    "哪有乐音来。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "凭借冷静跨越千难万险。若失冷静则万劫不复。"
+        },
+        {
+          "label": "交易",
+          "text": "保持冷静则万事顺遂。音乐相关行业为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "音乐大吉，语文亦可。"
+        },
+        {
+          "label": "健康",
+          "text": "当心精神疾病。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "三至四人同行为吉。"
+        },
+        {
+          "label": "住所",
+          "text": "因噪音招致投诉，与邻里发生纠纷。"
+        },
+        {
+          "label": "恋爱",
+          "text": "务必保持冷静。"
+        },
+        {
+          "label": "人缘",
+          "text": "被视作冷漠之人，无人主动亲近。"
+        },
+        {
+          "label": "爱好",
+          "text": "若说爱好小提琴会显得颇有格调。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她不仅擅长小提琴，对其他弦乐器也颇为精通。弦乐器必须绷紧琴弦才能发声，所以她也形成了这种时刻绷紧一根弦的性格。",
+      "反之，她也有着敏感的一面，被紧逼过头就很容易大动肝火。要是她发起火来，想必会相当吵闹吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/露娜萨·普莉兹姆利巴",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,92 @@
+{
+  "id": "125",
+  "pageTitle": "东方幻存神签/森近霖之助",
+  "bilingualPageTitle": "东方幻存神签/森近霖之助/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/森近霖之助",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/森近霖之助/中日对照",
+  "numberLabel": "第125号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "玩转外界百货的香霖堂店主",
+  "characterName": "森近霖之助",
+  "abilityText": "判别物品名字和用途程度的能力",
+  "mainOracleText": "是从何时起外界的人类变得读不进说明书了呢。",
+  "mainOracleColumns": [
+    "是从何时起",
+    "外界的人类",
+    "变得读不进",
+    "说明书了呢。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "日常生活中自有新发现。对周遭的观察与运气息息相关。"
+        },
+        {
+          "label": "工作",
+          "text": "与物件打交道的自由职业为吉。小卖部、作家、鉴定师为大吉。"
+        },
+        {
+          "label": "交易",
+          "text": "中规中矩。"
+        },
+        {
+          "label": "学业",
+          "text": "兴趣所在则学习自会顺利。文科整体为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "博物馆为大吉。"
+        },
+        {
+          "label": "失物",
+          "text": "废品之中可淘得宝藏。"
+        },
+        {
+          "label": "健康",
+          "text": "常用健身器材则为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "不如物件得心应手。"
+        },
+        {
+          "label": "爱好",
+          "text": "无论新品旧物，摆弄物件便可得到乐趣。"
+        },
+        {
+          "label": "物件",
+          "text": "沉迷手机会与幸运失之交臂。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "他是旧货店的店主，店里主营外面世界的物件。他没有战斗能力，这在幻想乡中是很罕见的。",
+      "也许是因为外面世界日新月异的发展，新物件接连不断地流入幻想乡，这让他十分困惑。与此同时，昭和时代的物件却又日渐难觅了，外面世界的种种变化似乎令他疑惑不已。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/森近霖之助",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "50",
+  "pageTitle": "东方幻存神签/古明地觉",
+  "bilingualPageTitle": "东方幻存神签/古明地觉/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/古明地觉",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/古明地觉/中日对照",
+  "numberLabel": "第50号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "身不由己的读心妖怪",
+  "characterName": "古明地觉",
+  "abilityText": "读心程度的能力",
+  "mainOracleText": "常人之所以能自由行动，只因读不透他人的心声。",
+  "mainOracleColumns": [
+    "常人之所以",
+    "能自由行动，",
+    "只因读不透",
+    "他人的心声。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "心遭束缚、动弹不得。若遇良人或可扭转乾坤。"
+        },
+        {
+          "label": "人缘",
+          "text": "与人交往存在风险。但若欲抓住好运则不应回避。"
+        },
+        {
+          "label": "健康",
+          "text": "易生心病。注意心理健康。"
+        },
+        {
+          "label": "学业",
+          "text": "逢考必过。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "认真处理投诉则注定失败。"
+        },
+        {
+          "label": "恋爱",
+          "text": "对方免疫读心便可顺利发展。"
+        },
+        {
+          "label": "住所",
+          "text": "地下为吉。"
+        },
+        {
+          "label": "出行",
+          "text": "地底为吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "独处自娱为吉。饲养宠物则运势大涨。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "许多作品都曾描绘能够读心的角色，而在大多数情况下，这一能力都不会给读心者本人带来幸福。我想，这可能是因为人类在本质上都是厌恶被读取心声的吧。",
+      "不过，觉似乎却认为拥有读心能力是一件幸福的事。到底是妖怪啊。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/古明地觉",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

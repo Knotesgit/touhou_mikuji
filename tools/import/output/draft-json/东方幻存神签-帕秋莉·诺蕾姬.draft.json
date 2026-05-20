@@ -1,0 +1,89 @@
+{
+  "id": "6",
+  "pageTitle": "东方幻存神签/帕秋莉·诺蕾姬",
+  "bilingualPageTitle": "东方幻存神签/帕秋莉·诺蕾姬/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/帕秋莉·诺蕾姬",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/帕秋莉·诺蕾姬/中日对照",
+  "numberLabel": "第6号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "知识与避世的魔法使",
+  "characterName": "帕秋莉·诺蕾姬",
+  "abilityText": "使用魔法（精灵为主）程度的能力",
+  "mainOracleText": "一周七曜日，唯月是卫星。毕竟星期一，最是惹人厌。",
+  "mainOracleColumns": [
+    "一周七曜日，",
+    "唯月是卫星。",
+    "毕竟星期一，",
+    "最是惹人厌。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "一周七日皆有不同际遇。任何困难都能灵活化解。"
+        },
+        {
+          "label": "交易",
+          "text": "广增学识则机遇自至。正是事业扩张的良机。"
+        },
+        {
+          "label": "学业",
+          "text": "运势巅峰。正是挑战之时。"
+        },
+        {
+          "label": "财运",
+          "text": "一周内仅一日为吉。"
+        },
+        {
+          "label": "健康",
+          "text": "缺乏运动终致恶果。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "疾病",
+          "text": "旧疾难愈。唯有静养。"
+        },
+        {
+          "label": "恋爱",
+          "text": "守株待兔。但未必能等到人来。"
+        },
+        {
+          "label": "出行",
+          "text": "权当自己去过为吉。当真出门反而会身体不适。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜读书。阅读乃万趣之王。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的寿命远长于人类，因此她在浩瀚书海中追寻的早已不是知识。",
+      "著作者、藏书者、阅读者——书籍承载着许多人的意念，这才是她的目标。因此，就算是早已读完的书籍，她也不会轻易出手。",
+      "若要将她的藏书换为电子书，想必也同样是很困难的吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/帕秋莉·诺蕾姬",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

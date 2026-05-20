@@ -16,7 +16,12 @@
   "characterName": "物部布都",
   "abilityText": "操纵风水程度的能力",
   "mainOracleText": "运势当然是一时之福祸。若识得龙脉，则另当别论。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "运势当然是",
+    "一时之福祸。",
+    "若识得龙脉，",
+    "则另当别论。"
+  ],
   "detailLayers": [
     {
       "items": [

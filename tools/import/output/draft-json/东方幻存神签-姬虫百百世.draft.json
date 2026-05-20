@@ -1,0 +1,96 @@
+{
+  "id": "114",
+  "pageTitle": "东方幻存神签/姬虫百百世",
+  "bilingualPageTitle": "东方幻存神签/姬虫百百世/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/姬虫百百世",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/姬虫百百世/中日对照",
+  "numberLabel": "第114号",
+  "rank": "【大大吉】",
+  "rankDisplay": [
+    {
+      "text": "【大大吉】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "囫囵吞运的大蜈蚣",
+  "characterName": "姬虫百百世",
+  "abilityText": "噬龙程度的能力",
+  "mainOracleText": "啊哈哈哈哈，龙脉滚滚流，且看老子来一口就喝干！",
+  "mainOracleColumns": [
+    "啊哈哈哈哈，",
+    "龙脉滚滚流，",
+    "且看老子来",
+    "一口就喝干！"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "气运滚滚奔流。周遭气运也能一并卷走。"
+        },
+        {
+          "label": "交易",
+          "text": "客流络绎不绝。发财致富的良机。"
+        },
+        {
+          "label": "工作",
+          "text": "服务业与手上活计将进展顺利。宝石、采矿行业亦吉。"
+        },
+        {
+          "label": "学业",
+          "text": "书山有路，押题为径。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "百毒不侵。"
+        },
+        {
+          "label": "恋爱",
+          "text": "缘分不受运气摆布。"
+        },
+        {
+          "label": "出行",
+          "text": "阴暗潮湿处为大吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜收藏矿物，建造游戏亦吉。"
+        },
+        {
+          "label": "财运",
+          "text": "增加积蓄的良机。"
+        },
+        {
+          "label": "人缘",
+          "text": "宾客盈门。"
+        },
+        {
+          "label": "住所",
+          "text": "百虫群聚。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "（据我司调查）感觉蜈蚣应当是最让人深恶痛绝的虫子，但在日本它却被视作毘沙门天的使者，是吉祥的象征。",
+      "据说蜈蚣可以保佑人们生意兴隆、战无不胜……说是这么说，我倒还没见过喜欢养蜈蚣的人。毕竟有毒嘛……"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/姬虫百百世",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -174,9 +174,13 @@ function createRankLabel(fortune) {
 }
 
 function createOracle(fortune) {
-    if (Array.isArray(fortune.mainOracleColumns) && fortune.mainOracleColumns.length > 0) {
+    if (Array.isArray(fortune.mainOracleColumns) && fortune.mainOracleColumns.length >= 3 && fortune.mainOracleColumns.length <= 8) {
         const wrapper = document.createElement("div");
-        wrapper.className = "oracle-columns";
+        wrapper.className = "main-oracle-columns";
+        const columnCount = fortune.mainOracleColumns.length;
+        wrapper.style.setProperty("--oracle-column-count", columnCount);
+        wrapper.style.setProperty("--oracle-column-gap", columnCount > 5 ? "clamp(0.35rem, 2vw, 0.75rem)" : "clamp(0.55rem, 3vw, 1.1rem)");
+        wrapper.style.setProperty("--oracle-column-font-size", columnCount > 5 ? "clamp(0.95rem, 3.2vw, 1.12rem)" : "var(--oracle-size)");
 
         fortune.mainOracleColumns.forEach((column) => {
             wrapper.appendChild(createElement("span", "oracle-column", column));

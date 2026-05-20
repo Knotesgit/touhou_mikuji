@@ -60,11 +60,33 @@ Single-page draft import:
 node tools/import/thwiki-import.mjs --page "东方幻存神签/露米娅" --bilingual --limit 1
 ```
 
-Full import is intentionally not implemented:
+Stress validation from a small page list:
+
+```sh
+node tools/import/thwiki-import.mjs --pages-file tools/import/page-list.stress20.txt --bilingual --limit 20
+```
+
+Full draft import:
 
 ```sh
 node tools/import/thwiki-import.mjs --confirm-full-import
 ```
+
+Full import requires `tools/import/page-list.full.txt` to exist and contain exactly 128 unique page titles, one per line. Every line must start with `东方幻存神签/`. The importer validates this list before making requests.
+
+The full import is checkpointed: `tools/import/output/draft-json/import-summary.json` is updated after each page. If interrupted, rerun the same command. Existing draft JSON that already passes validation is reused unless `--refresh` is provided.
+
+The summary includes `totalPages`, `completedPages`, `remainingPages`, `succeeded`, `failed`, `networkRequests`, `cacheReads`, `runtimeMs`, `startedAt`, and `updatedAt`.
+
+## Draft Schema Notes
+
+Draft JSON includes `rank` and `rankDisplay`.
+
+- `rank` is the effective final fortune rank.
+- `rankDisplay` preserves visual rank display order.
+- Normal ranks use one part: `{ "text": "凶", "struck": false }`.
+- Corrected ranks use multiple parts, for example `{ "text": "凶", "struck": true }` followed by `{ "text": "大吉", "struck": false }`.
+- Raw HTML and unexpanded templates are not valid in display fields.
 
 ## Output
 

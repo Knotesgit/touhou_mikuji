@@ -1,0 +1,84 @@
+{
+  "id": "23",
+  "pageTitle": "东方幻存神签/米斯蒂娅·萝蕾拉",
+  "bilingualPageTitle": "东方幻存神签/米斯蒂娅·萝蕾拉/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/米斯蒂娅·萝蕾拉",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/米斯蒂娅·萝蕾拉/中日对照",
+  "numberLabel": "第23号",
+  "rank": "小小凶",
+  "rankDisplay": [
+    {
+      "text": "小小凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "歌喉婉转的夜雀",
+  "characterName": "米斯蒂娅·萝蕾拉",
+  "abilityText": "用歌声诱人发狂程度的能力",
+  "mainOracleText": "爱使人盲目，但话说回来，眼下的状况显然不一样。",
+  "mainOracleColumns": [
+    "爱使人盲目，",
+    "但话说回来，",
+    "眼下的状况",
+    "显然不一样。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "虽无明显波动，但会遭遇些许不顺。"
+        },
+        {
+          "label": "疾病",
+          "text": "当心眼疾，务必保证营养。食用八目鳗为吉。"
+        },
+        {
+          "label": "交易",
+          "text": "经营至深夜则运势上佳。"
+        },
+        {
+          "label": "学业",
+          "text": "拼搏至深夜吧。"
+        },
+        {
+          "label": "农事",
+          "text": "遭遇鸟害。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "邂逅一场盲目的恋情。"
+        },
+        {
+          "label": "出行",
+          "text": "不出人类村落为妙。夜间尤当深居简出。"
+        },
+        {
+          "label": "歌运",
+          "text": "正值巅峰，此刻不唱更待何时。但需留意音量，勿扰近邻。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是一种名为夜雀的冷门妖怪。虽然在设定上夜雀近似于塞壬，是用歌声蛊惑人心的妖怪，但她真正令人畏惧的其实是与视觉相关的能力。",
+      "实际上在游戏中也一样，歌声并未附加特殊效果，关卡更着重表现的反而是她遮蔽视野的能力。她的能力怎么就成了“用歌声诱人发狂”呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/米斯蒂娅·萝蕾拉",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "66",
+  "pageTitle": "东方幻存神签/宫古芳香",
+  "bilingualPageTitle": "东方幻存神签/宫古芳香/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/宫古芳香",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/宫古芳香/中日对照",
+  "numberLabel": "第66号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "最爱拉人入伙的僵尸",
+  "characterName": "宫古芳香",
+  "abilityText": "无所不吃程度的能力",
+  "mainOracleText": "思来又想去根本没有用。人类到头来都要变尸体。",
+  "mainOracleColumns": [
+    "思来又想去",
+    "根本没有用。",
+    "人类到头来",
+    "都要变尸体。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "既已迎接死亡，何来厄运一谈。"
+        },
+        {
+          "label": "健康",
+          "text": "啥玩意儿？能吃吗？"
+        },
+        {
+          "label": "交易",
+          "text": "同伴多多。能否干活则尚不可知。"
+        },
+        {
+          "label": "学业",
+          "text": "不妨清空记忆。"
+        },
+        {
+          "label": "运动",
+          "text": "身体僵硬，难免受伤。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "举步维艰。"
+        },
+        {
+          "label": "人缘",
+          "text": "同伴越来越多。真是可喜可贺。"
+        },
+        {
+          "label": "食物",
+          "text": "若不注重养生，便会被无尽的食欲压垮。"
+        },
+        {
+          "label": "恋爱",
+          "text": "断然无望。"
+        },
+        {
+          "label": "姻缘",
+          "text": "绝无可能。"
+        },
+        {
+          "label": "争端",
+          "text": "平稳至极。可得安息。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是会动的尸体，这样的怪物可以说是相当直白好懂。她虽然还有自我意识，但理智已舍弃大半，如今全靠命令、神经反射与食欲驱动身体。",
+      "二十四小时盯着手机，只会对屏幕里的文字做出反应，浑浑噩噩地消磨时间……现代人跟僵尸也差不了多少嘛。（唐突讽刺）"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/宫古芳香",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

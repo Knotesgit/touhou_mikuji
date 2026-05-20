@@ -2,7 +2,7 @@
 
 import { createHash, randomInt } from "node:crypto";
 import { existsSync } from "node:fs";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -16,7 +16,12 @@ const CACHE_DIR = path.join(IMPORT_ROOT, "cache");
 const RAW_DIR = path.join(IMPORT_ROOT, "output", "raw");
 const DRAFT_DIR = path.join(IMPORT_ROOT, "output", "draft-json");
 const CONFIG_PATH = path.join(IMPORT_ROOT, "import-config.local.json");
+const FULL_PAGE_LIST_PATH = path.join(IMPORT_ROOT, "page-list.full.txt");
+const ORACLE_OVERRIDES_PATH = path.join(IMPORT_ROOT, "oracle-column-overrides.json");
 const DEFAULT_PROJECT_UA = "TouhouMikujiDataImporter/0.1";
+const ORACLE_MIN_COLUMNS = 3;
+const ORACLE_MAX_COLUMNS = 8;
+const ORACLE_PUNCTUATION = new Set(Array.from("\uFF0C\u3002\uFF01\uFF1F\uFF1A\uFF1B\u3001,.!?:;\uFF08\uFF09()\u300C\u300D\u300E\u300F\u300A\u300B\u2014\u2026\u00B7\u30FB"));
 
 let lastNetworkRequestAt = 0;
 
@@ -38,8 +43,18 @@ async function main() {
         return;
     }
 
+    if (args["split-oracle-columns"] || args["refresh-oracle-columns"]) {
+        await refreshDraftOracleColumns();
+        return;
+    }
+
+    if (args["audit-drafts"]) {
+        await auditDrafts(Boolean(args["fix-safe"]));
+        return;
+    }
+
     if (args["confirm-full-import"]) {
-        console.log("Full import is not implemented yet.");
+        await importFull(args, startedAt);
         return;
     }
 
@@ -69,11 +84,7 @@ async function importPagesFile(args, startedAt) {
     }
 
     const config = await readLocalConfig();
-    const raw = await readFile(path.resolve(args["pages-file"]), "utf8");
-    const pageTitles = raw
-        .split(/\r?\n/)
-        .map((line) => line.trim())
-        .filter(Boolean)
+    const pageTitles = (await readValidatedPageList(path.resolve(args["pages-file"]), { maxCount: 20 }))
         .slice(0, limit);
 
     if (!pageTitles.length) {
@@ -112,19 +123,111 @@ async function importPagesFile(args, startedAt) {
     console.log(`Cache reads: ${summary.totals.cacheReads}`);
 }
 
-async function writeImportSummary({ startedAt, limit, pageTitles, pageResults }) {
+async function importFull(args, startedAt) {
+    const config = await readLocalConfig();
+    const pageTitles = await readValidatedPageList(FULL_PAGE_LIST_PATH, { expectedCount: 128 });
+    const fullArgs = { ...args, bilingual: true, reuseDraft: true };
+    const pageResults = [];
+
+    await writeImportSummary({ startedAt, limit: 128, pageTitles, pageResults, mode: "full" });
+
+    for (const pageTitle of pageTitles) {
+        try {
+            const result = await importSinglePage(pageTitle, fullArgs, config);
+            pageResults.push(result.summary);
+            await writeImportSummary({ startedAt, limit: 128, pageTitles, pageResults, mode: "full" });
+        } catch (error) {
+            pageResults.push({
+                pageTitle,
+                bilingualPageTitle: `${pageTitle}/中日对照`,
+                success: false,
+                draftPath: "",
+                cacheUsed: false,
+                cacheReads: 0,
+                networkRequests: 0,
+                missingFields: [],
+                parserWarnings: [],
+                detailLayersParsedCorrectly: false,
+                reviewParagraphsParsedCorrectly: false,
+                error: error.message
+            });
+            await writeImportSummary({ startedAt, limit: 128, pageTitles, pageResults, mode: "full" });
+            throw error;
+        }
+    }
+
+    const summary = await writeImportSummary({ startedAt, limit: 128, pageTitles, pageResults, mode: "full" });
+    console.log(`Wrote import summary: ${relativeToProject(path.join(DRAFT_DIR, "import-summary.json"))}`);
+    console.log(`Succeeded: ${summary.succeeded}/${summary.totalPages}`);
+    console.log(`Network requests: ${summary.networkRequests}`);
+    console.log(`Cache reads: ${summary.cacheReads}`);
+}
+
+async function readValidatedPageList(filePath, { expectedCount, maxCount } = {}) {
+    if (!existsSync(filePath)) {
+        throw new Error(`${relativeToProject(filePath)} is missing. Build the page list before importing.`);
+    }
+
+    const raw = await readFile(filePath, "utf8");
+    const lines = raw.split(/\r?\n/);
+    const pageTitles = lines.map((line) => line.trim());
+    const blankLineIndexes = pageTitles
+        .map((line, index) => line ? -1 : index + 1)
+        .filter((index) => index !== -1);
+
+    if (blankLineIndexes.length > 0) {
+        throw new Error(`${relativeToProject(filePath)} contains blank lines: ${blankLineIndexes.join(", ")}.`);
+    }
+
+    const invalid = pageTitles.filter((line) => !line.startsWith("东方幻存神签/"));
+    if (invalid.length > 0) {
+        throw new Error(`${relativeToProject(filePath)} contains page titles without the 东方幻存神签/ prefix.`);
+    }
+
+    const duplicates = pageTitles.filter((line, index) => pageTitles.indexOf(line) !== index);
+    if (duplicates.length > 0) {
+        throw new Error(`${relativeToProject(filePath)} contains duplicate page titles: ${[...new Set(duplicates)].join(", ")}.`);
+    }
+
+    if (expectedCount && pageTitles.length !== expectedCount) {
+        throw new Error(`${relativeToProject(filePath)} must contain exactly ${expectedCount} page titles; found ${pageTitles.length}.`);
+    }
+
+    if (maxCount && pageTitles.length > maxCount) {
+        throw new Error(`${relativeToProject(filePath)} contains ${pageTitles.length} page titles; this command allows at most ${maxCount}.`);
+    }
+
+    return pageTitles;
+}
+
+async function writeImportSummary({ startedAt, limit, pageTitles, pageResults, mode = "batch" }) {
+    const runtimeMs = Date.now() - startedAt;
+    const succeeded = pageResults.filter((page) => page.success).length;
+    const failed = pageResults.filter((page) => !page.success).length;
+    const networkRequests = pageResults.reduce((sum, page) => sum + page.networkRequests, 0);
+    const cacheReads = pageResults.reduce((sum, page) => sum + page.cacheReads, 0);
     const summary = {
         startedAt: new Date(startedAt).toISOString(),
-        finishedAt: new Date().toISOString(),
-        totalRuntimeMs: Date.now() - startedAt,
+        updatedAt: new Date().toISOString(),
+        finishedAt: pageResults.length === pageTitles.length ? new Date().toISOString() : null,
+        runtimeMs,
+        totalRuntimeMs: runtimeMs,
+        mode,
         limit,
+        totalPages: pageTitles.length,
+        completedPages: pageResults.length,
+        remainingPages: Math.max(0, pageTitles.length - pageResults.length),
+        succeeded,
+        failed,
+        networkRequests,
+        cacheReads,
         pagesRequested: pageTitles.length,
         pages: pageResults,
         totals: {
-            succeeded: pageResults.filter((page) => page.success).length,
-            failed: pageResults.filter((page) => !page.success).length,
-            networkRequests: pageResults.reduce((sum, page) => sum + page.networkRequests, 0),
-            cacheReads: pageResults.reduce((sum, page) => sum + page.cacheReads, 0)
+            succeeded,
+            failed,
+            networkRequests,
+            cacheReads
         }
     };
 
@@ -135,6 +238,20 @@ async function writeImportSummary({ startedAt, limit, pageTitles, pageResults })
 
 async function importSinglePage(pageTitle, args, config) {
     assertAllowedPageTitle(pageTitle);
+    const draftPath = path.join(DRAFT_DIR, `${safeName(pageTitle)}.draft.json`);
+
+    if (args.reuseDraft && !args.refresh && existsSync(draftPath)) {
+        const existingDraft = JSON.parse(await readFile(draftPath, "utf8"));
+        const existingSummary = summarizeDraft(existingDraft, [], draftPath);
+        if (existingSummary.missingFields.length === 0 && existingSummary.parserWarnings.length === 0) {
+            existingSummary.reusedDraft = true;
+            console.log(`Reused draft JSON: ${existingSummary.draftPath}`);
+            return { draft: existingDraft, draftPath: existingSummary.draftPath, summary: existingSummary };
+        }
+
+        console.log(`Existing draft needs regeneration: ${existingSummary.draftPath}`);
+    }
+
     const pages = [pageTitle];
 
     if (args.bilingual) {
@@ -186,7 +303,6 @@ async function importSinglePage(pageTitle, args, config) {
         });
     }
 
-    const draftPath = path.join(DRAFT_DIR, `${safeName(pageTitle)}.draft.json`);
     await writeFile(draftPath, `${JSON.stringify(draft, null, 2)}\n`, "utf8");
     const summary = summarizeDraft(draft, responses, draftPath);
     console.log(`Wrote draft JSON: ${summary.draftPath}`);
@@ -213,6 +329,456 @@ function printDryRun() {
     console.log("- Robots.txt access permission is not copyright permission.");
     console.log("- Draft JSON requires manual review before any public website use.");
     console.log("- Do not publish generated draft JSON without review.");
+}
+
+async function refreshDraftOracleColumns() {
+    const filenames = (await readdir(DRAFT_DIR))
+        .filter((filename) => filename.endsWith(".draft.json"))
+        .sort();
+    const overrides = await readOracleColumnOverrides();
+
+    let updated = 0;
+    const auditEntries = [];
+
+    for (const filename of filenames) {
+        const draftPath = path.join(DRAFT_DIR, filename);
+        const draft = JSON.parse(await readFile(draftPath, "utf8"));
+        if (!draft.mainOracleText) {
+            continue;
+        }
+
+        const result = await resolveOracleColumns(draft, overrides);
+        draft.mainOracleColumns = result.columns;
+        const validationWarnings = validateMainOracleColumnValues(
+            normalizeOracleText(draft.mainOracleText),
+            draft.mainOracleColumns,
+            {
+                source: result.source,
+                allowUneven: result.source === "override",
+                allowBracketedPunctuationStart: result.source === "override"
+            }
+        );
+        const warnings = [...new Set([...result.warnings, ...validationWarnings])];
+        const nonPunctuationCounts = draft.mainOracleColumns.map(countOracleContentCharacters);
+
+        draft.parserWarnings = removeOracleColumnWarnings(draft.parserWarnings);
+        if (warnings.length > 0) {
+            draft.parserWarnings = mergeWarnings(draft.parserWarnings, warnings);
+        }
+
+        auditEntries.push({
+            pageTitle: draft.pageTitle,
+            characterName: draft.characterName || "",
+            source: result.source,
+            mainOracleText: draft.mainOracleText,
+            columns: draft.mainOracleColumns,
+            columnCount: draft.mainOracleColumns.length,
+            nonPunctuationCounts,
+            joinedMatchesText: normalizeOracleText(draft.mainOracleColumns.join("")) === normalizeOracleText(draft.mainOracleText),
+            warnings
+        });
+
+        await writeFile(draftPath, `${JSON.stringify(draft, null, 2)}\n`, "utf8");
+        updated += 1;
+    }
+
+    const auditPath = path.join(DRAFT_DIR, "oracle-columns-audit.json");
+    await writeFile(auditPath, `${JSON.stringify(auditEntries, null, 2)}\n`, "utf8");
+
+    console.log(`Updated mainOracleColumns in ${updated} draft JSON files.`);
+    console.log(`Column warning pages: ${auditEntries.filter((entry) => entry.warnings.length > 0).length}`);
+    console.log(`Wrote oracle column audit: ${relativeToProject(auditPath)}`);
+    const warningEntries = auditEntries.filter((entry) => entry.warnings.length > 0);
+    if (warningEntries.length > 0) {
+        console.log(JSON.stringify(warningEntries, null, 2));
+    }
+}
+
+async function readOracleColumnOverrides() {
+    if (!existsSync(ORACLE_OVERRIDES_PATH)) {
+        return {};
+    }
+
+    const raw = await readFile(ORACLE_OVERRIDES_PATH, "utf8");
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+        throw new Error("tools/import/oracle-column-overrides.json must be an object keyed by pageTitle.");
+    }
+
+    return parsed;
+}
+
+async function resolveOracleColumns(draft, overrides) {
+    const pageTitle = draft.pageTitle || "";
+    const mainOracleText = draft.mainOracleText || "";
+    const override = overrides[pageTitle];
+
+    if (override !== undefined) {
+        const overrideWarnings = validateOracleOverride(pageTitle, mainOracleText, override);
+        if (overrideWarnings.length === 0) {
+            return {
+                source: "override",
+                columns: override.map((column) => normalizeOracleText(column)),
+                warnings: []
+            };
+        }
+
+        const splitWarnings = [`oracle-column override was not applied for ${pageTitle}: ${overrideWarnings.join("; ")}`];
+        const fallback = await resolveNonOverrideOracleColumns(draft);
+        return {
+            ...fallback,
+            warnings: [...splitWarnings, ...fallback.warnings]
+        };
+    }
+
+    return resolveNonOverrideOracleColumns(draft);
+}
+
+async function resolveNonOverrideOracleColumns(draft) {
+    const sourceRendered = await extractSourceRenderedOracleColumns(draft);
+    if (sourceRendered.columns.length > 0) {
+        return sourceRendered;
+    }
+
+    const splitWarnings = [];
+    return {
+        source: "heuristic",
+        columns: splitMainOracleColumns(draft.mainOracleText, splitWarnings),
+        warnings: splitWarnings
+    };
+}
+
+function validateOracleOverride(pageTitle, mainOracleText, override) {
+    const warnings = [];
+    if (!Array.isArray(override)) {
+        return ["override value must be an array of columns."];
+    }
+
+    if (override.length < ORACLE_MIN_COLUMNS || override.length > ORACLE_MAX_COLUMNS) {
+        warnings.push(`override must contain ${ORACLE_MIN_COLUMNS}-${ORACLE_MAX_COLUMNS} columns.`);
+    }
+
+    if (override.some((column) => typeof column !== "string" || !normalizeOracleText(column))) {
+        warnings.push("override contains an empty or non-string column.");
+    }
+
+    if (normalizeOracleText(override.join("")) !== normalizeOracleText(mainOracleText)) {
+        warnings.push("override columns do not reconstruct mainOracleText.");
+    }
+
+    return warnings;
+}
+
+async function extractSourceRenderedOracleColumns(draft) {
+    const pageTitle = draft.pageTitle || "";
+    const renderedParams = {
+        action: "parse",
+        format: "json",
+        formatversion: "2",
+        page: `${pageTitle}/中日对照`,
+        prop: "text|displaytitle",
+        redirects: "1"
+    };
+    const cachePath = path.join(CACHE_DIR, `${safeName(renderedParams.action)}-${hashParams(renderedParams)}.json`);
+    if (!existsSync(cachePath)) {
+        return { source: "source-rendered", columns: [], warnings: [] };
+    }
+
+    try {
+        const cached = JSON.parse(await readFile(cachePath, "utf8"));
+        const articleBody = extractArticleBody(getApiContent(cached), "html");
+        const characterName = inferCharacterNameFromTitle(cached?.parse?.title || `${pageTitle}/中日对照`);
+        const cellHtml = extractRenderedChineseCellHtml(articleBody, characterName, 6, "tt-zhh");
+        const columns = extractOracleColumnsFromRenderedHtml(cellHtml);
+        if (columns.length === 0 || normalizeOracleText(columns.join("")) !== normalizeOracleText(draft.mainOracleText)) {
+            return { source: "source-rendered", columns: [], warnings: [] };
+        }
+
+        const warnings = validateMainOracleColumnValues(normalizeOracleText(draft.mainOracleText), columns, { source: "source-rendered" });
+        return {
+            source: "source-rendered",
+            columns,
+            warnings
+        };
+    } catch {
+        return { source: "source-rendered", columns: [], warnings: [] };
+    }
+}
+
+function extractOracleColumnsFromRenderedHtml(cellHtml) {
+    if (!cellHtml || !/<br|<\/p>|<\/div>|<\/li>/i.test(cellHtml)) {
+        return [];
+    }
+
+    const text = stripHtmlTags(cellHtml);
+    const columns = text
+        .split(/\r?\n/)
+        .map((line) => normalizeOracleText(line))
+        .filter(Boolean);
+
+    if (columns.length < ORACLE_MIN_COLUMNS || columns.length > ORACLE_MAX_COLUMNS) {
+        return [];
+    }
+
+    return columns;
+}
+
+async function auditDrafts(fixSafe) {
+    const filenames = (await readdir(DRAFT_DIR))
+        .filter((filename) => filename.endsWith(".draft.json"))
+        .sort();
+
+    const filesWithIssues = [];
+    const safeFixesApplied = [];
+    const ambiguousIssues = [];
+    const remainingIssues = [];
+
+    for (const filename of filenames) {
+        const draftPath = path.join(DRAFT_DIR, filename);
+        const draft = JSON.parse(await readFile(draftPath, "utf8"));
+        const file = relativeToProject(draftPath);
+        const pageTitle = draft.pageTitle || "";
+        const initialIssues = collectDraftArtifactIssues(draft, file, pageTitle);
+
+        if (initialIssues.length > 0) {
+            filesWithIssues.push({ file, pageTitle, issueCount: initialIssues.length });
+        }
+
+        if (fixSafe && initialIssues.length > 0) {
+            let changed = false;
+            let recomputeOracleColumns = false;
+
+            for (const issue of initialIssues) {
+                if (issue.fixable && issue.fieldPath !== "mainOracleColumns[]" && issue.suggestedValue !== undefined) {
+                    const fixed = setDraftTextField(draft, issue.fieldPath, issue.suggestedValue);
+                    if (fixed) {
+                        changed = true;
+                        safeFixesApplied.push({ ...issue, fixed: true });
+                        if (issue.fieldPath === "mainOracleText") {
+                            recomputeOracleColumns = true;
+                        }
+                    }
+                } else if (issue.fixable && issue.fieldPath.startsWith("mainOracleColumns[")) {
+                    recomputeOracleColumns = true;
+                    safeFixesApplied.push({ ...issue, fixed: true });
+                } else {
+                    ambiguousIssues.push({ ...issue, fixed: false });
+                }
+            }
+
+            if (recomputeOracleColumns && draft.mainOracleText) {
+                const splitWarnings = [];
+                draft.mainOracleColumns = splitMainOracleColumns(draft.mainOracleText, splitWarnings);
+                if (splitWarnings.length > 0) {
+                    draft.parserWarnings = mergeWarnings(draft.parserWarnings, splitWarnings);
+                }
+                changed = true;
+            }
+
+            if (changed) {
+                await writeFile(draftPath, `${JSON.stringify(draft, null, 2)}\n`, "utf8");
+            }
+
+            const postFixIssues = collectDraftArtifactIssues(draft, file, pageTitle);
+            remainingIssues.push(...postFixIssues.map((issue) => ({ ...issue, fixed: false })));
+        } else {
+            const fixable = initialIssues.filter((issue) => issue.fixable);
+            const ambiguous = initialIssues.filter((issue) => !issue.fixable);
+            ambiguousIssues.push(...ambiguous.map((issue) => ({ ...issue, fixed: false })));
+            remainingIssues.push(...initialIssues.map((issue) => ({ ...issue, fixed: false })));
+            if (fixSafe) {
+                safeFixesApplied.push(...fixable.map((issue) => ({ ...issue, fixed: false })));
+            }
+        }
+    }
+
+    const report = {
+        checkedFiles: filenames.length,
+        filesWithIssues,
+        safeFixesApplied,
+        ambiguousIssues,
+        remainingIssues
+    };
+
+    const reportPath = path.join(DRAFT_DIR, "draft-audit-report.json");
+    await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+
+    console.log(`Checked draft JSON files: ${report.checkedFiles}`);
+    console.log(`Files with issues: ${report.filesWithIssues.length}`);
+    console.log(`Safe fixes applied: ${report.safeFixesApplied.filter((issue) => issue.fixed).length}`);
+    console.log(`Ambiguous issues: ${report.ambiguousIssues.length}`);
+    console.log(`Remaining issues: ${report.remainingIssues.length}`);
+    console.log(`Wrote audit report: ${relativeToProject(reportPath)}`);
+}
+
+function collectDraftArtifactIssues(draft, file, pageTitle) {
+    const issues = [];
+    for (const field of getDraftTextFields(draft)) {
+        issues.push(...detectTextArtifacts({
+            file,
+            pageTitle,
+            fieldPath: field.path,
+            originalValue: field.value,
+            derived: field.derived
+        }));
+    }
+    return issues;
+}
+
+function getDraftTextFields(draft) {
+    const fields = [
+        { path: "numberLabel", value: draft.numberLabel },
+        { path: "rank", value: draft.rank },
+        { path: "characterTitle", value: draft.characterTitle },
+        { path: "characterName", value: draft.characterName },
+        { path: "abilityText", value: draft.abilityText },
+        { path: "mainOracleText", value: draft.mainOracleText },
+        { path: "review.title", value: draft.review?.title }
+    ];
+
+    (draft.rankDisplay || []).forEach((part, index) => {
+        fields.push({ path: `rankDisplay[${index}].text`, value: part.text });
+    });
+
+    (draft.mainOracleColumns || []).forEach((column, index) => {
+        fields.push({ path: `mainOracleColumns[${index}]`, value: column, derived: true });
+    });
+
+    (draft.detailLayers || []).forEach((layer, layerIndex) => {
+        (layer.items || []).forEach((item, itemIndex) => {
+            fields.push({ path: `detailLayers[${layerIndex}].items[${itemIndex}].label`, value: item.label });
+            fields.push({ path: `detailLayers[${layerIndex}].items[${itemIndex}].text`, value: item.text });
+        });
+    });
+
+    (draft.review?.paragraphs || []).forEach((paragraph, index) => {
+        fields.push({ path: `review.paragraphs[${index}]`, value: paragraph });
+    });
+
+    return fields;
+}
+
+function detectTextArtifacts({ file, pageTitle, fieldPath, originalValue, derived }) {
+    if (typeof originalValue !== "string" || !originalValue) {
+        return [];
+    }
+
+    const issues = [];
+    const safeValue = applySafeArtifactFixes(originalValue);
+    const addIssue = (issueType, fixable, suggestedValue = undefined) => {
+        issues.push({
+            file,
+            pageTitle,
+            fieldPath,
+            originalValue,
+            suggestedValue,
+            issueType,
+            fixed: false,
+            fixable: Boolean(fixable)
+        });
+    };
+
+    if (/<ref\b[^>]*>[\s\S]*?<\/ref>/i.test(originalValue) || /<ref\b[^/>]*\/>/i.test(originalValue)) {
+        addIssue("raw-ref-tag", true, safeValue);
+    }
+
+    if (/<(?!ref\b|\/ref\b)[^>]+>/i.test(originalValue)) {
+        addIssue("raw-html-tag", false);
+    }
+
+    if (/style\s*=/i.test(originalValue)) {
+        addIssue("raw-style-attribute", false);
+    }
+
+    if (/{{|}}/.test(originalValue)) {
+        addIssue("unexpanded-template", false);
+    }
+
+    if (/&(?:[a-z]+|#\d+|#x[0-9a-f]+);/i.test(originalValue)) {
+        addIssue("html-entity", true, safeValue);
+    }
+
+    if (/(?:\[\d+]|\uFF3B\d+\uFF3D)/.test(originalValue)) {
+        addIssue("bracket-footnote-marker", true, safeValue);
+    }
+
+    const shouldCheckDigitMarkers = fieldPath !== "numberLabel";
+
+    if (shouldCheckDigitMarkers && containsSafeTrailingFootnoteDigit(originalValue)) {
+        addIssue("trailing-footnote-digit", true, derived ? undefined : safeValue);
+    }
+
+    if (shouldCheckDigitMarkers && containsAmbiguousDigitArtifact(originalValue)) {
+        addIssue("ambiguous-digit-marker", false);
+    }
+
+    if (/[¹²³⁴⁵⁶⁷⁸⁹⁰]/.test(originalValue)) {
+        addIssue("superscript-like-marker", false);
+    }
+
+    if (/(?:cite_note|mw-ref|引用错误)/i.test(originalValue)) {
+        addIssue("leftover-ref-cite-marker", false);
+    }
+
+    return issues;
+}
+
+function applySafeArtifactFixes(value) {
+    return decodeHtmlEntities(String(value))
+        .replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/gi, "")
+        .replace(/<ref\b[^/>]*\/>/gi, "")
+        .replace(/\[\d+]|\uFF3B\d+\uFF3D/g, "")
+        .replace(/([\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}])([0-9]{1,2})(?=([，。！？：；、,.!?:;）)」』》]|$))/gu, "$1")
+        .replace(/([，。！？：；、,.!?:;）)」』》])([0-9]{1,2})$/u, "$1");
+}
+
+function containsSafeTrailingFootnoteDigit(value) {
+    return /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}][0-9]{1,2}(?=([，。！？：；、,.!?:;）)」』》]|$))/u.test(value)
+        || /[，。！？：；、,.!?:;）)」』》][0-9]{1,2}$/u.test(value);
+}
+
+function containsAmbiguousDigitArtifact(value) {
+    if (containsSafeTrailingFootnoteDigit(value)) {
+        return false;
+    }
+
+    return /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}][0-9]+/u.test(value)
+        || /[0-9]+[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u.test(value);
+}
+
+function setDraftTextField(draft, fieldPath, value) {
+    const path = parseFieldPath(fieldPath);
+    let current = draft;
+    for (let index = 0; index < path.length - 1; index += 1) {
+        current = current?.[path[index]];
+        if (current === undefined || current === null) {
+            return false;
+        }
+    }
+
+    current[path[path.length - 1]] = value;
+    return true;
+}
+
+function parseFieldPath(fieldPath) {
+    const parts = [];
+    String(fieldPath).replace(/([^[.\]]+)|\[(\d+)]/g, (_, key, index) => {
+        parts.push(index === undefined ? key : Number(index));
+        return "";
+    });
+    return parts;
+}
+
+function mergeWarnings(existing, next) {
+    return [...new Set([...(Array.isArray(existing) ? existing : []), ...next])];
+}
+
+function removeOracleColumnWarnings(warnings) {
+    if (!Array.isArray(warnings)) {
+        return [];
+    }
+
+    return warnings.filter((warning) => !String(warning).startsWith("mainOracleColumns"));
 }
 
 function parsePositiveLimit(value, fallback) {
@@ -270,6 +836,10 @@ function getMissingFields(draft) {
         missing.push("rankDisplay");
     }
 
+    if (draft.mainOracleText && hasFatalOracleColumnIssue(draft)) {
+        missing.push("mainOracleColumns");
+    }
+
     if (!Array.isArray(draft.detailLayers) || draft.detailLayers.length < 2) {
         missing.push("detailLayers");
     } else {
@@ -288,7 +858,62 @@ function getMissingFields(draft) {
         missing.push("review.paragraphs");
     }
 
+    if (!draft.source || !draft.source.publication || !draft.source.referenceSite || !draft.source.referenceUrl || !draft.source.dataEntryMethod || !draft.source.rightsNote) {
+        missing.push("source");
+    }
+
+    if (draft.reviewStatus !== "draft-needs-manual-review") {
+        missing.push("reviewStatus");
+    }
+
+    for (const field of getInvalidDisplayFieldPaths(draft)) {
+        if (!missing.includes(field)) {
+            missing.push(field);
+        }
+    }
+
     return missing;
+}
+
+function getInvalidDisplayFieldPaths(draft) {
+    const invalid = [];
+    const checks = [
+        ["id", draft.id],
+        ["numberLabel", draft.numberLabel],
+        ["rank", draft.rank],
+        ["characterTitle", draft.characterTitle],
+        ["characterName", draft.characterName],
+        ["abilityText", draft.abilityText],
+        ["mainOracleText", draft.mainOracleText],
+        ["review.title", draft.review?.title]
+    ];
+
+    (draft.rankDisplay || []).forEach((part, index) => {
+        checks.push([`rankDisplay[${index}].text`, part.text]);
+    });
+
+    (draft.mainOracleColumns || []).forEach((column, index) => {
+        checks.push([`mainOracleColumns[${index}]`, column]);
+    });
+
+    (draft.detailLayers || []).forEach((layer, layerIndex) => {
+        (layer.items || []).forEach((item, itemIndex) => {
+            checks.push([`detailLayers[${layerIndex}].items[${itemIndex}].label`, item.label]);
+            checks.push([`detailLayers[${layerIndex}].items[${itemIndex}].text`, item.text]);
+        });
+    });
+
+    (draft.review?.paragraphs || []).forEach((paragraph, index) => {
+        checks.push([`review.paragraphs[${index}]`, paragraph]);
+    });
+
+    for (const [field, value] of checks) {
+        if (isUnusableDisplayText(value)) {
+            invalid.push(field);
+        }
+    }
+
+    return invalid;
 }
 
 function needsRenderedTopFields(draft) {
@@ -417,7 +1042,7 @@ function buildDraft({ pageTitle, bilingualPageTitle, mainResponse, bilingualResp
         characterName: parsedSource.characterName || inferCharacterName(pageTitle, warnings),
         abilityText: parsedSource.abilityText,
         mainOracleText: parsedSource.mainOracleText,
-        mainOracleColumns: [],
+        mainOracleColumns: splitMainOracleColumns(parsedSource.mainOracleText, warnings),
         detailLayers: parsedSource.detailLayers,
         review: {
             title: parsedSource.review.title,
@@ -597,6 +1222,8 @@ function toContentLines(content, format) {
 
 function stripWikitextMarkup(text) {
     return String(text)
+        .replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/gi, "")
+        .replace(/<ref\b[^/>]*\/>/gi, "")
         .replace(/<\s*br\s*\/?>/gi, "\n")
         .replace(/<\/?(big|small|b|i|span)[^>]*>/gi, "")
         .replace(/'''?/g, "")
@@ -636,6 +1263,195 @@ function normalizeWhitespace(text) {
 
 function normalizeChineseText(text) {
     return normalizeWhitespace(text).replace(/\s+/g, "");
+}
+
+function splitMainOracleColumns(text, warnings = []) {
+    const normalizedText = normalizeOracleText(text);
+    const nonPunctuationCount = countOracleContentCharacters(normalizedText);
+
+    if (!normalizedText || nonPunctuationCount < ORACLE_MIN_COLUMNS) {
+        warnings.push("mainOracleText could not be split cleanly into useful columns.");
+        return normalizedText ? [normalizedText] : [];
+    }
+
+    const candidates = [];
+    const maxColumns = Math.min(ORACLE_MAX_COLUMNS, nonPunctuationCount);
+    for (let columnCount = ORACLE_MIN_COLUMNS; columnCount <= maxColumns; columnCount += 1) {
+        candidates.push(evaluateOracleColumnCandidate(normalizedText, columnCount));
+    }
+
+    const cleanCandidates = candidates.filter((candidate) => candidate.clean);
+    const selected = cleanCandidates.length > 0
+        ? cleanCandidates.sort((a, b) => {
+            if (b.punctuationEndCount !== a.punctuationEndCount) return b.punctuationEndCount - a.punctuationEndCount;
+            if (a.columnCount === 4 && b.columnCount !== 4) return -1;
+            if (b.columnCount === 4 && a.columnCount !== 4) return 1;
+            return a.columnCount - b.columnCount;
+        })[0]
+        : candidates.sort((a, b) => b.score - a.score || a.columnCount - b.columnCount)[0];
+
+    if (!selected.clean) {
+        warnings.push(`mainOracleColumns used a near-match ${selected.columnCount}-column split.`);
+        if (selected.lowConfidence) {
+            warnings.push("mainOracleColumns heuristic split has low confidence.");
+        }
+    }
+
+    return selected.columns;
+}
+
+function evaluateOracleColumnCandidate(text, columnCount) {
+    const nonPunctuationCount = countOracleContentCharacters(text);
+    const exact = nonPunctuationCount % columnCount === 0;
+    const targets = exact
+        ? Array.from({ length: columnCount }, () => nonPunctuationCount / columnCount)
+        : distributeOracleColumnTargets(nonPunctuationCount, columnCount);
+    const columns = splitOracleTextByTargets(text, targets);
+    const warnings = validateMainOracleColumnValues(text, columns, { allowVariableColumnCount: true });
+    const counts = columns.map(countOracleContentCharacters);
+    const countDiff = Math.max(...counts) - Math.min(...counts);
+    const middlePunctuationCount = columns.filter(columnHasMiddlePunctuation).length;
+    const startPunctuationCount = columns.filter((column) => isOraclePunctuation(Array.from(column)[0])).length;
+    const clean = exact
+        && warnings.length === 0
+        && counts.every((count) => count === counts[0]);
+    const punctuationEndCount = columns.filter((column) => {
+        const chars = Array.from(column);
+        return chars.length > 0 && isOraclePunctuation(chars[chars.length - 1]);
+    }).length;
+    const lowConfidence = !clean && (middlePunctuationCount > 0 || startPunctuationCount > 0 || countDiff > 1);
+    const score = 10000
+        - middlePunctuationCount * 2000
+        - startPunctuationCount * 1000
+        - countDiff * 200
+        + (exact ? 100 : 0)
+        + punctuationEndCount * 10
+        + (columnCount === 4 && middlePunctuationCount === 0 ? 25 : 0)
+        - columnCount;
+
+    return { columnCount, columns, warnings, clean, lowConfidence, punctuationEndCount, score };
+}
+
+function distributeOracleColumnTargets(totalCount, columnCount) {
+    const base = Math.floor(totalCount / columnCount);
+    const remainder = totalCount % columnCount;
+    return Array.from(
+        { length: columnCount },
+        (_, index) => base + (index < remainder ? 1 : 0)
+    );
+}
+
+function splitOracleTextByTargets(text, targets) {
+    const characters = Array.from(text);
+    const columns = [];
+    let cursor = 0;
+
+    for (const target of targets) {
+        const column = [];
+        let contentCount = 0;
+
+        while (cursor < characters.length) {
+            const character = characters[cursor];
+            column.push(character);
+            cursor += 1;
+
+            if (!isOraclePunctuation(character)) {
+                contentCount += 1;
+            }
+
+            if (contentCount >= target) {
+                while (cursor < characters.length && isOraclePunctuation(characters[cursor])) {
+                    column.push(characters[cursor]);
+                    cursor += 1;
+                }
+                break;
+            }
+        }
+
+        columns.push(column.join(""));
+    }
+
+    if (cursor < characters.length && columns.length > 0) {
+        columns[columns.length - 1] += characters.slice(cursor).join("");
+    }
+
+    return columns;
+}
+
+function validateMainOracleColumns(draft) {
+    return validateMainOracleColumnValues(
+        normalizeOracleText(draft.mainOracleText || ""),
+        Array.isArray(draft.mainOracleColumns) ? draft.mainOracleColumns : []
+    );
+}
+
+function hasFatalOracleColumnIssue(draft) {
+    return validateMainOracleColumns(draft)
+        .some((warning) => warning !== "mainOracleColumns non-punctuation counts are not equal.");
+}
+
+function validateMainOracleColumnValues(mainOracleText, columns, options = {}) {
+    const warnings = [];
+    if (!Array.isArray(columns) || columns.length === 0) {
+        warnings.push("mainOracleColumns must not be empty.");
+        return warnings;
+    }
+
+    if (!options.allowVariableColumnCount && (columns.length < ORACLE_MIN_COLUMNS || columns.length > ORACLE_MAX_COLUMNS)) {
+        warnings.push(`mainOracleColumns must contain ${ORACLE_MIN_COLUMNS}-${ORACLE_MAX_COLUMNS} columns.`);
+        return warnings;
+    }
+
+    if (normalizeOracleText(columns.join("")) !== mainOracleText) {
+        warnings.push("mainOracleColumns do not reconstruct mainOracleText.");
+    }
+
+    columns.forEach((column, index) => {
+        if (!column) {
+            warnings.push(`mainOracleColumns[${index}] is empty.`);
+        } else if (isOraclePunctuation(Array.from(column)[0]) && !(options.allowBracketedPunctuationStart && isBracketedOracleColumn(column))) {
+            warnings.push(`mainOracleColumns[${index}] starts with punctuation.`);
+        } else if (columnHasMiddlePunctuation(column) && !(options.allowBracketedPunctuationStart && isBracketedOracleColumn(column))) {
+            warnings.push(`mainOracleColumns[${index}] contains punctuation before later non-punctuation text.`);
+        }
+    });
+
+    const counts = columns.map(countOracleContentCharacters);
+    if (!options.allowUneven && !counts.every((count) => count === counts[0])) {
+        warnings.push("mainOracleColumns non-punctuation counts are not equal.");
+    }
+
+    return warnings;
+}
+
+function normalizeOracleText(value) {
+    return String(value || "").replace(/\s+/g, "");
+}
+
+function countOracleContentCharacters(value) {
+    return Array.from(String(value || "")).filter((character) => !isOraclePunctuation(character)).length;
+}
+
+function isOraclePunctuation(character) {
+    return ORACLE_PUNCTUATION.has(character);
+}
+
+function columnHasMiddlePunctuation(column) {
+    const characters = Array.from(String(column || ""));
+    let seenPunctuation = false;
+    for (const character of characters) {
+        if (isOraclePunctuation(character)) {
+            seenPunctuation = true;
+        } else if (seenPunctuation) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function isBracketedOracleColumn(column) {
+    const text = String(column || "");
+    return /^（.+）$/.test(text) || /^\(.+\)$/.test(text) || /^「.+」$/.test(text) || /^『.+』$/.test(text) || /^《.+》$/.test(text);
 }
 
 function extractHeadings(content, format) {
@@ -1137,7 +1953,7 @@ function parseArgs(argv) {
         }
 
         const key = arg.slice(2);
-        if (["dry-run", "bilingual", "refresh", "confirm-full-import", "debug-parse"].includes(key)) {
+        if (["dry-run", "bilingual", "refresh", "confirm-full-import", "debug-parse", "split-oracle-columns", "refresh-oracle-columns", "audit-drafts", "fix-safe"].includes(key)) {
             args[key] = true;
             continue;
         }

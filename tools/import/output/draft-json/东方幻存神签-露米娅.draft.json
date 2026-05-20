@@ -6,11 +6,22 @@
   "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/露米娅/中日对照",
   "numberLabel": "第1号",
   "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
   "characterTitle": "使用四周变暗的妖怪",
   "characterName": "露米娅",
   "abilityText": "操纵黑暗程度的能力",
   "mainOracleText": "若心怀黑暗，此事需谨记：不速之客已悄然潜于胸。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "若心怀黑暗，",
+    "此事需谨记：",
+    "不速之客已",
+    "悄然潜于胸。"
+  ],
   "detailLayers": [
     {
       "items": [

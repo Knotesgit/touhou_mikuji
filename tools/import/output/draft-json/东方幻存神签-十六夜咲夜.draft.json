@@ -6,11 +6,22 @@
   "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/十六夜咲夜/中日对照",
   "numberLabel": "第7号",
   "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
   "characterTitle": "无所不能的潇洒女仆",
   "characterName": "十六夜咲夜",
   "abilityText": "操纵时间程度的能力",
   "mainOracleText": "可否占用您一点时间呢？无需您费心，已经完事了。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "可否占用您",
+    "一点时间呢？",
+    "无需您费心，",
+    "已经完事了。"
+  ],
   "detailLayers": [
     {
       "items": [

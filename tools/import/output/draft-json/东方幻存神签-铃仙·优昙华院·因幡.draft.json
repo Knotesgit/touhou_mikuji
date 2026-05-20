@@ -1,0 +1,89 @@
+{
+  "id": "26",
+  "pageTitle": "东方幻存神签/铃仙·优昙华院·因幡",
+  "bilingualPageTitle": "东方幻存神签/铃仙·优昙华院·因幡/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/铃仙·优昙华院·因幡",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/铃仙·优昙华院·因幡/中日对照",
+  "numberLabel": "第26号",
+  "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "拥有疯狂赤眼的玉兔",
+  "characterName": "铃仙·优昙华院·因幡",
+  "abilityText": "操纵疯狂程度的能力",
+  "mainOracleText": "可见光只是电磁波频谱的冰山一角。你们的眼睛，全都是摆设。",
+  "mainOracleColumns": [
+    "可见光只是",
+    "电磁波频谱",
+    "的冰山一角。",
+    "你们的眼睛，",
+    "全都是摆设。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "目睹不应知晓之事，因而卷入灾祸。"
+        },
+        {
+          "label": "健康",
+          "text": "尤须注意精神状况。易陷入癫狂。"
+        },
+        {
+          "label": "争端",
+          "text": "纷争不止。被卷入无谓纠葛。"
+        },
+        {
+          "label": "学业",
+          "text": "物理与美术为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "因着眼点与大众不同而销路不畅，但会受到特定客群青睐。"
+        },
+        {
+          "label": "晋升",
+          "text": "希望渺茫。"
+        },
+        {
+          "label": "恋爱",
+          "text": "总能看破对方缺点，难成良缘。"
+        },
+        {
+          "label": "出行",
+          "text": "避开满月之日。"
+        },
+        {
+          "label": "爱好",
+          "text": "电波相关爱好为吉，如业余无线电或矿石收音机等。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "虽然是个操纵疯狂的癫狂角色，但她本人的性格却并没有那么疯癫。真要说的话，她其实是稳重老实的劳碌命。",
+      "当接收方波长与发送方不符时便什么都看不到，这正是波的特质。她正是通过操纵电磁波来引发那些堪称疯狂的现象。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/铃仙·优昙华院·因幡",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

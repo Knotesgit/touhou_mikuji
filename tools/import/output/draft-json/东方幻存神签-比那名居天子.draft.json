@@ -16,7 +16,12 @@
   "characterName": "比那名居天子",
   "abilityText": "操纵大地程度的能力",
   "mainOracleText": "屈尊去奉陪凡夫俗子们，也是天人的职责所在嘛。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "屈尊去奉陪",
+    "凡夫俗子们，",
+    "也是天人的",
+    "职责所在嘛。"
+  ],
   "detailLayers": [
     {
       "items": [

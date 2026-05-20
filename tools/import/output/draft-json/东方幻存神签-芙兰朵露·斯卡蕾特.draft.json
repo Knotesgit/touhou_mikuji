@@ -16,7 +16,12 @@
   "characterName": "芙兰朵露·斯卡蕾特",
   "abilityText": "将一切悉数破坏程度的能力",
   "mainOracleText": "饱含心血的作品更应该轰轰烈烈地去破坏殆尽！",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "饱含心血的",
+    "作品更应该",
+    "轰轰烈烈地",
+    "去破坏殆尽！"
+  ],
   "detailLayers": [
     {
       "items": [

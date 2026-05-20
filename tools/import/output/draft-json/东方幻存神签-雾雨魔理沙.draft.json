@@ -6,11 +6,22 @@
   "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/雾雨魔理沙/中日对照",
   "numberLabel": "第127号",
   "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
   "characterTitle": "普通即王道的魔法使",
   "characterName": "雾雨魔理沙",
   "abilityText": "使用魔法程度的能力",
   "mainOracleText": "概率再微小，风险总会来。听天由命便是坐以待毙。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "概率再微小，",
+    "风险总会来。",
+    "听天由命便",
+    "是坐以待毙。"
+  ],
   "detailLayers": [
     {
       "items": [

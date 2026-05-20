@@ -1,0 +1,92 @@
+{
+  "id": "48",
+  "pageTitle": "东方幻存神签/水桥帕露西",
+  "bilingualPageTitle": "东方幻存神签/水桥帕露西/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/水桥帕露西",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/水桥帕露西/中日对照",
+  "numberLabel": "第48号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "妒火中烧的桥姬",
+  "characterName": "水桥帕露西",
+  "abilityText": "操纵嫉妒心程度的能力",
+  "mainOracleText": "光鲜的日常，离谱的成功。旁人皆如此，我好嫉妒啊！",
+  "mainOracleColumns": [
+    "光鲜的日常，",
+    "离谱的成功。",
+    "旁人皆如此，",
+    "我好嫉妒啊！"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "时常艳羡他人。若能将嫉妒之情转化为上进动力，便能大幅成长。"
+        },
+        {
+          "label": "交易",
+          "text": "商才过人。得遇巨大商机。"
+        },
+        {
+          "label": "学业",
+          "text": "坚持不懈终将长进。"
+        },
+        {
+          "label": "家庭",
+          "text": "切莫横加攀比。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "财运",
+          "text": "不抱期待。"
+        },
+        {
+          "label": "恋爱",
+          "text": "遭人嫌弃。且作忍耐。"
+        },
+        {
+          "label": "人缘",
+          "text": "牢骚满腹，遭人疏远。"
+        },
+        {
+          "label": "色彩",
+          "text": "绿色。"
+        },
+        {
+          "label": "桥梁",
+          "text": "桁架为吉。"
+        },
+        {
+          "label": "怨恨",
+          "text": "坚持钉扎草人，必能报仇雪恨。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "虽说桥姬是嫉妒心的化身，但只要她不将自身不幸归咎于人，嫉妒心理应可以化为成长的动力。",
+      "至于桥姬为什么会在地灵殿第二关登场，这是因为连接地上与地底的通道也能叫做“桥”。桥、端、箸、梯……同一个发音也有许多含义呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/水桥帕露西",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "96",
+  "pageTitle": "东方幻存神签/丁礼田舞",
+  "bilingualPageTitle": "东方幻存神签/丁礼田舞/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/丁礼田舞",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/丁礼田舞/中日对照",
+  "numberLabel": "第96号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "持续起舞直至终结的童子",
+  "characterName": "丁礼田舞",
+  "abilityText": "通过在背后起舞来诱导出生命力程度的能力",
+  "mainOracleText": "这下可巧了你竟抽到我。人生多乏味，惊喜来点缀。",
+  "mainOracleColumns": [
+    "这下可巧了",
+    "你竟抽到我。",
+    "人生多乏味，",
+    "惊喜来点缀。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "总能发挥超常实力。但副作用也如影随形。"
+        },
+        {
+          "label": "健康",
+          "text": "精神振作，身体轻盈。但过度蛮干会搞垮身体。"
+        },
+        {
+          "label": "出行",
+          "text": "庆典举办地为吉。竹林亦为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "优势科目有所长进。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "工作",
+          "text": "干劲十足，进展显著。满腔干劲会被压榨。当心人员优化。"
+        },
+        {
+          "label": "恋爱",
+          "text": "用力过猛则凶。"
+        },
+        {
+          "label": "人缘",
+          "text": "会在严肃场合捅出大篓子。失去人心。"
+        },
+        {
+          "label": "财运",
+          "text": "挥金如土。"
+        },
+        {
+          "label": "心愿",
+          "text": "实现痴心妄想的良机。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她就好像是被凭空创造出来的一样，生命的全部意义都在仪式之上。这是因为她本人的过去一片空白，而这空白则是隐岐奈的手笔。",
+      "她手中握着的竹子，是她孩子气的表现。孩提时代大家都会对笔直的棒子爱不释手吧？尤其细长的竹竿，更是绝佳的武器。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/丁礼田舞",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

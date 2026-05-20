@@ -16,7 +16,12 @@
   "characterName": "灵乌路空",
   "abilityText": "操纵核聚变程度的能力",
   "mainOracleText": "若是敢对我拔刀来相向，你就是下个伊卡洛斯咯。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "若是敢对我",
+    "拔刀来相向，",
+    "你就是下个",
+    "伊卡洛斯咯。"
+  ],
   "detailLayers": [
     {
       "items": [

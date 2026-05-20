@@ -1,0 +1,100 @@
+{
+  "id": "112",
+  "pageTitle": "东方幻存神签/饭纲丸龙",
+  "bilingualPageTitle": "东方幻存神签/饭纲丸龙/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/饭纲丸龙",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/饭纲丸龙/中日对照",
+  "numberLabel": "第112号",
+  "rank": "大大吉",
+  "rankDisplay": [
+    {
+      "text": "大凶",
+      "struck": true
+    },
+    {
+      "text": "大大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "翱翔于夜色星间的大天狗",
+  "characterName": "饭纲丸龙",
+  "abilityText": "操纵星空程度的能力",
+  "mainOracleText": "抬头仰望吧。那点点繁星，皆是受我等掌控的灵魂。",
+  "mainOracleColumns": [
+    "抬头仰望吧。",
+    "那点点繁星，",
+    "皆是受我等",
+    "掌控的灵魂。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "鸿运当头。心志若不坚定将被运气作弄。"
+        },
+        {
+          "label": "交易",
+          "text": "超越自我，商路广开。但未必能挣钱。"
+        },
+        {
+          "label": "工作",
+          "text": "下属徇私舞弊。"
+        },
+        {
+          "label": "学业",
+          "text": "理科为吉，天文尤佳。"
+        },
+        {
+          "label": "财运",
+          "text": "巨款流动。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "尚佳。但若食不果腹则病魔必至。"
+        },
+        {
+          "label": "恋爱",
+          "text": "邂逅浪漫恋情。"
+        },
+        {
+          "label": "人缘",
+          "text": "左右众人运势。"
+        },
+        {
+          "label": "出行",
+          "text": "宜登山。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜摄影。"
+        },
+        {
+          "label": "心愿",
+          "text": "向流星许愿即可圆满。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是天狗们的领导。天狗社会等级森严，大天狗掌握着巨大的权力。因此，自然有人对其地位虎视眈眈。",
+      "作品里虽没有提及，但她其实也会亲自动笔撰写新闻。不过，大天狗本人从来不去实地采访，只知道洗稿发文，所以口碑不甚理想。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/饭纲丸龙",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

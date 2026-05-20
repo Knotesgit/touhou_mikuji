@@ -16,7 +16,12 @@
   "characterName": "星熊勇仪",
   "abilityText": "拥有怪力乱神程度的能力",
   "mainOracleText": "就凭你那双细胳膊软腿，哪里挺得过这纷乱之世？",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "就凭你那双",
+    "细胳膊软腿，",
+    "哪里挺得过",
+    "这纷乱之世？"
+  ],
   "detailLayers": [
     {
       "items": [

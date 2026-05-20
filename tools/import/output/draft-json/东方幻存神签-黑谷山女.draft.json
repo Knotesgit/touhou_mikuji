@@ -1,0 +1,88 @@
+{
+  "id": "47",
+  "pageTitle": "东方幻存神签/黑谷山女",
+  "bilingualPageTitle": "东方幻存神签/黑谷山女/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/黑谷山女",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/黑谷山女/中日对照",
+  "numberLabel": "第47号",
+  "rank": "大凶",
+  "rankDisplay": [
+    {
+      "text": "大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "与病为邻的蜘蛛",
+  "characterName": "黑谷山女",
+  "abilityText": "操纵疾病程度的能力",
+  "mainOracleText": "近蛛者瘟切莫忘独具蜘眼观八方",
+  "mainOracleColumns": [
+    "近蛛者瘟",
+    "切莫忘",
+    "独具蜘眼",
+    "观八方"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "不甚理想。厄运无情。即便已在谷底，仍将再落千丈。"
+        },
+        {
+          "label": "健康",
+          "text": "务必尽一切可能防病于未然，防疫、消毒等各方各面皆需周全。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "疾病",
+          "text": "旧疾不会恶化。新患将至，严阵以待。"
+        },
+        {
+          "label": "交易",
+          "text": "成功无望。"
+        },
+        {
+          "label": "学业",
+          "text": "多多努力。"
+        },
+        {
+          "label": "住所",
+          "text": "可得良居。翻新改建亦吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "苦苦等候。"
+        },
+        {
+          "label": "生育",
+          "text": "多子多福。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "即便是喜欢昆虫的人也很少会喜欢蜘蛛，估计是因为长相不太讨喜吧。",
+      "山女并没有继承蜘蛛那瘆人的长相，按理来说更有可能受人喜爱。只可惜，她的能力断绝了这种可能性。",
+      "毕竟，疾病乃是人类共通的敌人。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/黑谷山女",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": [
+    "oracle-column override was not applied for 东方幻存神签/黑谷山女: override columns do not reconstruct mainOracleText.",
+    "mainOracleColumns non-punctuation counts are not equal."
+  ]
+}

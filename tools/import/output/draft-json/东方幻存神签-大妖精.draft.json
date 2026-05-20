@@ -16,7 +16,12 @@
   "characterName": "大妖精（姓名不详）",
   "abilityText": "在雾中畅游程度的能力",
   "mainOracleText": "没有名字也没关系的啦。这反而显得我更厉害嘛。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "没有名字也",
+    "没关系的啦。",
+    "这反而显得",
+    "我更厉害嘛。"
+  ],
   "detailLayers": [
     {
       "items": [

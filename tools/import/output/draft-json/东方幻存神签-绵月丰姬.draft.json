@@ -1,0 +1,88 @@
+{
+  "id": "120",
+  "pageTitle": "东方幻存神签/绵月丰姬",
+  "bilingualPageTitle": "东方幻存神签/绵月丰姬/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/绵月丰姬",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/绵月丰姬/中日对照",
+  "numberLabel": "第120号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "视两极为一体的月之民",
+  "characterName": "绵月丰姬",
+  "abilityText": "连接山海程度的能力",
+  "mainOracleText": "要问人生中什么最可贵？那自然要数山珍与海味。",
+  "mainOracleColumns": [
+    "要问人生中",
+    "什么最可贵？",
+    "那自然要数",
+    "山珍与海味。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "自然眷顾，强运傍身。能发挥出超常实力。"
+        },
+        {
+          "label": "出行",
+          "text": "宜前往海边或山间。依山临海之地为大吉。"
+        },
+        {
+          "label": "工作",
+          "text": "亲近自然的职场为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "无需努力亦能文理皆通。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "与压力无缘。"
+        },
+        {
+          "label": "住所",
+          "text": "久居则安。"
+        },
+        {
+          "label": "寻物",
+          "text": "山间失物会流入海中。"
+        },
+        {
+          "label": "家庭",
+          "text": "略有纠纷，但总能和平解决。"
+        },
+        {
+          "label": "爱好",
+          "text": "凡事皆能乐在其中。垂钓尤佳。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是谜团重重的月之民中的一员。身为依姬的姐姐，她把麻烦的工作都抛给妹妹，自己过着随心所欲的生活。",
+      "月之使者——也就是月兔们似乎仰慕她更胜于她的妹妹，但也说不定月兔们只是把她看扁了。对尊卑有序、等级森严的月之民而言，受到仰慕可以说是大事不妙。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/绵月丰姬",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

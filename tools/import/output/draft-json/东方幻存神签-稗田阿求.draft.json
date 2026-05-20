@@ -1,0 +1,88 @@
+{
+  "id": "126",
+  "pageTitle": "东方幻存神签/稗田阿求",
+  "bilingualPageTitle": "东方幻存神签/稗田阿求/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/稗田阿求",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/稗田阿求/中日对照",
+  "numberLabel": "第126号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "记录幻想乡历史的书记员",
+  "characterName": "稗田阿求",
+  "abilityText": "过目不忘程度的能力",
+  "mainOracleText": "眼前的世界，是如此多彩。这样的一切，我怎能忘怀。",
+  "mainOracleColumns": [
+    "眼前的世界，",
+    "是如此多彩。",
+    "这样的一切，",
+    "我怎能忘怀。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "学识将大有用武之地，但会因拘泥细枝末节而停滞不前。"
+        },
+        {
+          "label": "学业",
+          "text": "学习效率极高。需背诵的科目皆为大吉。"
+        },
+        {
+          "label": "工作",
+          "text": "仰仗记忆力的工作为宜。创作工作皆为吉。"
+        },
+        {
+          "label": "住所",
+          "text": "和风为宜。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "体弱多病。稍有不慎便有病危之虞。务必当心。"
+        },
+        {
+          "label": "出行",
+          "text": "闭门不出为妙。宜就近造访温泉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "普普通通。"
+        },
+        {
+          "label": "人缘",
+          "text": "广交亲朋。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜无需用眼之事。音乐为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是记忆力超群的人类。若是翻开一本书，她即便不能理解内容也会自动记住书中的文字。",
+      "然而，她并不太擅长记忆通过听觉获取的信息，所以会将其记录在纸上以防遗忘。由于这本质上依然是通过阅读纸上的文字来记事，因此若是写错了字，她便会轻易出现记忆偏差。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/稗田阿求",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

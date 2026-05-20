@@ -1,0 +1,93 @@
+{
+  "id": "90",
+  "pageTitle": "东方幻存神签/依神女苑",
+  "bilingualPageTitle": "东方幻存神签/依神女苑/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/依神女苑",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/依神女苑/中日对照",
+  "numberLabel": "第90号",
+  "rank": "【大大凶】",
+  "rankDisplay": [
+    {
+      "text": "【大大凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "让努力付诸东流的疫病神",
+  "characterName": "依神女苑",
+  "abilityText": "使人消耗财产程度的能力",
+  "mainOracleText": "金银天下转，贫富朝夕变。哪个蠢家伙，居然想存钱？",
+  "mainOracleColumns": [
+    "金银天下转，",
+    "贫富朝夕变。",
+    "哪个蠢家伙，",
+    "居然想存钱？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "过着挥霍无度的奢靡生活，终有一日会万劫不复。"
+        },
+        {
+          "label": "财运",
+          "text": "挥金如土，覆水难收。一旦借贷必然破产。"
+        },
+        {
+          "label": "工作",
+          "text": "适宜遭人厌弃或引人注目的工作。税务稽查、演艺圈为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "传染病缠身。"
+        },
+        {
+          "label": "学业",
+          "text": "付出努力却不见成果。"
+        },
+        {
+          "label": "人缘",
+          "text": "人望颇佳，但最终会令所有人陷入不幸。"
+        },
+        {
+          "label": "出行",
+          "text": "需规避神社、佛寺。"
+        },
+        {
+          "label": "寻物",
+          "text": "再无寻回可能。"
+        },
+        {
+          "label": "恋爱",
+          "text": "虽会破财，但进展良好。"
+        },
+        {
+          "label": "爱好",
+          "text": "破罐破摔大把花钱，自能乐在其中。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是令人闻风丧胆的疫病神，会让周遭之人陷入不幸。",
+      "在刚欲异闻中，她乘着石油突然喷涌的东风，扮了一把石油王。",
+      "石油王利用石油攫取民膏、引发争端，正可谓是让一切陷入不幸的疫病神——这样危险的设定，唯有同人界才能勉强容忍。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/依神女苑",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -16,7 +16,12 @@
   "characterName": "赫卡提亚·拉碧斯拉祖利",
   "abilityText": "拥有三个身体程度的能力",
   "mainOracleText": "认知越丰富，世界越宽广。多样性才是宇宙的尺度。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "认知越丰富，",
+    "世界越宽广。",
+    "多样性才是",
+    "宇宙的尺度。"
+  ],
   "detailLayers": [
     {
       "items": [

@@ -1,0 +1,85 @@
+{
+  "id": "24",
+  "pageTitle": "东方幻存神签/上白泽慧音",
+  "bilingualPageTitle": "东方幻存神签/上白泽慧音/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/上白泽慧音",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/上白泽慧音/中日对照",
+  "numberLabel": "第24号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "半为师长、半为妖兽",
+  "characterName": "上白泽慧音",
+  "abilityText": "隐匿历史程度的能力",
+  "mainOracleText": "老师真可靠，博学又温柔。可每当到了满月的夜晚…",
+  "mainOracleColumns": [
+    "老师真可靠，",
+    "博学又温柔。",
+    "可每当到了",
+    "满月的夜晚…"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "所学皆能融会贯通，此等良机切莫错失。"
+        },
+        {
+          "label": "学业",
+          "text": "运势巅峰。宜研习心仪科目。唯有历史易因造诣过深，反而考场失利。"
+        },
+        {
+          "label": "交易",
+          "text": "投身教育产业可获成功。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "慎防睡眠不足，切莫夜间出行。"
+        },
+        {
+          "label": "出行",
+          "text": "探访古迹为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "切勿耽溺情网。"
+        },
+        {
+          "label": "人缘",
+          "text": "广受敬慕，必成助益。"
+        },
+        {
+          "label": "财运",
+          "text": "投资良机。血本无归亦莫悔。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "除了满月之夜外皆维持人形，这意味着她每月仅有一晚会变成妖兽，一生绝大部分时光都是以人类身份度过的。",
+      "但即便如此，她在种族上也已不是纯粹的人类了。幸好，她对人类和妖怪都没有敌意，于是得以在村庄中工作。",
+      "若是这样还要将她视为野兽，她就未免太可怜了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/上白泽慧音",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

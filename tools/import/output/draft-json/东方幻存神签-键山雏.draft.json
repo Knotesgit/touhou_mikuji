@@ -16,7 +16,12 @@
   "characterName": "键山雏",
   "abilityText": "储存厄运程度的能力",
   "mainOracleText": "雏人偶注定要顺流而下。而你却不慎拾起了它呢。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "雏人偶注定",
+    "要顺流而下。",
+    "而你却不慎",
+    "拾起了它呢。"
+  ],
   "detailLayers": [
     {
       "items": [

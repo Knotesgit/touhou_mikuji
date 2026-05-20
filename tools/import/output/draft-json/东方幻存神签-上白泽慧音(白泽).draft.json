@@ -16,7 +16,12 @@
   "characterName": "上白泽慧音（白泽）",
   "abilityText": "创造历史程度的能力",
   "mainOracleText": "历史并非是客观的现象，而是由人类诠释所造就。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "历史并非是",
+    "客观的现象，",
+    "而是由人类",
+    "诠释所造就。"
+  ],
   "detailLayers": [
     {
       "items": [

@@ -1,0 +1,93 @@
+{
+  "id": "109",
+  "pageTitle": "东方幻存神签/驹草山如",
+  "bilingualPageTitle": "东方幻存神签/驹草山如/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/驹草山如",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/驹草山如/中日对照",
+  "numberLabel": "第109号",
+  "rank": "吉或凶",
+  "rankDisplay": [
+    {
+      "text": "吉或凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "烟与博彩的山女郎",
+  "characterName": "驹草山如",
+  "abilityText": "以烟草之烟操纵精神程度的能力",
+  "mainOracleText": "人生不沾赌，日日皆是苦。忍气又吞声，与机器何异？",
+  "mainOracleColumns": [
+    "人生不沾赌，",
+    "日日皆是苦。",
+    "忍气又吞声，",
+    "与机器何异？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "人生处处皆是赌。因赌而亡在所难免。"
+        },
+        {
+          "label": "疾病",
+          "text": "当心肺疾。"
+        },
+        {
+          "label": "交易",
+          "text": "是盈是亏，全凭运气。"
+        },
+        {
+          "label": "学业",
+          "text": "考试答题瞎蒙为吉。极小概率斩获高分。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "高原为宜。"
+        },
+        {
+          "label": "争端",
+          "text": "你争我斗何时休，斡旋纷争得安宁。"
+        },
+        {
+          "label": "恋爱",
+          "text": "赌赢再谈。"
+        },
+        {
+          "label": "姻缘",
+          "text": "不妨一赌。"
+        },
+        {
+          "label": "爱好",
+          "text": "花札。八八花尤吉。"
+        },
+        {
+          "label": "财运",
+          "text": "即便一夜暴富，也必将输个精光。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她嗜烟又好赌，是个三分老成十分颓废的妖怪。",
+      "我感觉大家之所以谈烟色变，主要是因为二手烟会给他人带来各种危害，威力甚至胜于一手。",
+      "但对她而言，烟就是其能力的核心，是帮助他人的利器。幻想乡的烟民就是不一样。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/驹草山如",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

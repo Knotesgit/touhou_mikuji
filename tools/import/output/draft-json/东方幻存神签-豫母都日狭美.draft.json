@@ -1,0 +1,88 @@
+{
+  "id": "118",
+  "pageTitle": "东方幻存神签/豫母都日狭美",
+  "bilingualPageTitle": "东方幻存神签/豫母都日狭美/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/豫母都日狭美",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/豫母都日狭美/中日对照",
+  "numberLabel": "第118号",
+  "rank": "末大吉",
+  "rankDisplay": [
+    {
+      "text": "末大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "穷追到天涯海角的黄泉丑女",
+  "characterName": "豫母都日狭美",
+  "abilityText": "令目标无处可逃程度的能力",
+  "mainOracleText": "恰如悲欢永生萦绕，入我眼者无路可逃。",
+  "mainOracleColumns": [
+    "恰如悲欢",
+    "永生萦绕，",
+    "入我眼者",
+    "无路可逃。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "持之以恒可交好运。半途而废一事无成。"
+        },
+        {
+          "label": "工作",
+          "text": "长期坚持方见成效。侦探、警察、宗教家为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "能够专心学习。犯罪心理学为吉。"
+        },
+        {
+          "label": "交易",
+          "text": "过分执着终致失败。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "精神有疾。"
+        },
+        {
+          "label": "出行",
+          "text": "去向何处都无法逃离工作。"
+        },
+        {
+          "label": "恋爱",
+          "text": "当心触犯法律。"
+        },
+        {
+          "label": "心愿",
+          "text": "若不敌食物诱惑则心愿难成。"
+        },
+        {
+          "label": "爱好",
+          "text": "登山、马拉松为吉。路程越长越好。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "要是有难写汉字排行榜，她一定名列前茅吧。丑女这个称呼字面意思是丑陋女人，但本义似乎是强大的女性。这语义变迁还真是残酷。",
+      "她嘴上说着让你无路可逃，但却敌不过食物的诱惑，用葡萄或是竹笋吸引她的注意力便可逃出生天。这样的家伙，真不知该说是可怕还是可爱呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/豫母都日狭美",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

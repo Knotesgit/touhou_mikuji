@@ -1,0 +1,88 @@
+{
+  "id": "121",
+  "pageTitle": "东方幻存神签/绵月依姬",
+  "bilingualPageTitle": "东方幻存神签/绵月依姬/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/绵月依姬",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/绵月依姬/中日对照",
+  "numberLabel": "第121号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "降八百万神灵于身的月之民",
+  "characterName": "绵月依姬",
+  "abilityText": "能够召唤神灵程度的能力",
+  "mainOracleText": "人生要畅意，此事很关键：求助于他人，不失是良策。",
+  "mainOracleColumns": [
+    "人生要畅意，",
+    "此事很关键：",
+    "求助于他人，",
+    "不失是良策。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "纵遇难关，亦可在八方支援之下平安渡过。"
+        },
+        {
+          "label": "工作",
+          "text": "在他人的帮助下无往不利。切莫依赖上司。"
+        },
+        {
+          "label": "学业",
+          "text": "临考时向神祈祷为吉。但完全依赖神力无法得到真才实学。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "避免过度劳神费力。"
+        },
+        {
+          "label": "出行",
+          "text": "宜前往海边。务必沿途参拜神社。"
+        },
+        {
+          "label": "住所",
+          "text": "切记神龛常保洁净。"
+        },
+        {
+          "label": "姻缘",
+          "text": "有望栖上高枝。"
+        },
+        {
+          "label": "比试",
+          "text": "长于比试。巧用计策便可所向披靡。切莫高估自身实力。"
+        },
+        {
+          "label": "爱好",
+          "text": "武术为宜。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是谜团重重的月之民中的一员，管理着月之使者。所谓月之使者，其实就是月兔。也就是说，她的管理其实也没那么到位。",
+      "她能够借用无数神明的力量，所以强大无比。不过神明之间并非都能相处融洽，所以不同神明的力量是不能同时借用的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/绵月依姬",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

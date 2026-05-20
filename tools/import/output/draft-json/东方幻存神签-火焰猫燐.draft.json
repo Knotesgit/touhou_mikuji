@@ -1,0 +1,93 @@
+{
+  "id": "51",
+  "pageTitle": "东方幻存神签/火焰猫燐",
+  "bilingualPageTitle": "东方幻存神签/火焰猫燐/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/火焰猫燐",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/火焰猫燐/中日对照",
+  "numberLabel": "第51号",
+  "rank": "【大大凶】",
+  "rankDisplay": [
+    {
+      "text": "【大大凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "带着尸体走遍天涯海角",
+  "characterName": "火焰猫燐",
+  "abilityText": "带走尸体程度的能力",
+  "mainOracleText": "人类都有着共同的终点。以后你就由我来照料吧。",
+  "mainOracleColumns": [
+    "人类都有着",
+    "共同的终点。",
+    "以后你就由",
+    "我来照料吧。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "百般厄运接踵而至。极其倒霉，甚至会波及身边人。"
+        },
+        {
+          "label": "交易",
+          "text": "入不敷出，苦不堪言，恰如置身火车直通地狱。灵车则吉。"
+        },
+        {
+          "label": "财运",
+          "text": "经济拮据，如火炙车。"
+        },
+        {
+          "label": "学业",
+          "text": "若不用功，知识便会快速遗忘。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "会被当成死人，但精神状况良好。"
+        },
+        {
+          "label": "恋爱",
+          "text": "孽缘难断，腐而不灭。"
+        },
+        {
+          "label": "出行",
+          "text": "坟场、寺庙、古墓、自杀圣地为吉。"
+        },
+        {
+          "label": "争端",
+          "text": "怨念云集。"
+        },
+        {
+          "label": "住所",
+          "text": "恐有火灾。"
+        },
+        {
+          "label": "爱好",
+          "text": "饲养黑猫可缓解厄运。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她时常推着别称猫车的手推车搬运尸体，在幻想乡的妖怪里也是一顶一的不吉利。不过，她的性格倒是十足的阳光开朗。",
+      "虽说不吉利，但对幻想乡而言，火车这种妖怪是不可或缺的。从结果上来看，她的工作也避免了死者曝尸荒野。另外，她运送的不光是尸体，还有那些流离失所的孤魂野鬼。",
+      "不过一旦上了她的车，终点站只会是旧地狱哦。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/火焰猫燐",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

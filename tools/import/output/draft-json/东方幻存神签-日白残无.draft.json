@@ -16,7 +16,12 @@
   "characterName": "日白残无",
   "abilityText": "操纵虚无程度的能力",
   "mainOracleText": "任何的挣扎都毫无意义。虚无顷刻就将吞噬一切。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "任何的挣扎",
+    "都毫无意义。",
+    "虚无顷刻就",
+    "将吞噬一切。"
+  ],
   "detailLayers": [
     {
       "items": [

@@ -1,0 +1,87 @@
+{
+  "id": "122",
+  "pageTitle": "东方幻存神签/本居小铃",
+  "bilingualPageTitle": "东方幻存神签/本居小铃/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/本居小铃",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/本居小铃/中日对照",
+  "numberLabel": "第122号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "识文解意的铃奈庵女儿",
+  "characterName": "本居小铃",
+  "abilityText": "能够理解任何文字程度的能力",
+  "mainOracleText": "看了不少书？这话可不对。书应当要用心灵去感受。",
+  "mainOracleColumns": [
+    "看了不少书？",
+    "这话可不对。",
+    "书应当要用",
+    "心灵去感受。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "对世界理解加深。是吉是凶难以预料。"
+        },
+        {
+          "label": "学业",
+          "text": "近乎全面提升。语文、外语为大吉。"
+        },
+        {
+          "label": "工作",
+          "text": "从事书籍相关行业将一帆风顺。写作、编辑、出版行业为大吉。"
+        },
+        {
+          "label": "住所",
+          "text": "拥书百城为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "所行之处皆乐土。异邦尤吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "并无文学创作之轰烈，却亦有平淡之美。"
+        },
+        {
+          "label": "健康",
+          "text": "心弱体虚，多愁多病。"
+        },
+        {
+          "label": "寻物",
+          "text": "虽在家中，遍寻不见。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜读书，小说创作亦善。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是租书屋的店员。在现代社会，人们普遍认为做租书生意的店铺已几近绝迹。可若是将书的本质理解为“书页上记载的内容”，那么像漫画咖啡店、电子书（尤其是限时免费读的那种）这类生意，其实都是在暂时租借书中的内容。从广义上来说，它们是不是也能算作租书屋呢？"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/本居小铃",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "16",
+  "pageTitle": "东方幻存神签/莉莉卡·普莉兹姆利巴",
+  "bilingualPageTitle": "东方幻存神签/莉莉卡·普莉兹姆利巴/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/莉莉卡·普莉兹姆利巴",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/莉莉卡·普莉兹姆利巴/中日对照",
+  "numberLabel": "第16号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "奏响亡音的骚灵三姐妹三妹",
+  "characterName": "莉莉卡·普莉兹姆利巴",
+  "abilityText": "演奏幻想之音程度的能力",
+  "mainOracleText": "到头来还是一碰就发声的键盘乐器才最难弹奏。",
+  "mainOracleColumns": [
+    "到头来还是",
+    "一碰就发声",
+    "的键盘乐器",
+    "才最难弹奏。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "琐事分散心神，运势难以上升。"
+        },
+        {
+          "label": "交易",
+          "text": "适合幕后操盘。音乐相关行业则吉上加吉。"
+        },
+        {
+          "label": "学业",
+          "text": "音乐大吉，理科尚可。"
+        },
+        {
+          "label": "健康",
+          "text": "良好。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "三至四人同行为吉。"
+        },
+        {
+          "label": "家庭",
+          "text": "手足同胞罹患心病，为此苦恼不已。"
+        },
+        {
+          "label": "恋爱",
+          "text": "无法引起对方关注。"
+        },
+        {
+          "label": "爱好",
+          "text": "心灵手巧，任何技艺皆能掌握。专心习得一技傍身亦为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她擅长键盘乐器与打击乐器。这两种乐器即便孩童也能弄响，但精通则需要经年累月的修炼。",
+      "而她却能同时演奏数件这样的乐器，灵巧程度堪称匪夷所思。这想必是因为无需动手演奏吧。毕竟光动脑不动手的话，任谁都能成为心灵手巧的演奏名家。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/莉莉卡·普莉兹姆利巴",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

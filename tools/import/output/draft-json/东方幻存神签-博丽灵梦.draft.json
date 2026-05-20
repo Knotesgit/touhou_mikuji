@@ -6,11 +6,22 @@
   "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/博丽灵梦/中日对照",
   "numberLabel": "第128号",
   "rank": "超大吉",
+  "rankDisplay": [
+    {
+      "text": "超大吉",
+      "struck": false
+    }
+  ],
   "characterTitle": "传达神谕的巫女",
   "characterName": "博丽灵梦",
   "abilityText": "飞翔于空中程度的能力",
   "mainOracleText": "竟能抽到我看来你已经参透了幸运背后的玄机。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "竟能抽到我",
+    "看来你已经",
+    "参透了幸运",
+    "背后的玄机。"
+  ],
   "detailLayers": [
     {
       "items": [

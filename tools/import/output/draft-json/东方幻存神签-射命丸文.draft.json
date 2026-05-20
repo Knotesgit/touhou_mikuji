@@ -20,7 +20,12 @@
   "characterName": "射命丸文",
   "abilityText": "操纵风程度的能力",
   "mainOracleText": "钢笔胜手枪。笔身轻扬扬，笔下缀文章，笔尖闪寒光。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "钢笔胜手枪。",
+    "笔身轻扬扬，",
+    "笔下缀文章，",
+    "笔尖闪寒光。"
+  ],
   "detailLayers": [
     {
       "items": [

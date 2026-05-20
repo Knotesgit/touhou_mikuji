@@ -1,0 +1,88 @@
+{
+  "id": "28",
+  "pageTitle": "东方幻存神签/蓬莱山辉夜",
+  "bilingualPageTitle": "东方幻存神签/蓬莱山辉夜/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/蓬莱山辉夜",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/蓬莱山辉夜/中日对照",
+  "numberLabel": "第28号",
+  "rank": "末大凶",
+  "rankDisplay": [
+    {
+      "text": "末大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "被囚于地上的蓬莱人",
+  "characterName": "蓬莱山辉夜",
+  "abilityText": "操纵永远和须臾程度的能力",
+  "mainOracleText": "这种事明天再做就行啦。反正我拥有无限的时间。",
+  "mainOracleColumns": [
+    "这种事明天",
+    "再做就行啦。",
+    "反正我拥有",
+    "无限的时间。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "怠惰成性，万事拖延。运势持续走低。"
+        },
+        {
+          "label": "交易",
+          "text": "毫无商才。"
+        },
+        {
+          "label": "工作",
+          "text": "易生懈怠，居家办公则为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "常受干扰，若得优秀家教指导则可蜕变。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "良好。但易运动不足。"
+        },
+        {
+          "label": "出行",
+          "text": "嫌麻烦。"
+        },
+        {
+          "label": "寻物",
+          "text": "没打算找。"
+        },
+        {
+          "label": "财运",
+          "text": "仰赖他人接济，生活无忧。"
+        },
+        {
+          "label": "姻缘",
+          "text": "向对方课以难题，亦会被回敬难题。终归是困难重重。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "这位公主打着“公主之躯岂能劳碌”的旗号，过着骄奢堕落的生活。这种生活想必会永远持续下去吧。",
+      "况且她还掌握着扭曲时空的犯规级能力，所以既无人能违逆她，也永远不会有人劝谏。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/蓬莱山辉夜",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

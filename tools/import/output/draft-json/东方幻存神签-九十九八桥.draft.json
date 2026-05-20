@@ -1,0 +1,88 @@
+{
+  "id": "77",
+  "pageTitle": "东方幻存神签/九十九八桥",
+  "bilingualPageTitle": "东方幻存神签/九十九八桥/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/九十九八桥",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/九十九八桥/中日对照",
+  "numberLabel": "第77号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "弹奏心灵的古琴付丧神",
+  "characterName": "九十九八桥",
+  "abilityText": "自行发声演奏程度的能力",
+  "mainOracleText": "难得来到这世上走一遭，过于认死理，岂不亏大了？",
+  "mainOracleColumns": [
+    "难得来到这",
+    "世上走一遭，",
+    "过于认死理，",
+    "岂不亏大了？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "日常乐趣渐增。快乐生活便是赢家。"
+        },
+        {
+          "label": "交易",
+          "text": "音乐相关行业为吉。宫廷音乐尤为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "音乐与古典文学为吉。"
+        },
+        {
+          "label": "出行",
+          "text": "著名景点为宜。与队列同行可增有趣见闻。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "悉心保养指甲为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "不甚关心。"
+        },
+        {
+          "label": "争端",
+          "text": "时常发生。自以为能借助音乐避开争端，结果反而自讨苦吃。"
+        },
+        {
+          "label": "财运",
+          "text": "无以增长。"
+        },
+        {
+          "label": "爱好",
+          "text": "可遇触动心弦之作。多多尝试为佳。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她与弁弁应该是同时变成付丧神的，但不知为何她成了妹妹、弁弁成了姐姐。是不是因为古琴在《百鬼夜行绘卷》里是被琵琶拖着走的呢。",
+      "古琴这种乐器在弹奏时难以移动。如今摆脱这一束缚的她似乎是想宣泄长年积郁，开始不遗余力地讴歌自由。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/九十九八桥",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

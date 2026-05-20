@@ -1,0 +1,93 @@
+{
+  "id": "87",
+  "pageTitle": "东方幻存神签/克劳恩皮丝",
+  "bilingualPageTitle": "东方幻存神签/克劳恩皮丝/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/克劳恩皮丝",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/克劳恩皮丝/中日对照",
+  "numberLabel": "第87号",
+  "rank": "小凶",
+  "rankDisplay": [
+    {
+      "text": "小凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "跟随生命脉动起舞的妖精",
+  "characterName": "克劳恩皮丝",
+  "abilityText": "使人发狂程度的能力",
+  "mainOracleText": "地狱黑漆漆，啥也看不见？现在怎么样，这下够亮吧。",
+  "mainOracleColumns": [
+    "地狱黑漆漆，",
+    "啥也看不见？",
+    "现在怎么样，",
+    "这下够亮吧。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "黑暗之中得见光芒。凝视过久将败气运。"
+        },
+        {
+          "label": "健康",
+          "text": "体力充盈，精力充沛。谨防狂躁情绪。"
+        },
+        {
+          "label": "交易",
+          "text": "疯狂赚钱，但难逃投诉。"
+        },
+        {
+          "label": "学业",
+          "text": "学习？啥玩意儿？"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "恋火熊熊。"
+        },
+        {
+          "label": "出行",
+          "text": "海外、地狱、月亮为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "万众齐聚，如痴如狂。麻烦缠身。"
+        },
+        {
+          "label": "争端",
+          "text": "主动生事。事态失控便将玩火自焚。"
+        },
+        {
+          "label": "物件",
+          "text": "火把、星条旗为吉。"
+        },
+        {
+          "label": "住所",
+          "text": "应检查檐下有无不速之客。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "按照游戏设定，她的力量得到了大幅强化，所以将她推举为头号凶恶妖精的呼声很高。",
+      "而如今她在幻想乡定居下来，实力想必也会逐渐回落到普通妖精的水准吧。",
+      "不过，在幕后支使她的赫卡提亚可未必会对她的退步置之不理。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/克劳恩皮丝",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

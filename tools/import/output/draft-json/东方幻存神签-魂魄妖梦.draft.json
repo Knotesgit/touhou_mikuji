@@ -1,0 +1,88 @@
+{
+  "id": "17",
+  "pageTitle": "东方幻存神签/魂魄妖梦",
+  "bilingualPageTitle": "东方幻存神签/魂魄妖梦/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/魂魄妖梦",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/魂魄妖梦/中日对照",
+  "numberLabel": "第17号",
+  "rank": "半吉",
+  "rankDisplay": [
+    {
+      "text": "半吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "半身剑锋、半身剑胆",
+  "characterName": "魂魄妖梦",
+  "abilityText": "使用剑术程度的能力",
+  "mainOracleText": "您怎么了呀，幽幽子大人？那不是一个大号抱枕吗。",
+  "mainOracleColumns": [
+    "您怎么了呀，",
+    "幽幽子大人？",
+    "那不是一个",
+    "大号抱枕吗。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "半吊子的运势。无论机缘还是劫难皆半途而止。"
+        },
+        {
+          "label": "交易",
+          "text": "平平无奇。仅能把握半数良机。"
+        },
+        {
+          "label": "工作",
+          "text": "上司添乱。园丁为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "遗憾。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "半身入土，但无大碍。"
+        },
+        {
+          "label": "恋爱",
+          "text": "斩断难缠孽缘的良机。"
+        },
+        {
+          "label": "住所",
+          "text": "庭院愈广愈吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "坐禅为吉。"
+        },
+        {
+          "label": "物件",
+          "text": "心愈空明，剑锋愈利。将困难一刀两断自得开运。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她手中那柄长刀“楼观剑”据说是由妖怪锻造的兵刃。既有此等逸闻，想必它应是某种妖刀。",
+      "妖梦能保持思维清晰、不被妖刀的魔力吞噬，她的才能由此可见一斑。当然也可能是因为她根本就没在思考吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/魂魄妖梦",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

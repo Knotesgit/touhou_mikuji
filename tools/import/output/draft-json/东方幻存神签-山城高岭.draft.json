@@ -1,0 +1,92 @@
+{
+  "id": "108",
+  "pageTitle": "东方幻存神签/山城高岭",
+  "bilingualPageTitle": "东方幻存神签/山城高岭/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/山城高岭",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/山城高岭/中日对照",
+  "numberLabel": "第108号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "生财有道的山童",
+  "characterName": "山城高岭",
+  "abilityText": "操纵森林之气程度的能力",
+  "mainOracleText": "管它深山还是峻岭，生意在哪都一样做。",
+  "mainOracleColumns": [
+    "管它深山",
+    "还是峻岭，",
+    "生意在哪",
+    "都一样做。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "每分努力必有收获。但若得意忘形，终将一败涂地。"
+        },
+        {
+          "label": "交易",
+          "text": "天赐良机。从事冷门职业为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "当进修财务知识。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "登山之外不作他想。露营为吉。"
+        },
+        {
+          "label": "住所",
+          "text": "当定居深山。露营亦善。"
+        },
+        {
+          "label": "爱好",
+          "text": "试试露营如何？"
+        },
+        {
+          "label": "健康",
+          "text": "不好不坏。"
+        },
+        {
+          "label": "恋爱",
+          "text": "不感兴趣。"
+        },
+        {
+          "label": "姻缘",
+          "text": "当心骗婚。"
+        },
+        {
+          "label": "争端",
+          "text": "将与河童开战。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "之前山童偶尔会在漫画等作品中客串露脸，而她则是第一个在游戏里登场的山童角色。",
+      "山童构建了一个以资本为基盘的社会，这与人类社会有相似之处。感觉会有山童偷偷跑到人类村落去做生意呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/山城高岭",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

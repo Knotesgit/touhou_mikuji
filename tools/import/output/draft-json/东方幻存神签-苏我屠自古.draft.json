@@ -1,0 +1,88 @@
+{
+  "id": "68",
+  "pageTitle": "东方幻存神签/苏我屠自古",
+  "bilingualPageTitle": "东方幻存神签/苏我屠自古/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/苏我屠自古",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/苏我屠自古/中日对照",
+  "numberLabel": "第68号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "古代飞鸟的亡灵",
+  "characterName": "苏我屠自古",
+  "abilityText": "引发雷电程度的能力",
+  "mainOracleText": "一旦摆脱了肉体的束缚，日子过得那叫一个快活。",
+  "mainOracleColumns": [
+    "一旦摆脱了",
+    "肉体的束缚，",
+    "日子过得那",
+    "叫一个快活。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "倒霉透顶，但心态良好则可逢凶化吉。"
+        },
+        {
+          "label": "健康",
+          "text": "身心轻盈。贪睡过头则气运衰退。"
+        },
+        {
+          "label": "交易",
+          "text": "若想成功，先应放下往事。"
+        },
+        {
+          "label": "学业",
+          "text": "日本史为凶。其他学科可活学活用。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "住所",
+          "text": "当心落雷与火灾。院中植桑则吉。"
+        },
+        {
+          "label": "出行",
+          "text": "远行不觉疲。"
+        },
+        {
+          "label": "恋爱",
+          "text": "因价值观差异而情场失意。"
+        },
+        {
+          "label": "晋升",
+          "text": "赢得上司赏识便大有前途。"
+        },
+        {
+          "label": "寻物",
+          "text": "丧失肉体，但心灵变得轻快舒畅。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她本应复活成为尸解仙，却因同伴作梗而丧失了肉体、沦为亡灵。作为一个短暂登场的途中头目，她的背景设定有些过于沉重了。",
+      "不过，她似乎并未因此心生怨念，反而享受起了不必再畏惧疾病与死亡的灵体生活。像她这样颐养天年，倒也挺不错的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/苏我屠自古",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}

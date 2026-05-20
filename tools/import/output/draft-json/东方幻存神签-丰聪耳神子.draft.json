@@ -16,7 +16,12 @@
   "characterName": "丰聪耳神子",
   "abilityText": "可同时倾听十人话语程度的能力",
   "mainOracleText": "天下之人不争不逆，安分守己。此即和也。",
-  "mainOracleColumns": [],
+  "mainOracleColumns": [
+    "天下之人",
+    "不争不逆，",
+    "安分守己。",
+    "此即和也。"
+  ],
   "detailLayers": [
     {
       "items": [

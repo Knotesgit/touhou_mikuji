@@ -1,0 +1,88 @@
+{
+  "id": "20",
+  "pageTitle": "东方幻存神签/八云紫",
+  "bilingualPageTitle": "东方幻存神签/八云紫/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/八云紫",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/八云紫/中日对照",
+  "numberLabel": "第20号",
+  "rank": "吉凶分界线",
+  "rankDisplay": [
+    {
+      "text": "吉凶分界线",
+      "struck": false
+    }
+  ],
+  "characterTitle": "潜伏于一切间隙中的妖怪",
+  "characterName": "八云紫",
+  "abilityText": "操纵界线程度的能力",
+  "mainOracleText": "是从何时起你不再相信御神签了呢？真是可怜呀。",
+  "mainOracleColumns": [
+    "是从何时起",
+    "你不再相信",
+    "御神签了呢？",
+    "真是可怜呀。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "幸运与厄运错综交织。运势动荡难安。"
+        },
+        {
+          "label": "交易",
+          "text": "若能瞄准小众需求即可成功。"
+        },
+        {
+          "label": "工作",
+          "text": "因违规而失败。"
+        },
+        {
+          "label": "学业",
+          "text": "考试轻松过关。但知识会如水过鸭背，尽数遗忘。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "边境街巷为吉。前往异世界则大吉。"
+        },
+        {
+          "label": "健康",
+          "text": "长命百岁，苍天无眼。"
+        },
+        {
+          "label": "争端",
+          "text": "成为调解者。"
+        },
+        {
+          "label": "恋爱",
+          "text": "恋人与朋友的界线暧昧不清。"
+        },
+        {
+          "label": "爱好",
+          "text": "会沉浸于网络游戏的世界中。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "在幻想乡中，隶属于妖怪这一种族的大多妖怪都能细分为河童、天狗等更小的族群，但她却不同。她神出鬼没、言行莫测的，是真正意义上的妖怪。",
+      "她操纵界线的能力，在幻想乡的创建中起到了不可或缺的作用。正因如此，她的地位才举足轻重。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/八云紫",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "draft-needs-manual-review",
+  "parserWarnings": []
+}
