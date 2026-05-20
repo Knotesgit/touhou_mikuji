@@ -159,7 +159,8 @@ function createDetailLayer(layer, fortune) {
     const maxChars = textLengths.length > 0 ? Math.max(...textLengths) : 0;
     const totalChars = textLengths.reduce((sum, length) => sum + length, 0);
     const density = getDetailDensity(itemCount, maxChars, totalChars);
-    const rows = splitDetailRows(items, maxChars);
+    const itemMetrics = items.map((item) => getDetailItemMetrics(item, density));
+    const rows = splitDetailRows(items, itemMetrics);
 
     if (itemCount > 6 || maxChars > 28) {
         console.warn("Dense detail layer detected", fortune.pageTitle || fortune.characterName || fortune.id || "", itemCount, maxChars);
@@ -174,14 +175,18 @@ function createDetailLayer(layer, fortune) {
     rows.forEach((rowItems) => {
         const rowEl = document.createElement("div");
         rowEl.className = "detail-layer-row";
-        const rowMaxChars = rowItems.reduce((max, item) => Math.max(max, getDetailItemLength(item)), 0);
+        const rowMaxChars = rowItems.reduce((max, entry) => Math.max(max, entry.metrics.length), 0);
+        const rowTotalLines = rowItems.reduce((sum, entry) => sum + entry.metrics.lines, 0);
         rowEl.style.setProperty("--row-item-count", rowItems.length);
         rowEl.style.setProperty("--row-max-chars", rowMaxChars);
-        rowEl.style.setProperty("--row-min-height", `${getDetailRowMinHeight(rowMaxChars, density)}px`);
+        rowEl.style.setProperty("--row-total-lines", rowTotalLines);
+        rowEl.style.setProperty("--detail-row-height", `${getDetailRowHeight(rowMaxChars, density)}px`);
 
-        rowItems.forEach((item) => {
+        rowItems.forEach(({ item, metrics }) => {
             const itemEl = document.createElement("div");
             itemEl.className = "detail-item";
+            itemEl.style.setProperty("--detail-item-lines", metrics.lines);
+            itemEl.style.setProperty("--detail-item-chars", metrics.length);
             itemEl.append(
                 createElement("span", "detail-label", item.label || ""),
                 createElement("span", "detail-text", item.text || "")
@@ -199,36 +204,86 @@ function getDetailItemLength(item) {
     return `${item?.label || ""}${item?.text || ""}`.replace(/\s+/g, "").length;
 }
 
+function getDetailContentLength(item) {
+    return `${item?.label || ""}${item?.text || ""}`
+        .replace(/\s+/g, "")
+        .replace(/[，。！？：；、,.!?:;（）()「」『』《》—…·・]/g, "")
+        .length;
+}
+
+function getDetailItemMetrics(item, density) {
+    const length = getDetailItemLength(item);
+    const contentLength = getDetailContentLength(item);
+    const charsPerVerticalLine = density === "dense" ? 13 : density === "compact" ? 14 : 16;
+    return {
+        item,
+        length,
+        contentLength,
+        lines: Math.max(1, Math.ceil(Math.max(contentLength, 1) / charsPerVerticalLine))
+    };
+}
+
 function getDetailDensity(itemCount, maxChars, totalChars) {
-    if (itemCount > 7 || maxChars > 28 || totalChars > 120) {
+    if (itemCount > 8 || maxChars > 34 || totalChars > 140) {
         return "dense";
     }
 
-    if (itemCount <= 5 && maxChars <= 18) {
+    if (itemCount <= 5 && maxChars <= 22) {
         return "normal";
     }
 
     return "compact";
 }
 
-function splitDetailRows(items, maxChars) {
-    if (items.length <= 6) {
-        return [items];
+function splitDetailRows(items, itemMetrics) {
+    const entries = items.map((item, index) => ({ item, metrics: itemMetrics[index] }));
+    if (entries.length <= 1) {
+        return [entries];
     }
 
-    const rowSize = maxChars > 28 || items.length <= 8 ? 4 : 5;
-    const rows = [];
-    for (let index = 0; index < items.length; index += rowSize) {
-        rows.push(items.slice(index, index + rowSize));
+    const maxLinesPerRow = 15;
+    const totalLines = itemMetrics.reduce((sum, metrics) => sum + metrics.lines, 0);
+    if (items.length <= 8 && totalLines <= maxLinesPerRow) {
+        return [entries];
     }
+
+    const rows = [];
+    let currentRow = [];
+    let currentLines = 0;
+
+    entries.forEach((entry) => {
+        const wouldExceedWidth = currentRow.length > 0 && currentLines + entry.metrics.lines > maxLinesPerRow;
+        const wouldExceedCount = currentRow.length >= 8;
+        if (wouldExceedWidth || wouldExceedCount) {
+            rows.push(currentRow);
+            currentRow = [];
+            currentLines = 0;
+        }
+        currentRow.push(entry);
+        currentLines += entry.metrics.lines;
+    });
+
+    if (currentRow.length > 0) {
+        rows.push(currentRow);
+    }
+
     return rows;
 }
 
-function getDetailRowMinHeight(maxChars, density) {
-    const base = density === "dense" ? 220 : 160;
-    const scale = density === "dense" ? 18 : density === "compact" ? 17 : 16;
-    const max = density === "dense" ? 680 : 520;
-    return Math.max(base, Math.min(max, Math.ceil(maxChars * scale)));
+function getDetailRowHeight(maxChars, density) {
+    if (maxChars > 36) {
+        return density === "dense" ? 230 : 210;
+    }
+
+    if (maxChars > 26) {
+        return density === "dense" ? 205 : 190;
+    }
+
+    if (density === "dense") {
+        return 185;
+    }
+
+    return density === "compact" ? 170 : 154;
 }
 
 function createRankLabel(fortune) {

@@ -295,13 +295,13 @@ h2 {
 
 .detail-layer {
     display: grid;
-    gap: clamp(0.65rem, 2vw, 1rem);
+    gap: clamp(0.38rem, 1.4vw, 0.65rem);
     height: auto;
     min-height: 0;
-    padding: 0.85rem 0.25rem;
+    padding: 0.72rem 0.18rem;
     border-top: 1px solid var(--line-color);
     overflow: visible;
-    --detail-font-size: 1rem;
+    --detail-font-size: 0.96rem;
 }
 
 .detail-layer:first-child {
@@ -313,42 +313,43 @@ h2 {
 }
 
 .detail-layer--compact {
-    --detail-font-size: 0.9rem;
+    --detail-font-size: 0.91rem;
 }
 
 .detail-layer--dense {
-    --detail-font-size: 0.82rem;
+    --detail-font-size: 0.87rem;
 }
 
 .detail-layer-row {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
-    gap: clamp(0.45rem, 2vw, 0.9rem);
-    min-height: var(--row-min-height, 160px);
+    gap: clamp(0.24rem, 1.3vw, 0.55rem);
+    min-height: var(--detail-row-height, 154px);
     padding: 0.1rem 0;
     overflow: visible;
 }
 
 .detail-layer--dense .detail-layer-row {
-    min-height: var(--row-min-height, 220px);
+    min-height: var(--detail-row-height, 185px);
 }
 
 .detail-layer-row + .detail-layer-row {
-    padding-top: 0.65rem;
+    padding-top: 0.48rem;
     border-top: 1px solid rgba(165, 31, 45, 0.22);
 }
 
 .detail-item {
     writing-mode: vertical-rl;
-    text-orientation: mixed;
-    height: auto;
+    text-orientation: upright;
+    height: var(--detail-row-height, 154px);
     max-height: none;
-    min-width: 1.9em;
+    min-width: max(1.9em, calc(var(--detail-item-lines, 1) * 1.42em));
+    width: max(1.9em, calc(var(--detail-item-lines, 1) * 1.42em));
     max-width: none;
     font-size: var(--detail-font-size);
-    line-height: 1.65;
+    line-height: 1.42;
     overflow-wrap: anywhere;
     overflow: visible;
     word-break: break-all;
@@ -538,16 +539,18 @@ h2 {
 
     .detail-layer {
         gap: 0.35rem;
-        padding: 0.75rem 0;
+        padding: 0.62rem 0;
     }
 
     .detail-layer-row {
-        gap: 0.35rem;
-        min-height: var(--row-min-height, 150px);
+        gap: 0.22rem;
+        min-height: var(--detail-row-height, 150px);
     }
 
     .detail-item {
-        line-height: 1.55;
+        min-width: max(1.8em, calc(var(--detail-item-lines, 1) * 1.34em));
+        width: max(1.8em, calc(var(--detail-item-lines, 1) * 1.34em));
+        line-height: 1.36;
     }
 
     .history-tab-button {
