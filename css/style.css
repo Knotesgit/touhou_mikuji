@@ -224,6 +224,19 @@ h2 {
     min-height: 1.4em;
 }
 
+.normal-rank-display {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.04em;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.normal-rank-display--long {
+    font-size: clamp(1.45rem, 4vw, 2.25rem);
+}
+
 .rank-badge {
     position: absolute;
     top: -0.45em;
@@ -250,10 +263,6 @@ h2 {
     transform: rotate(8deg);
     transform-origin: center;
     pointer-events: none;
-}
-
-.rank-badge--long {
-    font-size: clamp(2.8rem, 4.4vw, 3rem);
 }
 
 .rank-badge .rank-part {

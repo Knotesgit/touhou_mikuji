@@ -289,14 +289,15 @@ function getDetailRowHeight(maxChars, density) {
 function createRankLabel(fortune) {
     const rankEl = createElement("div", "rank-label", "");
     const parts = getRankDisplayParts(fortune);
-    const isBadge = shouldUseRankBadge(fortune, parts);
-    const rankContent = isBadge ? createElement("span", "rank-badge rank-badge--special", "") : rankEl;
+    const isBadge = shouldUseRankBadge(fortune);
+    const rankContent = isBadge
+        ? createElement("span", "rank-badge rank-badge--special", "")
+        : createElement("span", "normal-rank-display", "");
 
     if (isBadge) {
         rankEl.classList.add("rank-label--badge-mode");
-        if (shouldUseLongRankBadge(fortune, parts)) {
-            rankContent.classList.add("rank-badge--long");
-        }
+    } else if (isLongNormalRank(parts, fortune)) {
+        rankContent.classList.add("normal-rank-display--long");
     }
 
     parts.forEach((part) => {
@@ -307,9 +308,7 @@ function createRankLabel(fortune) {
         rankContent.appendChild(partEl);
     });
 
-    if (isBadge) {
-        rankEl.appendChild(rankContent);
-    }
+    rankEl.appendChild(rankContent);
 
     return rankEl;
 }
@@ -325,22 +324,27 @@ function getRankDisplayParts(fortune) {
     return [{ text: fortune.rank || "", struck: false }];
 }
 
-function shouldUseRankBadge(fortune, parts) {
+function isLongNormalRank(parts, fortune) {
     const visibleRank = parts.map((part) => part.text || "").join("") || fortune.rank || "";
-    const rankWithoutBrackets = visibleRank.replace(/[【】\s]/g, "");
+    const openBracket = String.fromCharCode(0x3010);
+    const closeBracket = String.fromCharCode(0x3011);
+    const rankWithoutBrackets = visibleRank
+        .split(openBracket).join("")
+        .split(closeBracket).join("")
+        .replace(/\s/g, "");
 
-    return (
-        /^【.*】$/.test(visibleRank) ||
-        parts.length > 1 ||
-        parts.some((part) => part.struck) ||
-        rankWithoutBrackets.length >= 4
-    );
+    return rankWithoutBrackets.length >= 4;
 }
 
-function shouldUseLongRankBadge(fortune, parts) {
-    const visibleRank = parts.map((part) => part.text || "").join("") || fortune.rank || "";
-    const rankWithoutBrackets = visibleRank.replace(/[【】\s]/g, "");
-    return parts.length > 1 || rankWithoutBrackets.length >= 4;
+function shouldUseRankBadge(fortune) {
+    const parts = Array.isArray(fortune.rankDisplay) ? fortune.rankDisplay : [];
+    const visibleRank = parts.length > 0
+        ? parts.map((part) => part?.text || "").join("")
+        : String(fortune.rank || "");
+    const openBracket = String.fromCharCode(0x3010);
+    const closeBracket = String.fromCharCode(0x3011);
+
+    return visibleRank.includes(openBracket) || visibleRank.includes(closeBracket);
 }
 
 function createOracle(fortune) {
