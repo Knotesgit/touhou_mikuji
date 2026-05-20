@@ -225,15 +225,18 @@ h2 {
 
 .rank-badge {
     position: absolute;
-    top: -0.18em;
-    right: -0.45em;
+    top: -0.45em;
+    right: -0.85em;
     z-index: 5;
     display: inline-flex;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
-    gap: 0.06em;
-    padding: 0.08em 0.16em;
+    gap: 0.02em;
+    min-width: unset;
+    padding: 0.02em 0.12em;
     border: 2px solid var(--paper-border-color);
+    box-sizing: border-box;
     background: rgba(255, 253, 247, 0.96);
     color: var(--accent-color);
     box-shadow: 0 5px 12px rgba(68, 38, 27, 0.16);
@@ -250,6 +253,12 @@ h2 {
 
 .rank-badge--long {
     font-size: clamp(2.8rem, 4.4vw, 3rem);
+}
+
+.rank-badge .rank-part {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
 }
 
 .rank-part.is-struck {
