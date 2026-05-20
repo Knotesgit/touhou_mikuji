@@ -323,8 +323,9 @@ h2 {
 .oracle-area {
     display: flex;
     justify-content: center;
-    min-height: 260px;
-    padding: var(--space-lg) var(--space-sm);
+    align-items: center;
+    min-height: clamp(190px, 32vw, 240px);
+    padding: var(--space-lg) var(--space-sm) calc(var(--space-lg) * 0.7);
     border-bottom: 1px solid var(--line-color);
 }
 
@@ -604,6 +605,34 @@ h2 {
     line-height: 1.5;
 }
 
+.history-entry-button {
+    display: block;
+    width: 100%;
+    padding: 0.2rem 0.25rem;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.history-entry-button:hover {
+    background: rgba(165, 31, 45, 0.08);
+    color: var(--ink-color);
+}
+
+.history-entry-button:focus-visible {
+    outline: 2px solid rgba(165, 31, 45, 0.34);
+    outline-offset: 2px;
+}
+
+.history-item--unavailable {
+    opacity: 0.62;
+}
+
 .source-panel p {
     margin: var(--space-md) 0 0;
     color: var(--muted-color);
@@ -640,7 +669,9 @@ h2 {
     }
 
     .oracle-area {
-        min-height: 230px;
+        min-height: clamp(175px, 48vw, 220px);
+        padding-top: 1rem;
+        padding-bottom: 0.85rem;
         padding-left: 0;
         padding-right: 0;
     }

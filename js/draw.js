@@ -84,11 +84,19 @@ function drawMikuji() {
     const index = secureRandomIndex(state.fortunes.length);
     const fortune = state.fortunes[index];
 
+    displayFortune(fortune, { addToHistory: true });
+}
+
+function displayFortune(fortune, options = {}) {
+    const { addToHistory = false } = options;
     state.currentFortune = fortune;
     renderFortune(fortune);
     renderReview(fortune);
-    saveHistory(fortune);
-    renderHistory();
+
+    if (addToHistory) {
+        saveHistory(fortune);
+        renderHistory();
+    }
 }
 
 function renderFortune(fortune) {
@@ -483,9 +491,39 @@ function renderHistory() {
         const item = document.createElement("li");
         item.className = "history-item";
         const timeLabel = formatHistoryTime(entry.drawnAt);
-        item.textContent = `${entry.numberLabel || entry.id} ${entry.rank} ${entry.characterName} ${timeLabel}`;
+        const label = `${entry.numberLabel || entry.id || "?"} ${entry.rank || ""} ${entry.characterName || ""} ${timeLabel}`.trim();
+        const fortune = findFortuneByHistoryEntry(entry);
+
+        if (fortune) {
+            const button = document.createElement("button");
+            button.className = "history-entry-button";
+            button.type = "button";
+            button.dataset.fortuneId = String(entry.id);
+            button.textContent = label;
+            button.addEventListener("click", () => {
+                displayFortune(fortune, { addToHistory: false });
+                closeHistory();
+            });
+            item.appendChild(button);
+        } else {
+            item.classList.add("history-item--unavailable");
+            item.textContent = label;
+            if (entry.id) {
+                console.warn("History entry fortune is unavailable.", entry.id);
+            }
+        }
+
         historyList.appendChild(item);
     });
+}
+
+function findFortuneByHistoryEntry(entry) {
+    if (!entry || entry.id === undefined || entry.id === null || entry.id === "") {
+        return null;
+    }
+
+    const entryId = String(entry.id);
+    return state.fortunes.find((fortune) => String(fortune.id || "") === entryId) || null;
 }
 
 function formatHistoryTime(value) {
