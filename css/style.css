@@ -234,12 +234,12 @@ h2 {
 }
 
 .normal-rank-display--long {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2.1rem, 4.3vw, 3rem);
     letter-spacing: -0.04em;
 }
 
 .normal-rank-display--very-long {
-    font-size: clamp(1.6rem, 3.3vw, 2.4rem);
+    font-size: clamp(1.65rem, 3.4vw, 2.35rem);
     letter-spacing: -0.06em;
 }
 

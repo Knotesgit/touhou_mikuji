@@ -302,9 +302,9 @@ function createRankLabel(fortune) {
 
     if (isBadge) {
         rankEl.classList.add("rank-label--badge-mode");
-    } else if (visibleRankLength >= 7) {
+    } else if (visibleRankLength >= 6) {
         rankContent.classList.add("normal-rank-display--very-long");
-    } else if (visibleRankLength >= 5) {
+    } else if (visibleRankLength >= 4) {
         rankContent.classList.add("normal-rank-display--long");
     }
 
@@ -342,6 +342,7 @@ function getVisibleRankLength(parts, fortune) {
     return visibleRank
         .split(openBracket).join("")
         .split(closeBracket).join("")
+        .replace(/[、，。！？：；,.!?:;]/g, "")
         .replace(/\s/g, "")
         .length;
 }
