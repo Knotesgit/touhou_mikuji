@@ -1,0 +1,87 @@
+{
+  "id": "86",
+  "pageTitle": "东方幻存神签/稀神探女",
+  "bilingualPageTitle": "东方幻存神签/稀神探女/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/稀神探女",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/稀神探女/中日对照",
+  "numberLabel": "第86号",
+  "rank": "吉凶不定",
+  "rankDisplay": [
+    {
+      "text": "吉凶不定",
+      "struck": false
+    }
+  ],
+  "characterTitle": "刻意缄口的女神",
+  "characterName": "稀神探女",
+  "abilityText": "从口中说出便可逆转事态程度的能力",
+  "mainOracleText": "我即是灾星，生来走霉运。此话一出口，福运定然来。",
+  "mainOracleColumns": [
+    "我即是灾星，",
+    "生来走霉运。",
+    "此话一出口，",
+    "福运定然来。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "祸从口出。闭口不语亦将错失良机。"
+        },
+        {
+          "label": "交易",
+          "text": "万事皆与愿违。"
+        },
+        {
+          "label": "学业",
+          "text": "缄口用功，必有长进。"
+        },
+        {
+          "label": "争端",
+          "text": "当心口舌之祸。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "宜往人迹罕至处。登月亦可。"
+        },
+        {
+          "label": "健康",
+          "text": "自视康健则气力衰减，自认衰颓则容光焕发。"
+        },
+        {
+          "label": "心愿",
+          "text": "断念反得如愿。"
+        },
+        {
+          "label": "恋爱",
+          "text": "极其困难。"
+        },
+        {
+          "label": "财运",
+          "text": "遭遇诈骗。警惕所谓暴富机会。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的能力非常抽象，难以理解。这一能力貌似只要将心愿正话反说就能如愿以偿，但当真付诸实践的话，肯定会不慎吐露心声、最终弄巧成拙吧。毕竟，人很难保证每一句话都与心声完全相反。",
+      "她的造型采用了特殊的独翼设计，这让她显得更中二了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/稀神探女",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "76",
+  "pageTitle": "东方幻存神签/九十九弁弁",
+  "bilingualPageTitle": "东方幻存神签/九十九弁弁/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/九十九弁弁",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/九十九弁弁/中日对照",
+  "numberLabel": "第76号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "拨响魂魄的琵琶付丧神",
+  "characterName": "九十九弁弁",
+  "abilityText": "自行发声演奏程度的能力",
+  "mainOracleText": "魔风乱舞的暴风之眼处，乐音倾诉着诸行之无常。",
+  "mainOracleColumns": [
+    "魔风乱舞的",
+    "暴风之眼处，",
+    "乐音倾诉着",
+    "诸行之无常。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "如物件般任人驱使的生活打上休止符。反叛之时已至。"
+        },
+        {
+          "label": "交易",
+          "text": "音乐相关行业为吉。但若未爱护乐器将遭反击。"
+        },
+        {
+          "label": "学业",
+          "text": "音乐、古典文学为吉。"
+        },
+        {
+          "label": "健康",
+          "text": "即便缺乏活力，也能逐渐恢复。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "将迷失方向。夜游随行队列恐遭不测。"
+        },
+        {
+          "label": "恋爱",
+          "text": "迷于情路，但终得良人。"
+        },
+        {
+          "label": "财运",
+          "text": "无以增长。"
+        },
+        {
+          "label": "人缘",
+          "text": "起初易遭人嫌弃。欢歌笑语则宾朋云集。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是一个付丧神，作为她本体的琵琶已经颇为古旧，但她直到最近才刚刚产生自我意识。",
+      "琵琶和古琴的付丧神在《百鬼夜行绘卷》里是成对出现的。从那时起（大约是室町时代），琵琶和古琴就开始带上付丧神属性了吗？会不会是因为乐师不够多，导致它们待在仓库里长年吃灰呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/九十九弁弁",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

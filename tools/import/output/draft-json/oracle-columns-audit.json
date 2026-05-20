@@ -2679,7 +2679,7 @@
   {
     "pageTitle": "东方幻存神签/黑谷山女",
     "characterName": "黑谷山女",
-    "source": "source-rendered",
+    "source": "override",
     "mainOracleText": "近蛛者瘟切莫忘独具蜘眼观八方",
     "columns": [
       "近蛛者瘟",
@@ -2695,9 +2695,6 @@
       3
     ],
     "joinedMatchesText": true,
-    "warnings": [
-      "oracle-column override was not applied for 东方幻存神签/黑谷山女: override columns do not reconstruct mainOracleText.",
-      "mainOracleColumns non-punctuation counts are not equal."
-    ]
+    "warnings": []
   }
 ]

@@ -1,0 +1,95 @@
+{
+  "id": "104",
+  "pageTitle": "东方幻存神签/埴安神袿姬",
+  "bilingualPageTitle": "东方幻存神签/埴安神袿姬/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/埴安神袿姬",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/埴安神袿姬/中日对照",
+  "numberLabel": "第104号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "手制国宝也不在话下的造形神",
+  "characterName": "埴安神袿姬",
+  "abilityText": "创造偶像程度的能力",
+  "mainOracleText": "生命何必任那端粒摆布，我以土与水，为你再造身。",
+  "mainOracleColumns": [
+    "生命何必任",
+    "那端粒摆布，",
+    "我以土与水，",
+    "为你再造身。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "稳步向前，同伴多多。"
+        },
+        {
+          "label": "工作",
+          "text": "创造性工作皆为大吉。偶像、模特、陶艺、制造业亦为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "手工、美术为大吉。"
+        },
+        {
+          "label": "健康",
+          "text": "运动不足，妨害健康。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "人缘",
+          "text": "得遇绝对忠诚的下属。"
+        },
+        {
+          "label": "出行",
+          "text": "古墓巡礼为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "同好为宜。"
+        },
+        {
+          "label": "生育",
+          "text": "子孙满堂。"
+        },
+        {
+          "label": "寻物",
+          "text": "若有失物再造即可。"
+        },
+        {
+          "label": "爱好",
+          "text": "遍访美术馆、博物馆以提升造诣。"
+        },
+        {
+          "label": "灾祸",
+          "text": "遭到动物嫌弃。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是位手办原型师。最近3D建模也许更为主流，但她是粘土派的。",
+      "她的主题曲《寄世界于偶像》是热门曲目之一，但曲名的含义却很不吉利，暗喻着对人性的否定和来自高位生命（比如AI之类的）的支配。好可怕。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/埴安神袿姬",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

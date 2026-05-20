@@ -1,0 +1,100 @@
+{
+  "id": "59",
+  "pageTitle": "东方幻存神签/圣白莲",
+  "bilingualPageTitle": "东方幻存神签/圣白莲/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/圣白莲",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/圣白莲/中日对照",
+  "numberLabel": "第59号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "超人阿阇梨",
+  "characterName": "圣白莲",
+  "abilityText": "使用魔法（身体强化为主）程度的能力",
+  "mainOracleText": "欲脱离苦海，当断情绝欲。精进修行，方可正性。",
+  "mainOracleColumns": [
+    "欲脱离苦海，",
+    "当断情绝欲。",
+    "精进修行，",
+    "方可正性。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "若要获得幸福，则当摒弃欲望。心无渴盼，则幸福常存。"
+        },
+        {
+          "label": "健康",
+          "text": "身体素质超强，从不感冒。"
+        },
+        {
+          "label": "工作",
+          "text": "运动员、体力劳动者、僧侣为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "全面提升。体育进步尤为显著。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "心生贪念则必将失败。"
+        },
+        {
+          "label": "住所",
+          "text": "宜从简。"
+        },
+        {
+          "label": "财运",
+          "text": "钱财不招自来。心生贪念则财源枯竭。"
+        },
+        {
+          "label": "恋爱",
+          "text": "禁止。"
+        },
+        {
+          "label": "寻物",
+          "text": "丧失欲望。"
+        },
+        {
+          "label": "出行",
+          "text": "地方都市为吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "抄写经书、托钵化缘为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "因托钵化缘而备受嫌弃。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她超级擅长物理攻击，可谓是魔法使中最不魔法的一位。她甚至连摩托都骑上了。",
+      "在原作里，她表现得近乎圣母，这想必是因为她早已将人类应有的欲望舍弃于往昔。",
+      "但若是惹她生气，她会变得非常恐怖。这方面在智灵奇传里便略有体现。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/圣白莲",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

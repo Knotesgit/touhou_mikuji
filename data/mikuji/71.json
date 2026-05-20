@@ -1,0 +1,95 @@
+{
+  "id": "71",
+  "pageTitle": "东方幻存神签/二岩猯藏",
+  "bilingualPageTitle": "东方幻存神签/二岩猯藏/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/二岩猯藏",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/二岩猯藏/中日对照",
+  "numberLabel": "第71号",
+  "rank": "【大吉】",
+  "rankDisplay": [
+    {
+      "text": "【大吉】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "变化自如的妖怪狸",
+  "characterName": "二岩猯藏",
+  "abilityText": "施展变化程度的能力",
+  "mainOracleText": "人有千百变，面孔不胜数。吞云吐雾时，自会现原形。",
+  "mainOracleColumns": [
+    "人有千百变，",
+    "面孔不胜数。",
+    "吞云吐雾时，",
+    "自会现原形。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "遇事随机应变，便能恣意快活。"
+        },
+        {
+          "label": "工作",
+          "text": "服务业可生意兴隆。店主、总裁、管理职位则吉上加吉。"
+        },
+        {
+          "label": "学业",
+          "text": "化学大吉。日本史亦有进步。"
+        },
+        {
+          "label": "健康",
+          "text": "当心烟草。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "避开宗教圣地，出行可有所裨益。"
+        },
+        {
+          "label": "财运",
+          "text": "出手阔绰反而财源滚滚。"
+        },
+        {
+          "label": "恋爱",
+          "text": "尔虞我诈。"
+        },
+        {
+          "label": "晋升",
+          "text": "左右逢源。"
+        },
+        {
+          "label": "住所",
+          "text": "当摆放信乐烧陶器。"
+        },
+        {
+          "label": "寻物",
+          "text": "即便丢失物品也会有人帮忙寻回。"
+        },
+        {
+          "label": "爱好",
+          "text": "乔装为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是妖怪狸的老大，虽然爱摆架子，却很有人情味。对人对妖一视同仁，借出谋划策之机循循善诱从中获利，这是她秉承的信条。",
+      "她不仅能变化自身形貌，也能对他人或物品施展变化之术，这是她与寻常妖怪狸的一大区别。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/二岩猯藏",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

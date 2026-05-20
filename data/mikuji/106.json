@@ -1,0 +1,91 @@
+{
+  "id": "106",
+  "pageTitle": "东方幻存神签/饕餮尤魔",
+  "bilingualPageTitle": "东方幻存神签/饕餮尤魔/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/饕餮尤魔",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/饕餮尤魔/中日对照",
+  "numberLabel": "第106号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "饿扁扁魔神刚欲同盟盟主",
+  "characterName": "饕餮尤魔",
+  "abilityText": "什么都能吸收程度的能力",
+  "mainOracleText": "捕食者横行，猎物任宰割。谁才是强者，自然不必说。",
+  "mainOracleColumns": [
+    "捕食者横行，",
+    "猎物任宰割。",
+    "谁才是强者，",
+    "自然不必说。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "生吞气运的贪婪，足以扭转生来厄运。"
+        },
+        {
+          "label": "交易",
+          "text": "胃口越大，利润越多。"
+        },
+        {
+          "label": "工作",
+          "text": "餐饮店为吉。大胃王则天下无敌。"
+        },
+        {
+          "label": "学业",
+          "text": "所学会尽数吸收。营养学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "建议踏上美食之旅。"
+        },
+        {
+          "label": "争端",
+          "text": "无敌。"
+        },
+        {
+          "label": "住所",
+          "text": "宽广为宜。"
+        },
+        {
+          "label": "财运",
+          "text": "餐费飙升。一旦餐费断供，运气也会断绝。"
+        },
+        {
+          "label": "健康",
+          "text": "积食腹泻稀松平常。"
+        },
+        {
+          "label": "爱好",
+          "text": "任何活动一旦接触便会沉迷其中。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "饕餮是中国传说中的凶兽之一，然而以饕餮为原型的纹样却有辟邪的含义，感觉还真是吉凶难辨。至于东方中的饕餮，比起凶兽，还是以守护神的形象为主。",
+      "顺带一提，她裙子上的花纹就是饕餮纹。这家伙是会把自己的花纹穿在身上的那种人呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/饕餮尤魔",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

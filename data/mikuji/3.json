@@ -1,0 +1,95 @@
+{
+  "id": "3",
+  "pageTitle": "东方幻存神签/琪露诺",
+  "bilingualPageTitle": "东方幻存神签/琪露诺/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/琪露诺",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/琪露诺/中日对照",
+  "numberLabel": "第3号",
+  "rank": "【最凶】",
+  "rankDisplay": [
+    {
+      "text": "【最凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "火爆的冰之妖精",
+  "characterName": "琪露诺",
+  "abilityText": "操纵冰程度的能力",
+  "mainOracleText": "能把咱抽到，算你手气好！运道正像咱，最强没得挑！",
+  "mainOracleColumns": [
+    "能把咱抽到，",
+    "算你手气好！",
+    "运道正像咱，",
+    "最强没得挑！"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "大起大落、难得一日安稳，若能欣然接受便是最强。"
+        },
+        {
+          "label": "健康",
+          "text": "染上感冒也意识不到，因此无碍。"
+        },
+        {
+          "label": "交易",
+          "text": "算不清账。"
+        },
+        {
+          "label": "学业",
+          "text": "笨蛋又何妨。"
+        },
+        {
+          "label": "出行",
+          "text": "玩得尽兴，但会忘记归途。"
+        },
+        {
+          "label": "寻物",
+          "text": "会忘记自己丢过东西。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "虽有吉兆却浑然不觉。"
+        },
+        {
+          "label": "争端",
+          "text": "家常便饭。"
+        },
+        {
+          "label": "家庭",
+          "text": "欢声笑语，但不得安宁。"
+        },
+        {
+          "label": "移徙",
+          "text": "忘记自己搬过家。"
+        },
+        {
+          "label": "方位",
+          "text": "八方皆吉。也会给八方邻里添麻烦。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她便是众所周知的冰之妖精。虽然是个不知天高地厚的笨蛋妖精，但她却在故事中闯过了无数鬼门关，在实至名归成为最强（凶）的大道上昂首阔步。",
+      "妖精是自然的化身，本质上是永生不死的，所以纵使有些鲁莽也无大碍。她最大的敌人是全球变暖，但最后的赢家一定是她。毕竟她可是最凶（强）的妖精嘛。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/琪露诺",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

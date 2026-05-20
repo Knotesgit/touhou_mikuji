@@ -1,0 +1,91 @@
+{
+  "id": "111",
+  "pageTitle": "东方幻存神签/菅牧典",
+  "bilingualPageTitle": "东方幻存神签/菅牧典/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/菅牧典",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/菅牧典/中日对照",
+  "numberLabel": "第111号",
+  "rank": "末凶",
+  "rankDisplay": [
+    {
+      "text": "末凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "低语邪念的管狐",
+  "characterName": "菅牧典",
+  "abilityText": "抓住灵魂弱点乘虚而入程度的能力",
+  "mainOracleText": "悄悄告诉你，机会不等人。再不去行动，绝对吃大亏。",
+  "mainOracleColumns": [
+    "悄悄告诉你，",
+    "机会不等人。",
+    "再不去行动，",
+    "绝对吃大亏。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "将遭花言巧语蒙骗，被吃干抹净后再一脚踢开。"
+        },
+        {
+          "label": "交易",
+          "text": "一时繁盛，终将破灭。"
+        },
+        {
+          "label": "工作",
+          "text": "信息行业为吉。信誉型生意为凶。"
+        },
+        {
+          "label": "财运",
+          "text": "财源滚滚，但将付出沉重代价。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "语文、数学、化学为吉。伦理为大凶。"
+        },
+        {
+          "label": "健康",
+          "text": "病由心生，多加留意。"
+        },
+        {
+          "label": "人缘",
+          "text": "失去信用。"
+        },
+        {
+          "label": "姻缘",
+          "text": "小心骗婚。"
+        },
+        {
+          "label": "争端",
+          "text": "大可假手他人，自己作壁上观。"
+        },
+        {
+          "label": "晋升",
+          "text": "长袖善舞。只要圆得上，说谎又何妨。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是八面玲珑的狡猾妖怪，会给所有与她打交道的人类带来不幸。要想驾驭她可谓是困难无比。",
+      "借助管狐的情报网，她成了幻想乡数一数二的万事通。只要不作深交，她的业务能力还是可圈可点的。她虽是狐妖，却不擅长变化之术，附身夺舍才是她的强项。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/菅牧典",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

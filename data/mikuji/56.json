@@ -1,0 +1,96 @@
+{
+  "id": "56",
+  "pageTitle": "东方幻存神签/云居一轮&云山",
+  "bilingualPageTitle": "东方幻存神签/云居一轮&云山/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/云居一轮&云山",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/云居一轮&云山/中日对照",
+  "numberLabel": "第56号",
+  "rank": "末大吉",
+  "rankDisplay": [
+    {
+      "text": "末大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "入道老爹和洋气入道使",
+  "characterName": "云居一轮&云山",
+  "abilityText": "驱使入道程度的能力（云山:变形程度的能力）",
+  "mainOracleText": "人生如浮云。愁苦压身重，则有泪如雨，终至雾散时。",
+  "mainOracleColumns": [
+    "人生如浮云。",
+    "愁苦压身重，",
+    "则有泪如雨，",
+    "终至雾散时。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "遇到困难时，定有强大妖怪相助。"
+        },
+        {
+          "label": "学业",
+          "text": "精进勿休，功成花自开。"
+        },
+        {
+          "label": "运动",
+          "text": "格斗为吉。"
+        },
+        {
+          "label": "交易",
+          "text": "勿存奢念。当摒弃欲望。"
+        },
+        {
+          "label": "健康",
+          "text": "吃斋可保体魄康健。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "天空之旅为吉。"
+        },
+        {
+          "label": "比试",
+          "text": "百战无一败，但未必得胜。"
+        },
+        {
+          "label": "心愿",
+          "text": "耐心等候，精进不已，必能如愿。"
+        },
+        {
+          "label": "恋爱",
+          "text": "当摒弃欲望。"
+        },
+        {
+          "label": "财运",
+          "text": "成何体统。"
+        },
+        {
+          "label": "住所",
+          "text": "宜宽广。若有可能，寺庙为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "这两人加起来算作一个角色。幻想乡的规矩是一对一单挑，但不知为何到了她和云山这儿就变成光明正大二打一了。",
+      "云山沉默寡言其实是因为性格腼腆。他的自我表达能力比较差，与人交流时全靠一轮来做口译。",
+      "与此同时，云山也会监督一轮修行。两人互帮互助，情同父女。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/云居一轮&云山",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

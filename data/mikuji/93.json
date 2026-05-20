@@ -1,0 +1,95 @@
+{
+  "id": "93",
+  "pageTitle": "东方幻存神签/坂田合欢",
+  "bilingualPageTitle": "东方幻存神签/坂田合欢/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/坂田合欢",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/坂田合欢/中日对照",
+  "numberLabel": "第93号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "隐僻山麓的山姥",
+  "characterName": "坂田合欢",
+  "abilityText": "制作圣域程度的能力",
+  "mainOracleText": "社会拘束多，这谁顶得住。偶尔来独处，倒也挺不赖。",
+  "mainOracleColumns": [
+    "社会拘束多，",
+    "这谁顶得住。",
+    "偶尔来独处，",
+    "倒也挺不赖。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "能够过上远离世间喧嚣的自在生活。但同时也会孤立无援。"
+        },
+        {
+          "label": "住所",
+          "text": "务必精心打理家宅。"
+        },
+        {
+          "label": "移徙",
+          "text": "不宜迁居。尽力避免。"
+        },
+        {
+          "label": "出行",
+          "text": "仅限短途。"
+        },
+        {
+          "label": "交易",
+          "text": "无法开张。"
+        },
+        {
+          "label": "学业",
+          "text": "顺风顺水。当闭门不出、专心向学。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "健康至极。从不感冒。"
+        },
+        {
+          "label": "贵人",
+          "text": "少有邂逅。有人登门来访乃是良机。建议磨刀以待。"
+        },
+        {
+          "label": "恋爱",
+          "text": "绝无机会。"
+        },
+        {
+          "label": "姻缘",
+          "text": "莫存期待。"
+        },
+        {
+          "label": "争端",
+          "text": "无从发生。有点寂寞。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "妖怪之山山麓处的森林中有一片被称为圣域的场所，不属于任何势力的管辖范围。它成为了山姥这样的避世之人和动物们的乐园。",
+      "提起山姥这种妖怪，人们总会想到山姥将误入领地的人类杀死吃掉的传说。我想，这一行为应该是在警告人类不要踏入山姥的圣域吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/坂田合欢",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

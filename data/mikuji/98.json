@@ -1,0 +1,96 @@
+{
+  "id": "98",
+  "pageTitle": "东方幻存神签/摩多罗隐岐奈",
+  "bilingualPageTitle": "东方幻存神签/摩多罗隐岐奈/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/摩多罗隐岐奈",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/摩多罗隐岐奈/中日对照",
+  "numberLabel": "第98号",
+  "rank": "末大凶",
+  "rankDisplay": [
+    {
+      "text": "末大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "幻想乡的绝对秘神",
+  "characterName": "摩多罗隐岐奈",
+  "abilityText": "在万物背上制作门扉程度的能力",
+  "mainOracleText": "可恶摩多罗，可憎隐岐奈。这番糟心事，又是你所为？",
+  "mainOracleColumns": [
+    "可恶摩多罗，",
+    "可憎隐岐奈。",
+    "这番糟心事，",
+    "又是你所为？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "表面上一帆风顺，背地里全是隐情。"
+        },
+        {
+          "label": "工作",
+          "text": "若不追究真相则可顺利。演艺圈为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "艺术为吉。可考虑走后门入学。"
+        },
+        {
+          "label": "健康",
+          "text": "当心重伤。得遇心仪轮椅。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "避开寺院。"
+        },
+        {
+          "label": "姻缘",
+          "text": "相亲为吉。"
+        },
+        {
+          "label": "寻物",
+          "text": "一旦丢失则再无寻回之日。"
+        },
+        {
+          "label": "财运",
+          "text": "千万当心不义之财。"
+        },
+        {
+          "label": "人缘",
+          "text": "幸得忠实贤才。"
+        },
+        {
+          "label": "比试",
+          "text": "捉迷藏未尝一败。"
+        },
+        {
+          "label": "爱好",
+          "text": "能乐为宜。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的名字写成汉字是六个字，写成假名也是六个音。倒也不是说这点就有什么特别的啦。",
+      "名字先不提，她端坐在椅子上就能搅弄风云，很有一番反派大头目的风范吧。",
+      "但这番形象说不定也是她刻意打造出来的，谁知道呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/摩多罗隐岐奈",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

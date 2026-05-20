@@ -1,0 +1,91 @@
+{
+  "id": "21",
+  "pageTitle": "东方幻存神签/伊吹萃香",
+  "bilingualPageTitle": "东方幻存神签/伊吹萃香/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/伊吹萃香",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/伊吹萃香/中日对照",
+  "numberLabel": "第21号",
+  "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "溺于无限美酒之鬼",
+  "characterName": "伊吹萃香",
+  "abilityText": "操纵密与疏程度的能力",
+  "mainOracleText": "眼前的世界看似很复杂，内里其实却稀疏得多呢。",
+  "mainOracleColumns": [
+    "眼前的世界",
+    "看似很复杂，",
+    "内里其实却",
+    "稀疏得多呢。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "任性妄为易招人嫌，须警惕自身暴力行为。"
+        },
+        {
+          "label": "健康",
+          "text": "当心饮酒过量，但难免贪杯。"
+        },
+        {
+          "label": "工作",
+          "text": "粗枝大叶招致失败。酒水相关行业为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "可凭蛮力攻克。量子力学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "宜泡温泉。"
+        },
+        {
+          "label": "住所",
+          "text": "易损毁。须修补。若身处牢狱则为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "聚散离合皆随己意。"
+        },
+        {
+          "label": "财运",
+          "text": "财源广进，然多为不义之财。"
+        },
+        {
+          "label": "姻缘",
+          "text": "因酒误事。"
+        },
+        {
+          "label": "爱好",
+          "text": "各类比试皆为乐事。宜多加尝试。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "相较于她的身高，这位鬼族的角异常地长。头上长角、身系虎纹腰布的鬼族形象，据说源于鬼门（丑寅）这一方位。换言之，鬼角实为牛角。那她说不定是德克萨斯长角牛吧。",
+      "动物的角常被视作武器。鬼虽说也是如此，但要说什么样的武器最为强大，不同的鬼似乎见解各有不同。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/伊吹萃香",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

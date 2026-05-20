@@ -778,7 +778,10 @@ function removeOracleColumnWarnings(warnings) {
         return [];
     }
 
-    return warnings.filter((warning) => !String(warning).startsWith("mainOracleColumns"));
+    return warnings.filter((warning) => {
+        const text = String(warning);
+        return !text.startsWith("mainOracleColumns") && !text.startsWith("oracle-column ");
+    });
 }
 
 function parsePositiveLimit(value, fallback) {

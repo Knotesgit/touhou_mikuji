@@ -1,0 +1,87 @@
+{
+  "id": "83",
+  "pageTitle": "东方幻存神签/清兰",
+  "bilingualPageTitle": "东方幻存神签/清兰/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/清兰",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/清兰/中日对照",
+  "numberLabel": "第83号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "从天而降的月兔",
+  "characterName": "清兰",
+  "abilityText": "从异次元发射子弹程度的能力",
+  "mainOracleText": "月兔擎杵捣何物团子还是红秋果",
+  "mainOracleColumns": [
+    "月兔擎杵",
+    "捣何物",
+    "团子还是",
+    "红秋果"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "兔乃吉兆。将有稀世奇遇。"
+        },
+        {
+          "label": "出行",
+          "text": "速速动身。造访陌生土地为吉。尤宜登月。"
+        },
+        {
+          "label": "交易",
+          "text": "商才不济。隐忍为上。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "不如旅行。"
+        },
+        {
+          "label": "争端",
+          "text": "在所难免，不必在意。"
+        },
+        {
+          "label": "恋爱",
+          "text": "不必在意。"
+        },
+        {
+          "label": "健康",
+          "text": "注意养生即可强身健体。"
+        },
+        {
+          "label": "节庆",
+          "text": "积极参加为吉。捣年糕尤吉。"
+        },
+        {
+          "label": "甜点",
+          "text": "树莓团子为佳。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是月兔，不知为何杵上总是沾着污渍。考虑到卫生因素，她应该不至于用杵去砸活物，所以那一定是树莓汁水什么的吧。",
+      "她在兽王园里也有登场。当时的她对地上生活十分满意，看来并没有回月之都的打算。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/清兰",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

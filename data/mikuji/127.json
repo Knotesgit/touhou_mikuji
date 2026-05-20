@@ -1,0 +1,95 @@
+{
+  "id": "127",
+  "pageTitle": "东方幻存神签/雾雨魔理沙",
+  "bilingualPageTitle": "东方幻存神签/雾雨魔理沙/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/雾雨魔理沙",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/雾雨魔理沙/中日对照",
+  "numberLabel": "第127号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "普通即王道的魔法使",
+  "characterName": "雾雨魔理沙",
+  "abilityText": "使用魔法程度的能力",
+  "mainOracleText": "概率再微小，风险总会来。听天由命便是坐以待毙。",
+  "mainOracleColumns": [
+    "概率再微小，",
+    "风险总会来。",
+    "听天由命便",
+    "是坐以待毙。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "乏味而安稳的生活日复一日。总有一天会发觉安稳就是最大的幸福。"
+        },
+        {
+          "label": "学业",
+          "text": "只要坚持不懈，任何科目都能学有所成。"
+        },
+        {
+          "label": "工作",
+          "text": "宜稳定。任职企业、政府为吉。务必金盆洗手。"
+        },
+        {
+          "label": "出行",
+          "text": "亲近自然为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "当心蘑菇。"
+        },
+        {
+          "label": "人缘",
+          "text": "与志不同者有缘。"
+        },
+        {
+          "label": "恋爱",
+          "text": "良好火花。"
+        },
+        {
+          "label": "失物",
+          "text": "可在家中寻回。"
+        },
+        {
+          "label": "争端",
+          "text": "会成为仲裁者。"
+        },
+        {
+          "label": "爱好",
+          "text": "海量收藏中自有新发现。"
+        },
+        {
+          "label": "财运",
+          "text": "关键时刻出手藏品为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "毋庸赘述，她与灵梦并列主角之位。两位主角的剧情彼此平行、没有交集，所以和一贯印象相反，在游戏原作中两人的交流并不多。",
+      "纵观原作，只有在小说或漫画里才会看到两人频繁交流。至于万事通魔理沙和好奇宝宝灵梦这样的印象，八成是她们的实况业务造就的（笑）。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/雾雨魔理沙",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

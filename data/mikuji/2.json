@@ -1,0 +1,87 @@
+{
+  "id": "2",
+  "pageTitle": "东方幻存神签/大妖精",
+  "bilingualPageTitle": "东方幻存神签/大妖精/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/大妖精",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/大妖精/中日对照",
+  "numberLabel": "第2号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "现身于雾中的妖精",
+  "characterName": "大妖精（姓名不详）",
+  "abilityText": "在雾中畅游程度的能力",
+  "mainOracleText": "没有名字也没关系的啦。这反而显得我更厉害嘛。",
+  "mainOracleColumns": [
+    "没有名字也",
+    "没关系的啦。",
+    "这反而显得",
+    "我更厉害嘛。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "没有值得称道的大事发生。无喜亦无忧。"
+        },
+        {
+          "label": "交易",
+          "text": "如常进行。敬畏自然为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "勿存期待。"
+        },
+        {
+          "label": "健康",
+          "text": "生龙活虎。"
+        },
+        {
+          "label": "恋爱",
+          "text": "能谈一场头脑空空的恋爱。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "住所",
+          "text": "当心霉变，莫忘除湿。"
+        },
+        {
+          "label": "出行",
+          "text": "去向何方都无法看清景色。"
+        },
+        {
+          "label": "人缘",
+          "text": "旗鼓相当的亲友齐聚，其乐融融。"
+        },
+        {
+          "label": "寻物",
+          "text": "丧失姓名，再难找回。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她登场时原本只是一个用来充当途中小头目的龙套，但当时的登场角色太少，结果她也被当成了独立的角色之一。",
+      "自此之后，即便是没有台词的途中小头目我也会好好完善姓名和设定了。顺带一提，大妖精与小恶魔的立绘确实是存在的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/大妖精",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "52",
+  "pageTitle": "东方幻存神签/灵乌路空",
+  "bilingualPageTitle": "东方幻存神签/灵乌路空/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/灵乌路空",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/灵乌路空/中日对照",
+  "numberLabel": "第52号",
+  "rank": "大凶、部分大吉",
+  "rankDisplay": [
+    {
+      "text": "大凶、部分大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "炽热难驭的究极能源鸦",
+  "characterName": "灵乌路空",
+  "abilityText": "操纵核聚变程度的能力",
+  "mainOracleText": "若是敢对我拔刀来相向，你就是下个伊卡洛斯咯。",
+  "mainOracleColumns": [
+    "若是敢对我",
+    "拔刀来相向，",
+    "你就是下个",
+    "伊卡洛斯咯。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "狂暴气运无人能驭。未来无法预测。"
+        },
+        {
+          "label": "工作",
+          "text": "彻底湮灭。随后更为强大的工作自会诞生。"
+        },
+        {
+          "label": "财运",
+          "text": "极小概率实现财富爆炸式增长。"
+        },
+        {
+          "label": "学业",
+          "text": "爆毙。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "精力与体力皆无穷尽。"
+        },
+        {
+          "label": "住所",
+          "text": "未雨绸缪，防备火山喷发、地震等各种天灾。"
+        },
+        {
+          "label": "寻物",
+          "text": "遗失之物灰飞烟灭。"
+        },
+        {
+          "label": "人缘",
+          "text": "崇尚实力者纷至沓来。"
+        },
+        {
+          "label": "爱好",
+          "text": "足球为吉。观战亦善。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "八咫乌是住在太阳里的三足乌鸦。要说黑溜溜的乌鸦与太阳之间有什么联系，自然就会想到太阳黑子。",
+      "说不定古人早在伽利略发现太阳黑子之前，便已察觉了太阳中的黑斑呢。",
+      "话说回来，人类梦寐以求的核聚变到底什么时候才能实用化呢……"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/灵乌路空",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

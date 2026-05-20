@@ -1,0 +1,91 @@
+{
+  "id": "25",
+  "pageTitle": "东方幻存神签/因幡天为",
+  "bilingualPageTitle": "东方幻存神签/因幡天为/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/因幡天为",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/因幡天为/中日对照",
+  "numberLabel": "第25号",
+  "rank": "【大大吉】",
+  "rankDisplay": [
+    {
+      "text": "【大大吉】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "幸运的白兔",
+  "characterName": "因幡天为",
+  "abilityText": "使人类变得幸运程度的能力",
+  "mainOracleText": "自从太古时遭过那番罪，我便再不敢多嘴多舌了。",
+  "mainOracleColumns": [
+    "自从太古时",
+    "遭过那番罪，",
+    "我便再不敢",
+    "多嘴多舌了。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "即使守株待兔，幸运亦会从天而降。听天由命尚乃大吉。"
+        },
+        {
+          "label": "财运",
+          "text": "三十六行皆可获利。然幸运终有尽时，投资仍需谨慎。"
+        },
+        {
+          "label": "交易",
+          "text": "生意兴隆。切勿涉足黑色产业。"
+        },
+        {
+          "label": "学业",
+          "text": "押题百发百中。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "良好。当心皮肤病与外伤。"
+        },
+        {
+          "label": "出行",
+          "text": "会被鲨鱼噬咬，宜避开海域。"
+        },
+        {
+          "label": "恋爱",
+          "text": "诸事顺遂。"
+        },
+        {
+          "label": "寻物",
+          "text": "寻回大量失物。"
+        },
+        {
+          "label": "人缘",
+          "text": "只要保持幸运，自有亲朋相随。"
+        },
+        {
+          "label": "物件",
+          "text": "宜携带兔足。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是为人类带来幸运的兔子，但同时也是欺骗人类的诈术师。两个身份看似相互冲突，但所谓的赐予幸运毫无疑问是诈骗，因此并无矛盾。",
+      "总有人听信传言，为求幸运而四处寻觅她的踪迹。她似乎就是因为不堪其扰才隐居在竹林中的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/因幡天为",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

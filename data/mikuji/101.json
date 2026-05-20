@@ -1,0 +1,87 @@
+{
+  "id": "101",
+  "pageTitle": "东方幻存神签/庭渡久侘歌",
+  "bilingualPageTitle": "东方幻存神签/庭渡久侘歌/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/庭渡久侘歌",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/庭渡久侘歌/中日对照",
+  "numberLabel": "第101号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "看守口岸的鸡之神",
+  "characterName": "庭渡久侘歌",
+  "abilityText": "治愈喉疾程度的能力",
+  "mainOracleText": "雄鸡为何清晨啼鸣？可是因为噩梦初醒？",
+  "mainOracleColumns": [
+    "雄鸡为何",
+    "清晨啼鸣？",
+    "可是因为",
+    "噩梦初醒？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "处于运势的分歧点。视野极佳，但选择有限。"
+        },
+        {
+          "label": "疾病",
+          "text": "喉疾可愈。"
+        },
+        {
+          "label": "人缘",
+          "text": "喉部舒适、嗓音清亮，因此人缘不错。"
+        },
+        {
+          "label": "交易",
+          "text": "需开腔或献唱的生意为大吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "音乐为吉。家禽水平的脑容量。"
+        },
+        {
+          "label": "住所",
+          "text": "居于关口可交好运。"
+        },
+        {
+          "label": "恋爱",
+          "text": "是去是留当有决断。"
+        },
+        {
+          "label": "健康",
+          "text": "早睡早起为吉。"
+        },
+        {
+          "label": "争端",
+          "text": "常处于纠纷中心。会被卷入棘手事端。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是世间罕有的鸡之神明。和如今沦为家禽的鸡不同，古时的鸡似乎是被奉为神明的。",
+      "她的发型不知是假发还是挑染，总之是做出了鸡冠的造型。她的头饰本意是要展现生命力的神圣性，结果外观看来完全只是个普普通通的可爱鸟巢而已呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/庭渡久侘歌",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

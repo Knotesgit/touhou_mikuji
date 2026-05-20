@@ -1,0 +1,91 @@
+{
+  "id": "36",
+  "pageTitle": "东方幻存神签/秋静叶",
+  "bilingualPageTitle": "东方幻存神签/秋静叶/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/秋静叶",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/秋静叶/中日对照",
+  "numberLabel": "第36号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "深受游客喜爱的秋之神明",
+  "characterName": "秋静叶",
+  "abilityText": "掌管红叶程度的能力",
+  "mainOracleText": "村落与森林还有深山间。要遍染秋色可绝非易事。",
+  "mainOracleColumns": [
+    "村落与森林",
+    "还有深山间。",
+    "要遍染秋色",
+    "可绝非易事。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "眼下勉力维持，但终将衰颓。此乃自然之理。当坦然接受。"
+        },
+        {
+          "label": "方位",
+          "text": "北方、上方为吉。"
+        },
+        {
+          "label": "出行",
+          "text": "登山为吉，宜尽兴而行。"
+        },
+        {
+          "label": "交易",
+          "text": "唯观光业生意兴隆。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "多加留意。"
+        },
+        {
+          "label": "疾病",
+          "text": "恶化。"
+        },
+        {
+          "label": "住所",
+          "text": "谨防火灾。"
+        },
+        {
+          "label": "姻缘",
+          "text": "虽有良缘却难相逢。"
+        },
+        {
+          "label": "移徙",
+          "text": "转机有望。"
+        },
+        {
+          "label": "神德",
+          "text": "接触自然之美可得神明护佑。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "近来总觉得秋叶还未变红就已凋零了。据说这一现象的成因在于气候变化导致夏季过于炎热。",
+      "于她而言，这算不算是一种身份认同危机呢？抑或是正相反，幻想乡的秋色会因此愈发红艳绚烂？"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/秋静叶",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

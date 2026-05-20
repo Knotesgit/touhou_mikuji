@@ -1,0 +1,91 @@
+{
+  "id": "94",
+  "pageTitle": "东方幻存神签/高丽野阿吽",
+  "bilingualPageTitle": "东方幻存神签/高丽野阿吽/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/高丽野阿吽",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/高丽野阿吽/中日对照",
+  "numberLabel": "第94号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "守护博丽神社的狛犬",
+  "characterName": "高丽野阿吽",
+  "abilityText": "发现神佛程度的能力",
+  "mainOracleText": "吉利的物件，最是生祥瑞。物件成双对，祥瑞也加倍。",
+  "mainOracleColumns": [
+    "吉利的物件，",
+    "最是生祥瑞。",
+    "物件成双对，",
+    "祥瑞也加倍。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "安全明朗的运程指日可待。切勿遗忘信仰神佛之心。"
+        },
+        {
+          "label": "灾祸",
+          "text": "神佛庇佑，无灾无祸。"
+        },
+        {
+          "label": "交易",
+          "text": "创业必定成功。与宗教相关的产业为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "顺风顺水。求学之路畅通无阻。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "住所",
+          "text": "安宁稳定。摆放狛犬更佳。"
+        },
+        {
+          "label": "移徙",
+          "text": "当下不宜。"
+        },
+        {
+          "label": "出行",
+          "text": "参访神社佛寺之旅可安心成行。"
+        },
+        {
+          "label": "动物",
+          "text": "唯有猿猴务必回避。"
+        },
+        {
+          "label": "姻缘",
+          "text": "可得良缘，情投意合。"
+        },
+        {
+          "label": "生育",
+          "text": "生产顺利。多子多福。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是守护万千神社佛寺的狛犬。她的起源可追溯到古埃及，是伴随文明史演变至今的正统妖怪（？）。",
+      "据说她是成对存在的，但两个她同时现身的场面实在鲜见，所以这一点的可信度有待商榷。听起来简直像是打了照面就会死的二重身一样。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/高丽野阿吽",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

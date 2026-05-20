@@ -1,0 +1,87 @@
+{
+  "id": "81",
+  "pageTitle": "东方幻存神签/茨木华扇",
+  "bilingualPageTitle": "东方幻存神签/茨木华扇/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/茨木华扇",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/茨木华扇/中日对照",
+  "numberLabel": "第81号",
+  "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "喜爱动物的有角仙人",
+  "characterName": "茨木华扇",
+  "abilityText": "引导动物程度的能力",
+  "mainOracleText": "正如你所知，喜爱动物者必然有一颗美丽的心灵。",
+  "mainOracleColumns": [
+    "正如你所知，",
+    "喜爱动物者",
+    "必然有一颗",
+    "美丽的心灵。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "心愿得以实现，但要付出巨大代价，整体来看福不抵祸。"
+        },
+        {
+          "label": "工作",
+          "text": "从事服务业将举步维艰。与动物打交道的工作为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "生物、古文为吉。"
+        },
+        {
+          "label": "健康",
+          "text": "谨防手臂受伤。酗酒亦为大忌。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "忌神社、佛寺。"
+        },
+        {
+          "label": "住所",
+          "text": "深山为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "酷爱说教，被人敬而远之。"
+        },
+        {
+          "label": "恋爱",
+          "text": "粗犷之人为吉。"
+        },
+        {
+          "label": "动物",
+          "text": "饲养猛禽则百战百胜，养蛇则财运亨通，养猫则人际致祥，养猿则万事如意。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她干着仙人的活计，真身却是鬼族。而鬼可称是厄运的化身，运势自然好不了。",
+      "所谓引导动物，指的并不是饲养、驯服、奴役这类行为，而是“引导动物成长为理想的形态”。至于这理想的形态是什么样，那就只有她才知道了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/茨木华扇",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

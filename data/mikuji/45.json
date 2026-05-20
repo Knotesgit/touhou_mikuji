@@ -1,0 +1,87 @@
+{
+  "id": "45",
+  "pageTitle": "东方幻存神签/比那名居天子",
+  "bilingualPageTitle": "东方幻存神签/比那名居天子/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/比那名居天子",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/比那名居天子/中日对照",
+  "numberLabel": "第45号",
+  "rank": "【大大吉】",
+  "rankDisplay": [
+    {
+      "text": "【大大吉】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "放浪不羁的不良天人",
+  "characterName": "比那名居天子",
+  "abilityText": "操纵大地程度的能力",
+  "mainOracleText": "屈尊去奉陪凡夫俗子们，也是天人的职责所在嘛。",
+  "mainOracleColumns": [
+    "屈尊去奉陪",
+    "凡夫俗子们，",
+    "也是天人的",
+    "职责所在嘛。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "生来幸运。天地自然与周遭之人皆可为己所用。"
+        },
+        {
+          "label": "工作",
+          "text": "颇具领袖风采。明星、教师、宗教家、视频博主为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "小有学识。古文为吉。"
+        },
+        {
+          "label": "健康",
+          "text": "不知伤病为何物。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "历史悠久之地为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "从者如云。切勿过度说教。"
+        },
+        {
+          "label": "姻缘",
+          "text": "宜与显贵之人相亲。"
+        },
+        {
+          "label": "爱好",
+          "text": "于灾区开展志愿活动为大吉。"
+        },
+        {
+          "label": "饮食",
+          "text": "毫无口味可言。仅能提供营养。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "天人本应超脱世俗、与凡人不相闻问，可她却对凡人的生活饶有兴趣，言行举止也颇有人情味。",
+      "虽然看起来任性妄为、自以为是，可她没准也是在努力履行天人的职责，引领凡人走上天道，好让自己不负天人之名呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/比那名居天子",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "78",
+  "pageTitle": "东方幻存神签/鬼人正邪",
+  "bilingualPageTitle": "东方幻存神签/鬼人正邪/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/鬼人正邪",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/鬼人正邪/中日对照",
+  "numberLabel": "第78号",
+  "rank": "大凶",
+  "rankDisplay": [
+    {
+      "text": "大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "自诩孤高的天邪鬼",
+  "characterName": "鬼人正邪",
+  "abilityText": "翻转一切程度的能力",
+  "mainOracleText": "常人的乐趣都无聊透顶。这就是你想要的人生吗？",
+  "mainOracleColumns": [
+    "常人的乐趣",
+    "都无聊透顶。",
+    "这就是你想",
+    "要的人生吗？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "自绝好运之兆。无法得到旁人的协助。"
+        },
+        {
+          "label": "交易",
+          "text": "于成功前夕自行放弃。"
+        },
+        {
+          "label": "财运",
+          "text": "主动破财，自得其乐。存不了钱。"
+        },
+        {
+          "label": "学业",
+          "text": "故意答错，自鸣得意。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "身强体健，从不受伤。"
+        },
+        {
+          "label": "争端",
+          "text": "家常便饭。"
+        },
+        {
+          "label": "恋爱",
+          "text": "主动疏远意中人。实在遗憾。"
+        },
+        {
+          "label": "出行",
+          "text": "人迹罕至的无聊景点为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "善人恶人皆逃之夭夭。"
+        },
+        {
+          "label": "物件",
+          "text": "唯一的同伴。死物不会背叛。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是一个强大的反叛者，但她只是不分青红皂白地去反抗一切，压根就没考虑过未来，因此终将走向悲剧性的毁灭。",
+      "她命中注定无法得到可托全盘信赖的同伴，幸好这种形单影只的家伙在幻想乡里多得是，她也就并不惹眼了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/鬼人正邪",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

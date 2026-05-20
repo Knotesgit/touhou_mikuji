@@ -1,0 +1,83 @@
+{
+  "id": "107",
+  "pageTitle": "东方幻存神签/豪德寺三花",
+  "bilingualPageTitle": "东方幻存神签/豪德寺三花/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/豪德寺三花",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/豪德寺三花/中日对照",
+  "numberLabel": "第107号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "适合撑门面的招财三花猫",
+  "characterName": "豪德寺三花",
+  "abilityText": "招财或揽客程度的能力",
+  "mainOracleText": "走过路过都不要错过啦！有钱捧钱场，没钱捧人场！",
+  "mainOracleColumns": [
+    "走过路过都",
+    "不要错过啦！",
+    "有钱捧钱场，",
+    "没钱捧人场！"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "从事服务业为吉。若非如此当立即转行。"
+        },
+        {
+          "label": "交易",
+          "text": "生意红红火火。然而，客流与收入不可兼得。贪得无厌必堕地狱。"
+        },
+        {
+          "label": "学业",
+          "text": "数学、经济学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "出行不如经商。"
+        },
+        {
+          "label": "恋爱",
+          "text": "到底不如经商。"
+        },
+        {
+          "label": "姻缘",
+          "text": "为财成婚亦有良缘。"
+        },
+        {
+          "label": "住所",
+          "text": "门庭若市，恶鼠绝迹。"
+        },
+        {
+          "label": "信仰",
+          "text": "神社哪有佛寺好。生意兴隆勿忘还愿。忘恩负义必堕地狱。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是常在商铺中充当吉祥摆件的招财猫。说是什么举右手能招财、举左手能揽客，但按照豪德寺招财猫的起源传说来考虑，这种效果实在是莫名其妙。",
+      "豪德寺的那只猫，应该只是由于湿度太高在抬手擦脸吧。这样就能当上福神，不愧是大吉之运。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/豪德寺三花",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

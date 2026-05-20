@@ -1,0 +1,90 @@
+{
+  "id": "100",
+  "pageTitle": "东方幻存神签/牛崎润美",
+  "bilingualPageTitle": "东方幻存神签/牛崎润美/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/牛崎润美",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/牛崎润美/中日对照",
+  "numberLabel": "第100号",
+  "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "怀抱石婴的牛鬼",
+  "characterName": "牛崎润美",
+  "abilityText": "改变身边物体重量程度的能力",
+  "mainOracleText": "重达千钧的是石之密度？抑或是脚下大地的恶意？",
+  "mainOracleColumns": [
+    "重达千钧的",
+    "是石之密度？",
+    "抑或是脚下",
+    "大地的恶意？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "身心沉重，时运难济。"
+        },
+        {
+          "label": "健康",
+          "text": "肩臂、腰部均有负担。"
+        },
+        {
+          "label": "生育",
+          "text": "并发症重，注定难产。子女身体强健。"
+        },
+        {
+          "label": "交易",
+          "text": "宜渔业、乳畜业。但需当心溺水。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "无功无过。"
+        },
+        {
+          "label": "出行",
+          "text": "滨水处多有危险。务必当心。"
+        },
+        {
+          "label": "姻缘",
+          "text": "与为人父母者结下良缘。"
+        },
+        {
+          "label": "家庭",
+          "text": "务必稳重经营。"
+        },
+        {
+          "label": "争端",
+          "text": "家常便饭，不落下风。"
+        },
+        {
+          "label": "寻物",
+          "text": "可从古代鱼腹中寻回失物。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "在妖怪绘卷中，牛鬼大多半被画成了蜘蛛的形象。但润美本质上却是山阴地区传说中的濡女。在当地传说中，濡女会化作妇人的样子，向人托付婴儿。我觉得比起蜘蛛还是这个形象更有魅力，于是将她设计成了这样。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/牛崎润美",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

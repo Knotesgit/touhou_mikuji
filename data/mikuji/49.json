@@ -1,0 +1,91 @@
+{
+  "id": "49",
+  "pageTitle": "东方幻存神签/星熊勇仪",
+  "bilingualPageTitle": "东方幻存神签/星熊勇仪/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/星熊勇仪",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/星熊勇仪/中日对照",
+  "numberLabel": "第49号",
+  "rank": "乱",
+  "rankDisplay": [
+    {
+      "text": "乱",
+      "struck": false
+    }
+  ],
+  "characterTitle": "身怀怪力毁天灭地的鬼",
+  "characterName": "星熊勇仪",
+  "abilityText": "拥有怪力乱神程度的能力",
+  "mainOracleText": "就凭你那双细胳膊软腿，哪里挺得过这纷乱之世？",
+  "mainOracleColumns": [
+    "就凭你那双",
+    "细胳膊软腿，",
+    "哪里挺得过",
+    "这纷乱之世？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "有福亦有祸。唯有凭实力抓住好运。"
+        },
+        {
+          "label": "健康",
+          "text": "身强体健。豪饮美酒。"
+        },
+        {
+          "label": "比试",
+          "text": "力气够大则能所向披靡。"
+        },
+        {
+          "label": "运动",
+          "text": "多多益善，力压群雄。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "风波连连。力气大小决定事业成败。"
+        },
+        {
+          "label": "学业",
+          "text": "无法专心学习。临考押题为上。"
+        },
+        {
+          "label": "出行",
+          "text": "酒馆巡游即可。"
+        },
+        {
+          "label": "恋爱",
+          "text": "当主动挑衅。"
+        },
+        {
+          "label": "争端",
+          "text": "当抢先惹事。"
+        },
+        {
+          "label": "财运",
+          "text": "无用。当靠蛮力夺取一切。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "作为堂堂恶鬼，她来当第三关头目实在屈才。她是名副其实的鬼族，平日里凭借恐惧与暴力凌驾于诸多怨灵之上。",
+      "她的周围总是风波不断，绝无一刻安宁。倘若实力强大，她的身侧倒也堪称乐土，可对弱小无力的人类而言便是地狱。感觉这一点跟外界的社会还挺像的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/星熊勇仪",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

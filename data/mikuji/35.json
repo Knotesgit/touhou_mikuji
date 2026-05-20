@@ -1,0 +1,91 @@
+{
+  "id": "35",
+  "pageTitle": "东方幻存神签/四季映姬·夜摩仙那度",
+  "bilingualPageTitle": "东方幻存神签/四季映姬·夜摩仙那度/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/四季映姬·夜摩仙那度",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/四季映姬·夜摩仙那度/中日对照",
+  "numberLabel": "第35号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "锐眼辨是非的阎魔大人",
+  "characterName": "四季映姬·夜摩仙那度",
+  "abilityText": "明鉴黑白程度的能力",
+  "mainOracleText": "世上本没有绝对的事实。唯一的真相须由我裁决。",
+  "mainOracleColumns": [
+    "世上本没有",
+    "绝对的事实。",
+    "唯一的真相",
+    "须由我裁决。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "当行之事愈发明晰，得以摆脱踌躇。心境豁然开朗。"
+        },
+        {
+          "label": "工作",
+          "text": "当坚持心中正道。法官为吉。"
+        },
+        {
+          "label": "交易",
+          "text": "济世之业可繁荣昌盛。"
+        },
+        {
+          "label": "学业",
+          "text": "发现考题错漏。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "清正廉洁可成良缘。"
+        },
+        {
+          "label": "出行",
+          "text": "巡游地狱为吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "围棋为吉。阅读推理小说将被剧透。"
+        },
+        {
+          "label": "心愿",
+          "text": "清偿往日罪孽则可如愿。"
+        },
+        {
+          "label": "人缘",
+          "text": "众人疏离。切忌令人过度畏惧。"
+        },
+        {
+          "label": "疾病",
+          "text": "慎防舌部受伤。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "阎魔大人通常是位满面怒容、相貌可怖的神明。这或许是在彰显其拷问罪人生前恶行的神格。",
+      "但实话说，恶贯满盈之人也不会只因狰狞面目就心生恐惧，反倒是怯懦之辈会在恐惧中坦白莫须有的罪名吧。她是如何暂且不论，阎魔大人当真能公正审判吗？"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/四季映姬·夜摩仙那度",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

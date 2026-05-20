@@ -1,0 +1,91 @@
+{
+  "id": "70",
+  "pageTitle": "东方幻存神签/丰聪耳神子",
+  "bilingualPageTitle": "东方幻存神签/丰聪耳神子/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/丰聪耳神子",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/丰聪耳神子/中日对照",
+  "numberLabel": "第70号",
+  "rank": "【最大吉】",
+  "rankDisplay": [
+    {
+      "text": "【最大吉】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "全能的领袖道士",
+  "characterName": "丰聪耳神子",
+  "abilityText": "可同时倾听十人话语程度的能力",
+  "mainOracleText": "天下之人不争不逆，安分守己。此即和也。",
+  "mainOracleColumns": [
+    "天下之人",
+    "不争不逆，",
+    "安分守己。",
+    "此即和也。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "气运极旺，一时无忧无患。"
+        },
+        {
+          "label": "工作",
+          "text": "大获成功。政治家、道士则吉上加吉。"
+        },
+        {
+          "label": "学业",
+          "text": "所有科目皆有长进。公民学吉上加吉。"
+        },
+        {
+          "label": "健康",
+          "text": "若不爱护耳朵便会气运衰退。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "人缘",
+          "text": "求助者纷至沓来。很是麻烦。"
+        },
+        {
+          "label": "财运",
+          "text": "将有人主动馈赠钱财，但切勿收取。"
+        },
+        {
+          "label": "心愿",
+          "text": "早已圆满。"
+        },
+        {
+          "label": "出行",
+          "text": "无暇成行。"
+        },
+        {
+          "label": "恋爱",
+          "text": "可脚踏十条船。"
+        },
+        {
+          "label": "争端",
+          "text": "无。此即和也。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是幻想乡里最名副其实的超人。哪怕是无人知晓的未来之事，她也能自信满满地做出预言，显得非常有说服力。",
+      "她精于笼络人心，可谓是名副其实的政治家。她不靠歪门邪道去赢取支持，对习惯以恐惧来控制人心的妖怪而言，她恐怕是最大的威胁吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/丰聪耳神子",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

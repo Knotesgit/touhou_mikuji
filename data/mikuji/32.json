@@ -1,0 +1,83 @@
+{
+  "id": "32",
+  "pageTitle": "东方幻存神签/风见幽香",
+  "bilingualPageTitle": "东方幻存神签/风见幽香/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/风见幽香",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/风见幽香/中日对照",
+  "numberLabel": "第32号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "幻想乡的鲜花之主",
+  "characterName": "风见幽香",
+  "abilityText": "操纵花朵程度的能力",
+  "mainOracleText": "风姿与芳香，均为招蜂蝶。莫笑虫儿痴，人类又如何？",
+  "mainOracleColumns": [
+    "风姿与芳香，",
+    "均为招蜂蝶。",
+    "莫笑虫儿痴，",
+    "人类又如何？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "可享绚烂生活，但维持颇费心力。"
+        },
+        {
+          "label": "健康",
+          "text": "若不悉心管理便会迅速凋零。"
+        },
+        {
+          "label": "交易",
+          "text": "服务业则顾客盈门。花店为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "宜植物学、美术。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "多多益善。但践踏植物将招致不幸。"
+        },
+        {
+          "label": "恋爱",
+          "text": "赠礼当选花束。"
+        },
+        {
+          "label": "住所",
+          "text": "鲜花妆点为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "亲朋易来也易去。强行挽留反遭不幸。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是花之妖怪，也是谜之妖怪。所以她是花蜜妖怪……好吧，其实她是来自旧作的客串角色。",
+      "花朵与昆虫展现了精彩的协同进化。花朵并没有符合人类审美的必要，但事实却非如此。也许这是因为在花之妖怪眼中，人类与昆虫无异吧？"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/风见幽香",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

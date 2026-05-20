@@ -1,0 +1,88 @@
+{
+  "id": "72",
+  "pageTitle": "东方幻存神签/秦心",
+  "bilingualPageTitle": "东方幻存神签/秦心/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/秦心",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/秦心/中日对照",
+  "numberLabel": "第72号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "熟练运用六十六种感情的面灵气",
+  "characterName": "秦心",
+  "abilityText": "操纵感情程度的能力",
+  "mainOracleText": "为什么最近不愿意表露自身情感的人变多了呢？",
+  "mainOracleColumns": [
+    "为什么最近",
+    "不愿意表露",
+    "自身情感的",
+    "人变多了呢？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "感情能够控制自如。维持平心静气，运气便能日渐提升。"
+        },
+        {
+          "label": "工作",
+          "text": "演技高超，如有千副面孔。落语家、演员为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "文科整体与日俱进。"
+        },
+        {
+          "label": "健康",
+          "text": "容易忽视身体问题。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "人山人海之地可得尽兴。应积极参与节庆活动。"
+        },
+        {
+          "label": "恋爱",
+          "text": "恋慕之情无法操纵。"
+        },
+        {
+          "label": "寻物",
+          "text": "将失一件珍宝。"
+        },
+        {
+          "label": "人缘",
+          "text": "将遇骗局，务必当心。"
+        },
+        {
+          "label": "爱好",
+          "text": "化妆、能乐、歌舞伎、假面舞会为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的能力说是能够操纵感情，但从游戏里的表现来看，倒更像是在夺取人类的感情。",
+      "其实，操纵感情的意思是能够随意改变自身的感情，奈何她面无表情，所以别人也看不太出来（笑）。",
+      "她的感情多达66种，想必其中也会有些颇为古怪的感情吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/秦心",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

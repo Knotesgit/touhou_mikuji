@@ -1,0 +1,91 @@
+{
+  "id": "97",
+  "pageTitle": "东方幻存神签/尔子田里乃",
+  "bilingualPageTitle": "东方幻存神签/尔子田里乃/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/尔子田里乃",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/尔子田里乃/中日对照",
+  "numberLabel": "第97号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "持续起舞直至消亡的童子",
+  "characterName": "尔子田里乃",
+  "abilityText": "通过在背后起舞来诱导出精神力程度的能力",
+  "mainOracleText": "我已经如此卖力送声援，为何你这般痛苦不堪言？",
+  "mainOracleColumns": [
+    "我已经如此",
+    "卖力送声援，",
+    "为何你这般",
+    "痛苦不堪言？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "精力充沛大展身手，好运也会纷至沓来。事后会疲惫不堪。"
+        },
+        {
+          "label": "工作",
+          "text": "心无杂念投入工作，则能取得成果。当心人员优化。"
+        },
+        {
+          "label": "健康",
+          "text": "健忘日渐加重。"
+        },
+        {
+          "label": "学业",
+          "text": "体育、美术、音乐为吉。加入拉拉队则大吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "人山人海之地为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "忘却糟心回忆，顺利推进关系。"
+        },
+        {
+          "label": "人缘",
+          "text": "切记珍惜伙伴。"
+        },
+        {
+          "label": "争端",
+          "text": "周遭虽有纠纷，但不会殃及自己。"
+        },
+        {
+          "label": "财运",
+          "text": "挥金如土。"
+        },
+        {
+          "label": "心愿",
+          "text": "夙愿得偿的良机。值得拼力一搏。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她和舞一样，身上找不到半点过去的痕迹。但两人的性格不同，想来是因为两人过去的气质有所留存吧。",
+      "她手持的植物是茗荷。民间传说吃下茗荷便会失忆，这自然是迷信。不过她记性奇差，这点好像是真的……。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/尔子田里乃",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

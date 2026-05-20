@@ -1,0 +1,95 @@
+{
+  "id": "44",
+  "pageTitle": "东方幻存神签/永江衣玖",
+  "bilingualPageTitle": "东方幻存神签/永江衣玖/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/永江衣玖",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/永江衣玖/中日对照",
+  "numberLabel": "第44号",
+  "rank": "小吉",
+  "rankDisplay": [
+    {
+      "text": "小吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "通报地震的龙宫使者",
+  "characterName": "永江衣玖",
+  "abilityText": "解读空气程度的能力",
+  "mainOracleText": "地震总归是要发生的啦。大地也没法待着不动嘛。",
+  "mainOracleColumns": [
+    "地震总归是",
+    "要发生的啦。",
+    "大地也没法",
+    "待着不动嘛。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "恐遇天灾。除此之外亦有巨变之兆。"
+        },
+        {
+          "label": "人缘",
+          "text": "善读气氛借风使舵，因此不会得罪于人。但也难以引人注目。"
+        },
+        {
+          "label": "工作",
+          "text": "大多岗位皆可安稳。"
+        },
+        {
+          "label": "健康",
+          "text": "容易积累精神压力。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "理科皆吉。"
+        },
+        {
+          "label": "运动",
+          "text": "泳技突飞猛进。"
+        },
+        {
+          "label": "住所",
+          "text": "地震将至，速做打算。"
+        },
+        {
+          "label": "恋爱",
+          "text": "平平淡淡。"
+        },
+        {
+          "label": "出行",
+          "text": "宜航空或航海。"
+        },
+        {
+          "label": "争端",
+          "text": "不会发生。可为他人仲裁争端。"
+        },
+        {
+          "label": "爱好",
+          "text": "在步行街上穿梭自如。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "在开发绯想天的时候，我还不知道已经有人拍到了活生生的龙宫使者，一直觉得它只存在于传说之中。而时至今日，龙宫使者甚至都有好几个视频留存于世了。",
+      "据说龙宫使者在极度饥饿时整个身子都会缩短。这不可思议的适应力和解读空气的能力颇有些相通之处。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/永江衣玖",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

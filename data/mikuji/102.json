@@ -1,0 +1,92 @@
+{
+  "id": "102",
+  "pageTitle": "东方幻存神签/吉吊八千慧",
+  "bilingualPageTitle": "东方幻存神签/吉吊八千慧/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/吉吊八千慧",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/吉吊八千慧/中日对照",
+  "numberLabel": "第102号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "担任鬼杰组组长的吉吊",
+  "characterName": "吉吊八千慧",
+  "abilityText": "剥夺反抗意志程度的能力",
+  "mainOracleText": "若是一开始就乖乖听令，小命本能够多留些时日。",
+  "mainOracleColumns": [
+    "若是一开始",
+    "就乖乖听令，",
+    "小命本能够",
+    "多留些时日。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "用人有方自能成功。但也会额外树敌。"
+        },
+        {
+          "label": "交易",
+          "text": "当交给部下。亲力亲为也不会有好下场。"
+        },
+        {
+          "label": "人缘",
+          "text": "温驯之人聚集左右。"
+        },
+        {
+          "label": "争端",
+          "text": "必胜。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "付诸努力便有长进。功成之日亦将收获人心。"
+        },
+        {
+          "label": "健康",
+          "text": "忽视养生，自食其果。"
+        },
+        {
+          "label": "出行",
+          "text": "宜前往都会或水边。"
+        },
+        {
+          "label": "财运",
+          "text": "财运亨通。不义之财难久留。"
+        },
+        {
+          "label": "恋爱",
+          "text": "切忌糟践部下。"
+        },
+        {
+          "label": "动物",
+          "text": "水獭很可爱。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "鬼杰组是支配动物灵的一大势力，而她则是这一组织的组长。",
+      "她的能力可以剥夺任何对手的力量，相当难以对付。美中不足的是，这也导致她的部下多为无能之辈。",
+      "组长本人足智多谋，却时常为笨手笨脚、忠心不足的部下而头疼。鬼杰组就是这样一个组织。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/吉吊八千慧",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

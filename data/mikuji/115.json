@@ -1,0 +1,91 @@
+{
+  "id": "115",
+  "pageTitle": "东方幻存神签/孙美天",
+  "bilingualPageTitle": "东方幻存神签/孙美天/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/孙美天",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/孙美天/中日对照",
+  "numberLabel": "第115号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "坚信自己是齐天大圣的猿神",
+  "characterName": "孙美天",
+  "abilityText": "操纵野生猿猴程度的能力",
+  "mainOracleText": "猴山当大王，乃是修罗道。毛头小妖怪，岂能来碰瓷。",
+  "mainOracleColumns": [
+    "猴山当大王，",
+    "乃是修罗道。",
+    "毛头小妖怪，",
+    "岂能来碰瓷。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "如猴爪般攫取好运。但亦有可能攫取意料之外的妖气。"
+        },
+        {
+          "label": "交易",
+          "text": "三教九流来客云集。注意筛选交易对象。"
+        },
+        {
+          "label": "工作",
+          "text": "凭借灵活身手做得风生水起。手艺人、演员、猴戏表演者、体操选手为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "猴子水平。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "前往森林会卷入领地纷争。宜向西行。"
+        },
+        {
+          "label": "健康",
+          "text": "身坚如石。"
+        },
+        {
+          "label": "争端",
+          "text": "没完没了。"
+        },
+        {
+          "label": "财运",
+          "text": "收入不菲，但会因贪欲尽付东流。"
+        },
+        {
+          "label": "恋爱",
+          "text": "宜大胆进攻。"
+        },
+        {
+          "label": "爱好",
+          "text": "爬树为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是以投掷薯条而闻名的猿猴妖怪。她那支神似金箍棒的棒子不知为何是玻璃做的，看起来不太好使。",
+      "那支棒子有特殊的力量，击中对手后能将其灵魂的一部分封入棒中，藉此轻松掌控人心、让对方俯首听令。猴山的秩序就是依靠这支棒子来维持的。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/孙美天",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

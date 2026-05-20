@@ -1,0 +1,92 @@
+{
+  "id": "30",
+  "pageTitle": "东方幻存神签/藤原妹红",
+  "bilingualPageTitle": "东方幻存神签/藤原妹红/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/藤原妹红",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/藤原妹红/中日对照",
+  "numberLabel": "第30号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "永远孤独的不死者",
+  "characterName": "藤原妹红",
+  "abilityText": "不老不死程度的能力",
+  "mainOracleText": "忍耐再忍耐，咬牙撑下去，更好的日子终将会到来。",
+  "mainOracleColumns": [
+    "忍耐再忍耐，",
+    "咬牙撑下去，",
+    "更好的日子",
+    "终将会到来。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "无论多么艰辛，活着便是幸运。此刻正是忍耐之时。"
+        },
+        {
+          "label": "健康",
+          "text": "寿比南山。但须谨慎服药。"
+        },
+        {
+          "label": "工作",
+          "text": "导游业、锅炉技师为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "投入时间钻研必有回报。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "宜登山，但须避开富士山。"
+        },
+        {
+          "label": "恋爱",
+          "text": "如烈火般燃尽成灰。"
+        },
+        {
+          "label": "住所",
+          "text": "不宜长期定居。"
+        },
+        {
+          "label": "财运",
+          "text": "不再需要钱财。"
+        },
+        {
+          "label": "心愿",
+          "text": "一旦如愿便会失去生存意义，不如保留未竟之志。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜培养单调而耗时的爱好。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "虽然幻想乡的人类与她鲜有交集，但她姑且也算是人类。",
+      "因为对方总会先她而死，久而久之她便觉得与人结交只是徒劳了。",
+      "不过近来她与人交流渐多，开始乐在其中。但与此同时，想到未来之事，她又会倍感寂寥。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/藤原妹红",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

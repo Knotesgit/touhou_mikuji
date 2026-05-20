@@ -1,0 +1,91 @@
+{
+  "id": "34",
+  "pageTitle": "东方幻存神签/小野塚小町",
+  "bilingualPageTitle": "东方幻存神签/小野塚小町/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/小野塚小町",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/小野塚小町/中日对照",
+  "numberLabel": "第34号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "专业磨洋工的死神",
+  "characterName": "小野塚小町",
+  "abilityText": "操纵距离程度的能力",
+  "mainOracleText": "死神若当真拼命去工作，世界不就要一片死寂咯？",
+  "mainOracleColumns": [
+    "死神若当真",
+    "拼命去工作，",
+    "世界不就要",
+    "一片死寂咯？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "与死神毗邻也可悠然度日。不算太坏。"
+        },
+        {
+          "label": "健康",
+          "text": "死神怠工，长命百岁。"
+        },
+        {
+          "label": "晋升",
+          "text": "升迁无望，但怡然自得。"
+        },
+        {
+          "label": "交易",
+          "text": "平平无奇。"
+        },
+        {
+          "label": "学业",
+          "text": "有心学习也无济于事。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "人缘",
+          "text": "得遇三教九流。"
+        },
+        {
+          "label": "财运",
+          "text": "可蓄身后财。"
+        },
+        {
+          "label": "恋爱",
+          "text": "距离渐近。"
+        },
+        {
+          "label": "出行",
+          "text": "宜避开河川。川流诱人深入。"
+        },
+        {
+          "label": "爱好",
+          "text": "闲暇时光增多，恰是多方尝试的良机。适当怠工便能生活充实。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是三途川的摆渡人。既以划船为业，她又为何要扛着那柄巨镰呢？",
+      "她独自一人工作，节奏全凭自己掌握，大多时间都悠哉游哉。只要能维持生计，那可是相当令人向往的理想生活。虽然我是完全不想去当死神的啦。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/小野塚小町",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

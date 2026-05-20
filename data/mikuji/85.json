@@ -1,0 +1,88 @@
+{
+  "id": "85",
+  "pageTitle": "东方幻存神签/哆来咪·苏伊特",
+  "bilingualPageTitle": "东方幻存神签/哆来咪·苏伊特/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/哆来咪·苏伊特",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/哆来咪·苏伊特/中日对照",
+  "numberLabel": "第85号",
+  "rank": "末大吉",
+  "rankDisplay": [
+    {
+      "text": "末大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "支配梦境之貘",
+  "characterName": "哆来咪·苏伊特",
+  "abilityText": "食梦、造梦程度的能力",
+  "mainOracleText": "潜意识若是等同于梦境，则梦即世界。梦境的主宰将君临世界。",
+  "mainOracleColumns": [
+    "潜意识若是",
+    "等同于梦境，",
+    "则梦即世界。",
+    "梦境的主宰",
+    "将君临世界。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "将被卷入命运洪流。守住本我即可乘风破浪。"
+        },
+        {
+          "label": "心愿",
+          "text": "所梦皆成真。梦中见闻当牢记于心。"
+        },
+        {
+          "label": "学业",
+          "text": "梦中学习效果绝佳。当保证睡眠。"
+        },
+        {
+          "label": "交易",
+          "text": "奇思妙想从天而降。相信自己即为大吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "频频做梦，略感倦意。"
+        },
+        {
+          "label": "出行",
+          "text": "踏上梦幻旅途。"
+        },
+        {
+          "label": "财运",
+          "text": "无需花钱。"
+        },
+        {
+          "label": "物件",
+          "text": "得遇心仪枕头。"
+        },
+        {
+          "label": "身体",
+          "text": "若混淆梦境与现实则为大凶。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "食梦貘这种妖怪与现实中的动物——貘同名，她的形象也脱胎自黑白两色的马来貘。",
+      "梦境世界本非现实，但只要哆来咪一出场，二者的关系就会变得错综复杂呢。她口中的梦境世界，感觉类似于荣格所提出的集体无意识。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/哆来咪·苏伊特",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "37",
+  "pageTitle": "东方幻存神签/秋穰子",
+  "bilingualPageTitle": "东方幻存神签/秋穰子/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/秋穰子",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/秋穰子/中日对照",
+  "numberLabel": "第37号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "深受村中人类喜爱的神明",
+  "characterName": "秋穰子",
+  "abilityText": "掌管丰收程度的能力",
+  "mainOracleText": "能饱餐一顿是无上幸福，世间任何事都无可比拟。",
+  "mainOracleColumns": [
+    "能饱餐一顿",
+    "是无上幸福，",
+    "世间任何事",
+    "都无可比拟。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "稳得吉运。纵遭挫折亦内心平和，无需挂怀。"
+        },
+        {
+          "label": "农业",
+          "text": "丰收。"
+        },
+        {
+          "label": "交易",
+          "text": "基本顺利。"
+        },
+        {
+          "label": "健康",
+          "text": "无需忧虑。心宽体胖。"
+        },
+        {
+          "label": "疾病",
+          "text": "痊愈。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "纵有不顺亦无需在意。"
+        },
+        {
+          "label": "恋爱",
+          "text": "与口味相投者易成良缘。"
+        },
+        {
+          "label": "果实",
+          "text": "甜度上升。"
+        },
+        {
+          "label": "薯类",
+          "text": "宜烘烤食用。"
+        },
+        {
+          "label": "神德",
+          "text": "参拜神社切莫懈怠。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是丰收之神这种经典款神明，结果却成了第一关的头目。",
+      "这或许是因为人类动不动就会祈求丰收之神保佑，反倒让她丧失了神秘感吧。",
+      "稻荷神总会被塑造成吉祥物，感觉也是出于同样的理由。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/秋穰子",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

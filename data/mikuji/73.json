@@ -1,0 +1,92 @@
+{
+  "id": "73",
+  "pageTitle": "东方幻存神签/若鹭姬",
+  "bilingualPageTitle": "东方幻存神签/若鹭姬/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/若鹭姬",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/若鹭姬/中日对照",
+  "numberLabel": "第73号",
+  "rank": "半吉",
+  "rankDisplay": [
+    {
+      "text": "半吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "世间罕有的淡水人鱼",
+  "characterName": "若鹭姬",
+  "abilityText": "在水中力量会增加程度的能力",
+  "mainOracleText": "一半是人身一半是鱼尾吃啥最应景对半开炸虾",
+  "mainOracleColumns": [
+    "一半是人身",
+    "一半是鱼尾",
+    "吃啥最应景",
+    "对半开炸虾"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "半吉半凶。有时走运有时倒霉。人生大抵如此。"
+        },
+        {
+          "label": "健康",
+          "text": "吉，活蹦乱跳。"
+        },
+        {
+          "label": "交易",
+          "text": "凶，市场风波难测。"
+        },
+        {
+          "label": "学业",
+          "text": "吉，能够静心用功。"
+        },
+        {
+          "label": "住所",
+          "text": "凶，水厄之卦。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "吉，湖泊为宜。"
+        },
+        {
+          "label": "争端",
+          "text": "凶，必输无疑。"
+        },
+        {
+          "label": "恋爱",
+          "text": "吉，平凡交往即可顺利发展。"
+        },
+        {
+          "label": "服装",
+          "text": "除和服之外皆为凶。"
+        },
+        {
+          "label": "爱好",
+          "text": "钓鱼为吉。但勿忘钓获放流。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "我很中意淡水人鱼这四个字的发音，有种难以言说的浪漫感。",
+      "不过，她这个角色的活动范围受到了很大限制，这在东方里是不多见的。由于这一限制，她很难在别的作品里登场。",
+      "但要论水下战斗，她肯定算得上顶级战力。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/若鹭姬",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

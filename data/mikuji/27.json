@@ -1,0 +1,87 @@
+{
+  "id": "27",
+  "pageTitle": "东方幻存神签/八意永琳",
+  "bilingualPageTitle": "东方幻存神签/八意永琳/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/八意永琳",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/八意永琳/中日对照",
+  "numberLabel": "第27号",
+  "rank": "吉",
+  "rankDisplay": [
+    {
+      "text": "吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "身怀月之睿智的月之民",
+  "characterName": "八意永琳",
+  "abilityText": "制作任何药物程度的能力",
+  "mainOracleText": "新月升起时何处是月都，就连这您都一无所知呢。",
+  "mainOracleColumns": [
+    "新月升起时",
+    "何处是月都，",
+    "就连这您都",
+    "一无所知呢。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "以智谋化解难题。易招惹强敌。"
+        },
+        {
+          "label": "工作",
+          "text": "医师、药剂师或制药公司职员为吉。"
+        },
+        {
+          "label": "交易",
+          "text": "若染指违禁药物，恐遭牢狱之灾。"
+        },
+        {
+          "label": "学业",
+          "text": "百般学问自发增长，医学、药学为大吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "愈是依赖药物则愈发恶化。用药务必遵循医嘱。"
+        },
+        {
+          "label": "出行",
+          "text": "不宜过分远行。"
+        },
+        {
+          "label": "住所",
+          "text": "宜邻近竹林。"
+        },
+        {
+          "label": "恋爱",
+          "text": "当常怀体谅之心。"
+        },
+        {
+          "label": "人缘",
+          "text": "交际广泛，但深交反易生事端。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "原作立绘中的她不知为何手握长弓，但实际上她自始至终都专注于医药，鲜有使用弓箭的印象。",
+      "其实这是因为RPG中智力型角色多为后方支援定位，而说到后方支援那就是用弓——就是这么单纯的思路。当然，也有可能她是在扮作猎兔人去吓唬兔子吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/八意永琳",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

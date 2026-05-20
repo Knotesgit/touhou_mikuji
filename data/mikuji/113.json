@@ -1,0 +1,92 @@
+{
+  "id": "113",
+  "pageTitle": "东方幻存神签/天弓千亦",
+  "bilingualPageTitle": "东方幻存神签/天弓千亦/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/天弓千亦",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/天弓千亦/中日对照",
+  "numberLabel": "第113号",
+  "rank": "吉凶不定",
+  "rankDisplay": [
+    {
+      "text": "吉凶不定",
+      "struck": false
+    }
+  ],
+  "characterTitle": "就连命运也能交易的神明",
+  "characterName": "天弓千亦",
+  "abilityText": "剥夺所有权程度的能力",
+  "mainOracleText": "人类是何时开始误认为自己能主宰命运所有权？",
+  "mainOracleColumns": [
+    "人类是何时",
+    "开始误认为",
+    "自己能主宰",
+    "命运所有权？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "辛苦抓住的好运转瞬即逝。但可反守为攻，主动夺走他人好运。"
+        },
+        {
+          "label": "交易",
+          "text": "贯彻自由买卖便可时运亨通。斤斤计较终将失败。"
+        },
+        {
+          "label": "工作",
+          "text": "大起大落。零售业为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "经济学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "财运",
+          "text": "持仓为凶。当推倒重来。"
+        },
+        {
+          "label": "恋爱",
+          "text": "得遇了无控制欲之人。"
+        },
+        {
+          "label": "出行",
+          "text": "市场为大吉。"
+        },
+        {
+          "label": "寻物",
+          "text": "可在土中寻回。"
+        },
+        {
+          "label": "疾病",
+          "text": "病魔退散。"
+        },
+        {
+          "label": "爱好",
+          "text": "主动出手珍藏，藏品不减反增。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是集市之神，颇为奇异的衣品和十分独特的姿势惹人在意。",
+      "简单来说，她的能力就是操纵所有权。本来，所有物就算遭人舍弃，所有权依然属于原来的物主。同理，他人即便取得了物品也很难获得所有权。",
+      "但若借助契约，还物于神再由神赐物于人，便能实现真正的交易。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/天弓千亦",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

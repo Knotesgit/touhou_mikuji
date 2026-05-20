@@ -1,0 +1,92 @@
+{
+  "id": "99",
+  "pageTitle": "东方幻存神签/戎璎花",
+  "bilingualPageTitle": "东方幻存神签/戎璎花/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/戎璎花",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/戎璎花/中日对照",
+  "numberLabel": "第99号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "水子偶像",
+  "characterName": "戎璎花",
+  "abilityText": "擅长垒石头程度的能力",
+  "mainOracleText": "快乐生活胜过一切，哪怕生命早已终结。",
+  "mainOracleColumns": [
+    "快乐生活",
+    "胜过一切，",
+    "哪怕生命",
+    "早已终结。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "前途光明。细微喜悦接连而至，生活轻松愉快。"
+        },
+        {
+          "label": "交易",
+          "text": "重复劳动为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "努力不再是负担，辛劳必有回报。"
+        },
+        {
+          "label": "健康",
+          "text": "不会受伤。剧烈运动为吉。"
+        },
+        {
+          "label": "争端",
+          "text": "落败亦为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "单相思，但为吉。"
+        },
+        {
+          "label": "姻缘",
+          "text": "无需在意。"
+        },
+        {
+          "label": "出行",
+          "text": "近水之处闻人呼唤，务必远离。此外，高耸建筑亦为凶。"
+        },
+        {
+          "label": "住所",
+          "text": "日渐明朗。唯有本心永远相伴。"
+        },
+        {
+          "label": "爱好",
+          "text": "演唱会为吉。尽情狂欢吧。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "我偶尔会看垒石头高手的视频，那技术可谓是出神入化。这手艺简直就是超能力了吧。",
+      "璎花的平衡能力似乎也是如此出类拔萃。而且她并不排斥重复劳动，这就更难得了。",
+      "若是她能换个地方生活，想必能在艺术创作上大展身手吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/戎璎花",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

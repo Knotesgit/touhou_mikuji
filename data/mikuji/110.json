@@ -1,0 +1,87 @@
+{
+  "id": "110",
+  "pageTitle": "东方幻存神签/玉造魅须丸",
+  "bilingualPageTitle": "东方幻存神签/玉造魅须丸/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/玉造魅须丸",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/玉造魅须丸/中日对照",
+  "numberLabel": "第110号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "由矿物锻造的神明",
+  "characterName": "玉造魅须丸",
+  "abilityText": "制造勾玉程度的能力",
+  "mainOracleText": "神代的宝石已长眠万古。即便如此你也要采掘吗？",
+  "mainOracleColumns": [
+    "神代的宝石",
+    "已长眠万古。",
+    "即便如此你",
+    "也要采掘吗？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "天降横财与神力。主动探寻机缘为上。"
+        },
+        {
+          "label": "财运",
+          "text": "正值天赐良机。此时不发，更待何时？"
+        },
+        {
+          "label": "交易",
+          "text": "将掘得金矿。采矿业为大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "考古学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "忌紫外线。有损肌肤。"
+        },
+        {
+          "label": "出行",
+          "text": "宜登山。金山银山尤吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "得遇宝石迷。"
+        },
+        {
+          "label": "寻物",
+          "text": "可在地下寻回。"
+        },
+        {
+          "label": "物件",
+          "text": "可将力量石之力尽数激发。翡翠为大吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是一位精通矿物知识的神秘神明。外面世界所谓的矿物是资源、宝石和地质学领域的研究对象，但在幻想乡中，矿物是相关传说、因果关系与魔力领域的研究对象。",
+      "极少数矿物与神之时代有直接联系，它们被称为伊奘诺物质。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/玉造魅须丸",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

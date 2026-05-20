@@ -1,0 +1,88 @@
+{
+  "id": "75",
+  "pageTitle": "东方幻存神签/今泉影狼",
+  "bilingualPageTitle": "东方幻存神签/今泉影狼/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/今泉影狼",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/今泉影狼/中日对照",
+  "numberLabel": "第75号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "沉着冷静的人狼姐姐",
+  "characterName": "今泉影狼",
+  "abilityText": "在满月之夜变身为狼程度的能力",
+  "mainOracleText": "每逢满月时海潮最高涨，地球与狼人想必是同族。",
+  "mainOracleColumns": [
+    "每逢满月时",
+    "海潮最高涨，",
+    "地球与狼人",
+    "想必是同族。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "巨变将至，过时不候。若安于现状，则应设法避免。否则应抓住机会。"
+        },
+        {
+          "label": "体魄",
+          "text": "提升体能的良机。当夜间锻炼。"
+        },
+        {
+          "label": "出行",
+          "text": "应避开人山人海。"
+        },
+        {
+          "label": "交易",
+          "text": "情况看似顺利，实则变化莫测。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "受月相影响。"
+        },
+        {
+          "label": "恋爱",
+          "text": "保持谦逊则有起色。"
+        },
+        {
+          "label": "财运",
+          "text": "于满月之夜散财。"
+        },
+        {
+          "label": "寻物",
+          "text": "于满月之夜遗失重要物品。记忆也将一并遗失。"
+        },
+        {
+          "label": "服装",
+          "text": "避免露出肌肤为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "狼人是一种家喻户晓的怪物，但她其实是现已灭绝的日本狼。",
+      "据她自述，她在变身后毛发会变得更加茂密，但实际情况则无人知晓。不过，她的服装是参考那张俗称“光头”的花札牌面设计的。",
+      "莫非，她很向往没有毛发的光头吗……？"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/今泉影狼",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

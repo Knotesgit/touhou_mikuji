@@ -1,0 +1,91 @@
+{
+  "id": "124",
+  "pageTitle": "东方幻存神签/宫出口瑞灵",
+  "bilingualPageTitle": "东方幻存神签/宫出口瑞灵/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/宫出口瑞灵",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/宫出口瑞灵/中日对照",
+  "numberLabel": "第124号",
+  "rank": "【大大凶】",
+  "rankDisplay": [
+    {
+      "text": "【大大凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "人厌妖嫌的反狱怨灵",
+  "characterName": "宫出口瑞灵",
+  "abilityText": "夺取全身心程度的能力",
+  "mainOracleText": "凡人皆不知，唯有怨灵晓。怨乃立身本，永日不可消。",
+  "mainOracleColumns": [
+    "凡人皆不知，",
+    "唯有怨灵晓。",
+    "怨乃立身本，",
+    "永日不可消。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "过分嫉妒他人，影响现实生活。沉沦其中难以摆脱。"
+        },
+        {
+          "label": "工作",
+          "text": "若能直面失败或可绝地翻身。需要演技的工作为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "注意力散漫，无法专注学习。"
+        },
+        {
+          "label": "健康",
+          "text": "整体恶化。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "住所",
+          "text": "家中压抑，坐卧不宁。宜迁居地下。"
+        },
+        {
+          "label": "出行",
+          "text": "宜前往释放压力之地。"
+        },
+        {
+          "label": "人缘",
+          "text": "被人避之不及。"
+        },
+        {
+          "label": "恋爱",
+          "text": "极小概率觅得知心良伴。"
+        },
+        {
+          "label": "失物",
+          "text": "会失去目标。"
+        },
+        {
+          "label": "爱好",
+          "text": "观察人类。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是对博丽神社心怀怨恨的怨灵。大多数怨灵都早已忘却自己怨恨的对象，只留下被纯化的怨恨。而她成为怨灵的时日尚不长久，似乎还隐约记得自己的怨念从何而来。",
+      "怨灵一旦报仇雪恨便会成佛，无法再维持自身的存在。当怨灵还真是左右为难呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/宫出口瑞灵",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "7",
+  "pageTitle": "东方幻存神签/十六夜咲夜",
+  "bilingualPageTitle": "东方幻存神签/十六夜咲夜/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/十六夜咲夜",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/十六夜咲夜/中日对照",
+  "numberLabel": "第7号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "无所不能的潇洒女仆",
+  "characterName": "十六夜咲夜",
+  "abilityText": "操纵时间程度的能力",
+  "mainOracleText": "可否占用您一点时间呢？无需您费心，已经完事了。",
+  "mainOracleColumns": [
+    "可否占用您",
+    "一点时间呢？",
+    "无需您费心，",
+    "已经完事了。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "工作学业万事顺遂。积压难题迎刃而解。"
+        },
+        {
+          "label": "工作",
+          "text": "诸业皆为吉。唯缺得力下属。"
+        },
+        {
+          "label": "学业",
+          "text": "诸学皆为吉。时间是无限的。"
+        },
+        {
+          "label": "健康",
+          "text": "易操劳过度。注意适时休憩。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "无须焦躁。时间是无限的。"
+        },
+        {
+          "label": "住所",
+          "text": "整理收纳为吉。"
+        },
+        {
+          "label": "财运",
+          "text": "赌运亨通。"
+        },
+        {
+          "label": "厨艺",
+          "text": "与日俱进。挑战珍稀食材的良机。"
+        },
+        {
+          "label": "物件",
+          "text": "携带怀表为吉。若公然携带匕首则必遭逮捕。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "操纵时间的能力容易产生各种逻辑问题，在作品中往往难以运用，最终至多只能以超高速移动的形式去表现。",
+      "实际上，若物体速度真的快到足以停止时间，那么其质量将趋近无限大。或许女仆长最大的秘密，其实是她在时停状态下的体重。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/十六夜咲夜",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

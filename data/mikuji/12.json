@@ -1,0 +1,83 @@
+{
+  "id": "12",
+  "pageTitle": "东方幻存神签/爱丽丝·玛格特洛依德",
+  "bilingualPageTitle": "东方幻存神签/爱丽丝·玛格特洛依德/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/爱丽丝·玛格特洛依德",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/爱丽丝·玛格特洛依德/中日对照",
+  "numberLabel": "第12号",
+  "rank": "末吉",
+  "rankDisplay": [
+    {
+      "text": "末吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "孤身一人也不失喧闹的人偶师",
+  "characterName": "爱丽丝·玛格特洛依德",
+  "abilityText": "使用魔法（人偶操纵）程度的能力",
+  "mainOracleText": "没什么诀窍，唯手巧罢了。无论是提线抑或是魔法。",
+  "mainOracleColumns": [
+    "没什么诀窍，",
+    "唯手巧罢了。",
+    "无论是提线",
+    "抑或是魔法。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "热闹纷呈的生活只是表象，时常感到孤独。"
+        },
+        {
+          "label": "人缘",
+          "text": "交际广泛，却无深交。"
+        },
+        {
+          "label": "恋爱",
+          "text": "可如木偶般肆意操控者为宜，否则将反被操控。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "交易",
+          "text": "凭借巧劲，日益兴隆。"
+        },
+        {
+          "label": "学业",
+          "text": "擅长考试。"
+        },
+        {
+          "label": "寻物",
+          "text": "眨眼之间便有失物，眨眼之间又会寻回。"
+        },
+        {
+          "label": "出行",
+          "text": "与人偶同行为吉。海外旅行则吉上加吉。"
+        },
+        {
+          "label": "健康",
+          "text": "一不留神便会自言自语。多加留意。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "据说她心灵手巧，能同时操控大量人偶。但如此灵巧的她似乎还是觉得人际关系无从下手，于是一直隐居在森林中。",
+      "即便如此，她还是会偶尔制作巨大的人偶，似乎还谋划着有朝一日要登上舞台大显身手。那一天是否能够到来呢？"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/爱丽丝·玛格特洛依德",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

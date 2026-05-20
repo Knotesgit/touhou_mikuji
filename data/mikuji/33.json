@@ -1,0 +1,92 @@
+{
+  "id": "33",
+  "pageTitle": "东方幻存神签/射命丸文",
+  "bilingualPageTitle": "东方幻存神签/射命丸文/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/射命丸文",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/射命丸文/中日对照",
+  "numberLabel": "第33号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": true
+    },
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "幻想乡最高速天狗记者",
+  "characterName": "射命丸文",
+  "abilityText": "操纵风程度的能力",
+  "mainOracleText": "钢笔胜手枪。笔身轻扬扬，笔下缀文章，笔尖闪寒光。",
+  "mainOracleColumns": [
+    "钢笔胜手枪。",
+    "笔身轻扬扬，",
+    "笔下缀文章，",
+    "笔尖闪寒光。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "倘若笔力够深、脸皮够厚，捏造运势也不在话下。"
+        },
+        {
+          "label": "交易",
+          "text": "蒸蒸日上。但生意越是成功，就越招人仇视。"
+        },
+        {
+          "label": "学业",
+          "text": "妨碍他人学习，自身倒是马马虎虎。"
+        },
+        {
+          "label": "出行",
+          "text": "行旅可增气运。当漫游四方。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "疾病",
+          "text": "风寒缠身。亦需当心跌打损伤。"
+        },
+        {
+          "label": "财运",
+          "text": "忙忙碌碌，涨薪无望。"
+        },
+        {
+          "label": "住所",
+          "text": "天降风灾。"
+        },
+        {
+          "label": "恋爱",
+          "text": "突发丑闻，难成正果。"
+        },
+        {
+          "label": "晋升",
+          "text": "阶级之别不可逾越。断念为妙。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "现在网络上资讯泛滥，令人应接不暇。还好在幻想乡中，资讯的传播尚未如此发达。",
+      "天狗登报的内容真假难辨。读者似乎也对此心知肚明，并以此为乐。",
+      "天狗一族生性喜欢撒谎。这个种族感觉和长鼻子匹诺曹有些联系呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/射命丸文",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

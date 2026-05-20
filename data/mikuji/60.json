@@ -1,0 +1,87 @@
+{
+  "id": "60",
+  "pageTitle": "东方幻存神签/封兽鵺",
+  "bilingualPageTitle": "东方幻存神签/封兽鵺/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/封兽鵺",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/封兽鵺/中日对照",
+  "numberLabel": "第60号",
+  "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "原形不明的怪物",
+  "characterName": "封兽鵺",
+  "abilityText": "使原形无法识别程度的能力",
+  "mainOracleText": "我真身到底是哪种动物？问这个可是侵犯隐私哦。",
+  "mainOracleColumns": [
+    "我真身到底",
+    "是哪种动物？",
+    "问这个可是",
+    "侵犯隐私哦。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "整体极为不祥，但混沌之中亦有原形不明的神秘光芒。"
+        },
+        {
+          "label": "工作",
+          "text": "忙得不可开交。学者、政治家、宗教家尤凶。密探为吉。"
+        },
+        {
+          "label": "学业",
+          "text": "莫名其妙糊里糊涂。神秘学为吉。"
+        },
+        {
+          "label": "出行",
+          "text": "宜太空旅行。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "隐疾藏而不显。"
+        },
+        {
+          "label": "财运",
+          "text": "因染指来历不明之财而陷入危机。"
+        },
+        {
+          "label": "姻缘",
+          "text": "得遇奇缘。"
+        },
+        {
+          "label": "寻物",
+          "text": "丢三落四。身旁之人亦将失物频发。"
+        },
+        {
+          "label": "爱好",
+          "text": "可在尔虞我诈的游戏中大杀四方。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "鵺往往被描述成猿头虎肢、尾生长蛇的怪物，但它原本只是一种只闻其声不见其形的神秘怪鸟，据传其鸣声会给听者带来灾厄。",
+      "既然不见其形，那古人又怎么知道它是鸟呢？真是奇怪。鵺的真身，也没准是像她这样难以形容的诡异之物嘛。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/封兽鵺",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "29",
+  "pageTitle": "东方幻存神签/上白泽慧音（白泽）",
+  "bilingualPageTitle": "东方幻存神签/上白泽慧音（白泽）/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/上白泽慧音（白泽）",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/上白泽慧音（白泽）/中日对照",
+  "numberLabel": "第29号",
+  "rank": "大凶",
+  "rankDisplay": [
+    {
+      "text": "大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "半为妖兽、半为师长",
+  "characterName": "上白泽慧音（白泽）",
+  "abilityText": "创造历史程度的能力",
+  "mainOracleText": "历史并非是客观的现象，而是由人类诠释所造就。",
+  "mainOracleColumns": [
+    "历史并非是",
+    "客观的现象，",
+    "而是由人类",
+    "诠释所造就。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "既往积累土崩瓦解。宜开创新篇。"
+        },
+        {
+          "label": "学业",
+          "text": "历史所向披靡。余者勿抱期望。"
+        },
+        {
+          "label": "工作",
+          "text": "宜从事能颠覆历史的职业。发明家、革命家、小说家为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "睡眠不足。"
+        },
+        {
+          "label": "出行",
+          "text": "前人未至之地为吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "旧日人脉尽失，但幸得新交。"
+        },
+        {
+          "label": "争端",
+          "text": "不断撒播纷争火种。"
+        },
+        {
+          "label": "住所",
+          "text": "决意迁往新天地从头再来，则可诸事顺遂。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "在满月变身的妖怪为数众多，但能化身智慧的神兽——白泽的唯她一人。",
+      "在东方中，满月的光辉会令地上生灵陷入狂乱，想必是来自月之都的神秘力量作祟。",
+      "月之民让她编纂历史，究竟意欲何为呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/上白泽慧音（白泽）",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,33 +1,18 @@
 {
   "id": "1",
-  "pageTitle": "东方幻存神签/露米娅",
-  "bilingualPageTitle": "东方幻存神签/露米娅/中日对照",
-  "sourceUrl": "https://thwiki.cc/东方幻存神签/露米娅",
-  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/露米娅/中日对照",
   "numberLabel": "第1号",
   "rank": "凶",
-  "rankDisplay": [
-    {
-      "text": "凶",
-      "struck": false
-    }
-  ],
   "characterTitle": "使用四周变暗的妖怪",
   "characterName": "露米娅",
   "abilityText": "操纵黑暗程度的能力",
   "mainOracleText": "若心怀黑暗，此事需谨记：不速之客已悄然潜于胸。",
-  "mainOracleColumns": [
-    "若心怀黑暗，",
-    "此事需谨记：",
-    "不速之客已",
-    "悄然潜于胸。"
-  ],
+  "mainOracleColumns": [],
   "detailLayers": [
     {
       "items": [
         {
           "label": "运势",
-          "text": "即便身处明亮之处也会突然失去视野。可谓前途一片黑暗。"
+          "text": "即便身处明亮之处也会突然失去视野。"
         },
         {
           "label": "健康",
@@ -55,7 +40,7 @@
         },
         {
           "label": "争端",
-          "text": "形影单只反倒无人侵扰。"
+          "text": "形影单只反倒无人侵犯。"
         },
         {
           "label": "动物",
@@ -74,10 +59,7 @@
   "source": {
     "publication": "東方幻存神籤 / 东方幻存神签",
     "author": "ZUN",
-    "referenceSite": "THWiki",
-    "referenceUrl": "https://thwiki.cc/东方幻存神签/露米娅",
-    "dataEntryMethod": "manual-assisted-import",
-    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
-  },
-  "reviewStatus": "reviewed"
+    "referenceUrl": "https://thwiki.cc/东方幻存神签",
+    "note": "Text to be manually entered later. Do not scrape automatically."
+  }
 }

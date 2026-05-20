@@ -1,0 +1,88 @@
+{
+  "id": "42",
+  "pageTitle": "东方幻存神签/八坂神奈子",
+  "bilingualPageTitle": "东方幻存神签/八坂神奈子/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/八坂神奈子",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/八坂神奈子/中日对照",
+  "numberLabel": "第42号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "为穷乡僻壤带来技术革命的山神",
+  "characterName": "八坂神奈子",
+  "abilityText": "创造乾程度的能力",
+  "mainOracleText": "因循守旧不思进取，信仰必会日渐枯竭。",
+  "mainOracleColumns": [
+    "因循守旧",
+    "不思进取，",
+    "信仰必会",
+    "日渐枯竭。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "以强盛气运搅动风云。将成中心人物。"
+        },
+        {
+          "label": "工作",
+          "text": "宜成大业。细枝末节应交予下级处理。"
+        },
+        {
+          "label": "交易",
+          "text": "随机应变，捕得商机。"
+        },
+        {
+          "label": "学业",
+          "text": "工学、数学、物理学、爬行动物学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "老当益壮。当心毒蛇。"
+        },
+        {
+          "label": "出行",
+          "text": "山、湖、温泉为吉。若有间歇泉则大吉。"
+        },
+        {
+          "label": "人缘",
+          "text": "过度干涉易被视为职场霸凌。"
+        },
+        {
+          "label": "心愿",
+          "text": "参拜神社即可如愿。"
+        },
+        {
+          "label": "疾病",
+          "text": "背上负担过重，导致腰痛发作。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "在原作里，她不知为何总是背着注连绳。想必一定是正忙着搬家吧（笑）。",
+      "注连绳是用来划分神圣之地的标记物，她的做法是为表明自身立足之处即为神圣之地。",
+      "此外，看样子她似乎也觉得身形显得伟岸会更方便收集信仰。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/八坂神奈子",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

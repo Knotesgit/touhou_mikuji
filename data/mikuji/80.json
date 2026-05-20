@@ -1,0 +1,91 @@
+{
+  "id": "80",
+  "pageTitle": "东方幻存神签/堀川雷鼓",
+  "bilingualPageTitle": "东方幻存神签/堀川雷鼓/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/堀川雷鼓",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/堀川雷鼓/中日对照",
+  "numberLabel": "第80号",
+  "rank": "末大吉",
+  "rankDisplay": [
+    {
+      "text": "末大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "拥有原初音源的付丧神",
+  "characterName": "堀川雷鼓",
+  "abilityText": "让一切跟上节奏程度的能力",
+  "mainOracleText": "时间有极限。普朗克单位将一切鼓动都悉数同步。",
+  "mainOracleColumns": [
+    "时间有极限。",
+    "普朗克单位",
+    "将一切鼓动",
+    "都悉数同步。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "生活节奏良好。运势随之走高。"
+        },
+        {
+          "label": "工作",
+          "text": "入职公司为吉。鼓手则大吉。"
+        },
+        {
+          "label": "学业",
+          "text": "能够跟上节奏，进步神速。音乐、体育为吉。"
+        },
+        {
+          "label": "住所",
+          "text": "应准备隔音设备。"
+        },
+        {
+          "label": "恋爱",
+          "text": "波长相合。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "前往节庆活动现场为大吉。"
+        },
+        {
+          "label": "爱好",
+          "text": "乐队活动压倒性胜出。"
+        },
+        {
+          "label": "财运",
+          "text": "实属遗憾。"
+        },
+        {
+          "label": "人缘",
+          "text": "乐迷云集。"
+        },
+        {
+          "label": "健康",
+          "text": "身体状况有所改善。常被敲打，伤痛不断。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她的乐器看起来是架子鼓，但她其实是和太鼓的付丧神。她舍弃了自己的本体和太鼓，附身在了架子鼓上。",
+      "她隔三岔五便会在幻想乡举办现场演奏，收获了众多人类粉丝。人们似乎都觉得她的付丧神身份只是乐队的背景设定。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/堀川雷鼓",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

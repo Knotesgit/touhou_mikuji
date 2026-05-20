@@ -1,0 +1,83 @@
+{
+  "id": "11",
+  "pageTitle": "东方幻存神签/橙",
+  "bilingualPageTitle": "东方幻存神签/橙/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/橙",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/橙/中日对照",
+  "numberLabel": "第11号",
+  "rank": "凶",
+  "rankDisplay": [
+    {
+      "text": "凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "被操控的式神猫妖",
+  "characterName": "橙",
+  "abilityText": "使用妖术程度的能力",
+  "mainOracleText": "抽到了黑猫，你可真不幸。不过我只有毛是黑的哦。",
+  "mainOracleColumns": [
+    "抽到了黑猫，",
+    "你可真不幸。",
+    "不过我只有",
+    "毛是黑的哦。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "整体不吉。但未必真有坏事发生。"
+        },
+        {
+          "label": "出行",
+          "text": "迷路为吉。若擅入空宅，不可带走财物。"
+        },
+        {
+          "label": "交易",
+          "text": "不好不坏。"
+        },
+        {
+          "label": "学业",
+          "text": "需勤勉向学。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "健康",
+          "text": "当心受伤。修剪指甲为吉。"
+        },
+        {
+          "label": "移徙",
+          "text": "不动为妙。"
+        },
+        {
+          "label": "忌事",
+          "text": "水边旅行，水电维修，木天蓼。"
+        },
+        {
+          "label": "猫运",
+          "text": "易受野猫亲近。是忧是喜，全凭心境。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "据说猫活得太久，就会化作人形，变成猫又这种妖怪。但橙看起来完全不像是活了很久的样子呢。",
+      "即便是年迈的兽妖，修得人形之时若是选择化成孩童而非成人，性格兴许也会受到影响吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/橙",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "41",
+  "pageTitle": "东方幻存神签/东风谷早苗",
+  "bilingualPageTitle": "东方幻存神签/东风谷早苗/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/东风谷早苗",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/东风谷早苗/中日对照",
+  "numberLabel": "第41号",
+  "rank": "奇迹☆",
+  "rankDisplay": [
+    {
+      "text": "奇迹☆",
+      "struck": false
+    }
+  ],
+  "characterTitle": "居于守矢神社的奇迹巫女",
+  "characterName": "东风谷早苗",
+  "abilityText": "引发奇迹程度的能力",
+  "mainOracleText": "宇宙之大虽有极限，却由无尽奇迹构成。",
+  "mainOracleColumns": [
+    "宇宙之大",
+    "虽有极限，",
+    "却由无尽",
+    "奇迹构成。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "奇迹降临。奇迹过于频繁以至司空见惯。"
+        },
+        {
+          "label": "交易",
+          "text": "搁置之业反得瞩目。"
+        },
+        {
+          "label": "学业",
+          "text": "临阵磨枪押题成功。理科皆大吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "疾病",
+          "text": "痊愈。"
+        },
+        {
+          "label": "恋爱",
+          "text": "宜偶遇良缘。"
+        },
+        {
+          "label": "寻物",
+          "text": "必能寻回。"
+        },
+        {
+          "label": "住所",
+          "text": "可抵御狂风。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是来自外面世界的现代人，如今早已彻底成为了名副其实的幻想乡居民。",
+      "她时常被大人物指使得团团转，但这也是性格使然。她似乎是觉得老老实实服从指示最为轻松、也用不着承担责任。这方面倒是依然维持着现代人的风范呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/东风谷早苗",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

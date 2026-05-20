@@ -1,0 +1,91 @@
+{
+  "id": "89",
+  "pageTitle": "东方幻存神签/赫卡提亚·拉碧斯拉祖利",
+  "bilingualPageTitle": "东方幻存神签/赫卡提亚·拉碧斯拉祖利/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/赫卡提亚·拉碧斯拉祖利",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/赫卡提亚·拉碧斯拉祖利/中日对照",
+  "numberLabel": "第89号",
+  "rank": "吉·凶·大凶",
+  "rankDisplay": [
+    {
+      "text": "吉·凶·大凶",
+      "struck": false
+    }
+  ],
+  "characterTitle": "拥有三种运势的女神",
+  "characterName": "赫卡提亚·拉碧斯拉祖利",
+  "abilityText": "拥有三个身体程度的能力",
+  "mainOracleText": "认知越丰富，世界越宽广。多样性才是宇宙的尺度。",
+  "mainOracleColumns": [
+    "认知越丰富，",
+    "世界越宽广。",
+    "多样性才是",
+    "宇宙的尺度。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "每天早晨运势变换。不仅无法控制，而且凶多吉少。"
+        },
+        {
+          "label": "工作",
+          "text": "一人顶三人，工作也会变多。"
+        },
+        {
+          "label": "健康",
+          "text": "当心积劳成疾。自觉运势不佳便应及时休息。"
+        },
+        {
+          "label": "学业",
+          "text": "颇为顺遂，但容易过劳。量子色动力学为吉。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "无论前往何处，地狱如影随形。温泉则常吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "至多可以脚踏三条船。"
+        },
+        {
+          "label": "比试",
+          "text": "无往不利。切勿主动出击。"
+        },
+        {
+          "label": "人缘",
+          "text": "为人厌弃。"
+        },
+        {
+          "label": "财运",
+          "text": "赌运颇佳。"
+        },
+        {
+          "label": "爱好",
+          "text": "时尚领域为吉。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "幻想乡的世界观以本土色彩为基调，所以像她这样原型取自希腊神话的角色非常特殊。",
+      "她还有一条很奇怪的设定，那就是拥有三个身体。每个身体都处于不同的世界，因此同一时刻只能观测到其中一个。考虑到三个身体的意识都是统一的，她的脑子里想必相当热闹吧。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/赫卡提亚·拉碧斯拉祖利",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

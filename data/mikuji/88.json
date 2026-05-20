@@ -1,0 +1,93 @@
+{
+  "id": "88",
+  "pageTitle": "东方幻存神签/纯狐",
+  "bilingualPageTitle": "东方幻存神签/纯狐/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/纯狐",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/纯狐/中日对照",
+  "numberLabel": "第88号",
+  "rank": "【大大凶】",
+  "rankDisplay": [
+    {
+      "text": "【大大凶】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "无穷无尽的仇怨",
+  "characterName": "纯狐",
+  "abilityText": "纯化程度的能力",
+  "mainOracleText": "自然与生命、乃至是感情，一旦经提纯，都只不过是普通的信息。",
+  "mainOracleColumns": [
+    "自然与生命、",
+    "乃至是感情，",
+    "一旦经提纯，",
+    "都只不过是",
+    "普通的信息。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "长年心血将毁于一旦。不如统统舍弃。"
+        },
+        {
+          "label": "人缘",
+          "text": "关系洗牌之时。"
+        },
+        {
+          "label": "财运",
+          "text": "化为废纸。"
+        },
+        {
+          "label": "工作",
+          "text": "积怨爆发。可考虑跳槽。公共服务行业值得一试。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "平日积累决定成败。化学为吉。"
+        },
+        {
+          "label": "恋爱",
+          "text": "当心背后。"
+        },
+        {
+          "label": "健康",
+          "text": "胃痛来袭。"
+        },
+        {
+          "label": "出行",
+          "text": "兴味索然。"
+        },
+        {
+          "label": "寻物",
+          "text": "再难找回。"
+        },
+        {
+          "label": "爱好",
+          "text": "得窥奥妙。将爱好转化为职业可获成功。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她是彻底纯化的复仇化身，复仇行为本身已成为她的存在意义，（在人类看来）十分悲哀。",
+      "但所谓神格，正是这种纯化的现象。因此，纯狐可以说是东方里最像模像样的神。",
+      "搞不太懂的能力才最强，这也是游戏里的经典套路呢（笑）。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/纯狐",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "55",
+  "pageTitle": "东方幻存神签/多多良小伞",
+  "bilingualPageTitle": "东方幻存神签/多多良小伞/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/多多良小伞",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/多多良小伞/中日对照",
+  "numberLabel": "第55号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "常伴唐伞左右的妖怪",
+  "characterName": "多多良小伞",
+  "abilityText": "惊吓人类程度的能力",
+  "mainOracleText": "越来越多人晴天打伞啦。这是紫外线立的功劳吗？",
+  "mainOracleColumns": [
+    "越来越多人",
+    "晴天打伞啦。",
+    "这是紫外线",
+    "立的功劳吗？"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "短期间内惊讶连连，但并无危害。不妨乐在其中。"
+        },
+        {
+          "label": "交易",
+          "text": "适合锻铁。"
+        },
+        {
+          "label": "学业",
+          "text": "考试分数惊人。"
+        },
+        {
+          "label": "恋爱",
+          "text": "准备惊喜为上，别无他选。快闪表演亦吉。"
+        },
+        {
+          "label": "疾病",
+          "text": "小心眼疾。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "出行",
+          "text": "雨水连连。"
+        },
+        {
+          "label": "寻物",
+          "text": "雨伞务必随身携带。"
+        },
+        {
+          "label": "财运",
+          "text": "将遗失钱包，应把东西全部取出。"
+        },
+        {
+          "label": "争端",
+          "text": "无可置喙。"
+        },
+        {
+          "label": "生育",
+          "text": "生产顺利。家庭美满。"
+        },
+        {
+          "label": "灾害",
+          "text": "未雨绸缪，防备狂风暴雨。无备必有患。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "唐伞妖怪憨态可掬，想来应该是为了哄孩子而创造出来的妖怪吧。不过小伞的形象似乎是源于另一种独目独脚的妖怪——独脚踏鞴。",
+      "据说，踩着踏鞴打铁的铁匠总是会眼酸脚痛，这种妖怪由此而生。说不定，小伞只是借用了唐伞妖怪的外表，实则另有真身呢。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/多多良小伞",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

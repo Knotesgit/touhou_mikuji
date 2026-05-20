@@ -1,0 +1,88 @@
+{
+  "id": "95",
+  "pageTitle": "东方幻存神签/矢田寺成美",
+  "bilingualPageTitle": "东方幻存神签/矢田寺成美/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/矢田寺成美",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/矢田寺成美/中日对照",
+  "numberLabel": "第95号",
+  "rank": "【大大吉】",
+  "rankDisplay": [
+    {
+      "text": "【大大吉】",
+      "struck": false
+    }
+  ],
+  "characterTitle": "魔法生物地藏",
+  "characterName": "矢田寺成美",
+  "abilityText": "使用魔法（生命操纵为主）程度的能力",
+  "mainOracleText": "真是太好了。在五十六亿七千万年间，我会保佑你。",
+  "mainOracleColumns": [
+    "真是太好了。",
+    "在五十六亿",
+    "七千万年间，",
+    "我会保佑你。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "向地藏石像献花即可功德满满。"
+        },
+        {
+          "label": "住所",
+          "text": "免遭贼手。"
+        },
+        {
+          "label": "疾病",
+          "text": "旧疾得愈。新患无缘。"
+        },
+        {
+          "label": "学业",
+          "text": "前世之识相助，学业顺遂无忧。"
+        },
+        {
+          "label": "交易",
+          "text": "未必能盈利，但可得下属笑颜。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "人缘",
+          "text": "天然备受尊敬。"
+        },
+        {
+          "label": "健康",
+          "text": "良宵美梦。神灵庇佑。"
+        },
+        {
+          "label": "争端",
+          "text": "得以摆脱无妄之灾。"
+        },
+        {
+          "label": "出行",
+          "text": "遍行天下皆为吉。切记路遇地藏须合掌参拜。轻蔑以对则会失去一切。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "她原本只是路边的地藏石像，却受森林的魔力影响获得了生命，成为了魔法生物。",
+      "通常的地藏形象总是头硬如铁、常用头槌作战，但她并不是刻板印象中的物理系，而是魔法系。",
+      "虽说地藏石像随处可见，但地藏菩萨授予的恩惠其实比起一般神社的神明也毫不逊色。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/矢田寺成美",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

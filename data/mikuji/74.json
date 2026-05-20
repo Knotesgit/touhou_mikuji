@@ -1,0 +1,87 @@
+{
+  "id": "74",
+  "pageTitle": "东方幻存神签/赤蛮奇",
+  "bilingualPageTitle": "东方幻存神签/赤蛮奇/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/赤蛮奇",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/赤蛮奇/中日对照",
+  "numberLabel": "第74号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "脑袋灵活的辘轳首",
+  "characterName": "赤蛮奇",
+  "abilityText": "让头飞出去程度的能力",
+  "mainOracleText": "无论是吵嘴还是弹幕战，取胜的关键都是拼人头。",
+  "mainOracleColumns": [
+    "无论是吵嘴",
+    "还是弹幕战，",
+    "取胜的关键",
+    "都是拼人头。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "视野宽广，前路明朗。能够避开危险。"
+        },
+        {
+          "label": "交易",
+          "text": "高瞻远瞩。服务业应避免抛头露面为妙。"
+        },
+        {
+          "label": "学业",
+          "text": "头脑灵活。"
+        },
+        {
+          "label": "出行",
+          "text": "就当已经去过了。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "恋爱",
+          "text": "切勿变成跟踪狂。"
+        },
+        {
+          "label": "健康",
+          "text": "易失足受伤。"
+        },
+        {
+          "label": "疾病",
+          "text": "肩部酸痛有所好转。"
+        },
+        {
+          "label": "寻物",
+          "text": "寻回诸多失物。"
+        },
+        {
+          "label": "人缘",
+          "text": "以貌取人者去，慧眼识人者来。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "辘轳首是以脖子能伸长而闻名的妖怪，而她则是飞头蛮，是一种形态更为古典的妖怪。",
+      "不过，飞头蛮也只是脑袋能够飞离身体，脑袋的数量并不会增加。那她多出来的头究竟是不是真货呢？还是说……"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/赤蛮奇",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

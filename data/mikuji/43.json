@@ -1,0 +1,96 @@
+{
+  "id": "43",
+  "pageTitle": "东方幻存神签/洩矢诹访子",
+  "bilingualPageTitle": "东方幻存神签/洩矢诹访子/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/洩矢诹访子",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/洩矢诹访子/中日对照",
+  "numberLabel": "第43号",
+  "rank": "大吉",
+  "rankDisplay": [
+    {
+      "text": "大吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "因祟受祀的土著神",
+  "characterName": "洩矢诹访子",
+  "abilityText": "创造坤程度的能力",
+  "mainOracleText": "古老传说，莫作笑谈。触犯神明，难逃祸祟。",
+  "mainOracleColumns": [
+    "古老传说，",
+    "莫作笑谈。",
+    "触犯神明，",
+    "难逃祸祟。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "爱护自然则万事顺遂。否则祸祟将至。"
+        },
+        {
+          "label": "交易",
+          "text": "尚算兴盛。"
+        },
+        {
+          "label": "工作",
+          "text": "顺顺当当。农业、土木行业尤吉。"
+        },
+        {
+          "label": "出行",
+          "text": "历史悠久的乡间为吉。"
+        },
+        {
+          "label": "移徙",
+          "text": "应仔细调查土地历史。"
+        },
+        {
+          "label": "健康",
+          "text": "生龙活虎。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "学业",
+          "text": "新兴学科一窍不通。民俗学为吉。"
+        },
+        {
+          "label": "寻物",
+          "text": "可于大地之上寻回。"
+        },
+        {
+          "label": "生育",
+          "text": "多子多福。生产顺利。"
+        },
+        {
+          "label": "爱好",
+          "text": "宜露营、园艺、冬眠。"
+        },
+        {
+          "label": "禁忌",
+          "text": "藐视自然则大凶将至，百般运势尽数反转。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "守矢神社由神奈子独揽大权。也许是顾虑到这一点，诹访子平日似乎会刻意低调行事。",
+      "但她的神格其实相当恐怖，也因此被人敬而远之。俗话说得好，惹不起躲得起嘛。",
+      "或许正是出于这一缘故，现在大家都把她当成了青蛙之神。倒也大差不差就是了。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/洩矢诹访子",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}

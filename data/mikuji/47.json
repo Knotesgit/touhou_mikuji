@@ -80,6 +80,5 @@
     "dataEntryMethod": "manual-assisted-import",
     "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
   },
-  "reviewStatus": "draft-needs-manual-review",
-  "parserWarnings": []
+  "reviewStatus": "reviewed"
 }

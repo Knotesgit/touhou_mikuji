@@ -1,4 +1,4 @@
-const FORTUNE_FILES = ["data/mikuji/1.json"];
+const FORTUNE_INDEX = "data/mikuji-index.json";
 const HISTORY_KEY = "touhouMikujiHistory";
 const HISTORY_LIMIT = 10;
 
@@ -29,14 +29,24 @@ async function init() {
         state.fortunes = await loadFortunes();
         drawButton.disabled = false;
     } catch (error) {
-        resultEl.innerHTML = '<p class="error-text">签文载入失败。请确认 data/mikuji/1.json 可访问。</p>';
+        resultEl.innerHTML = '<p class="error-text">签文载入失败。请确认 data/mikuji-index.json 和签文 JSON 可访问。</p>';
         console.error(error);
     }
 }
 
 async function loadFortunes() {
+    const indexResponse = await fetch(FORTUNE_INDEX);
+    if (!indexResponse.ok) {
+        throw new Error(`Failed to load ${FORTUNE_INDEX}`);
+    }
+
+    const fortuneFiles = await indexResponse.json();
+    if (!Array.isArray(fortuneFiles) || fortuneFiles.length === 0) {
+        throw new Error(`${FORTUNE_INDEX} must contain at least one fortune path.`);
+    }
+
     const fortunes = await Promise.all(
-        FORTUNE_FILES.map(async (path) => {
+        fortuneFiles.map(async (path) => {
             const response = await fetch(path);
             if (!response.ok) {
                 throw new Error(`Failed to load ${path}`);

@@ -1,0 +1,91 @@
+{
+  "id": "39",
+  "pageTitle": "东方幻存神签/河城荷取",
+  "bilingualPageTitle": "东方幻存神签/河城荷取/中日对照",
+  "sourceUrl": "https://thwiki.cc/东方幻存神签/河城荷取",
+  "bilingualSourceUrl": "https://thwiki.cc/东方幻存神签/河城荷取/中日对照",
+  "numberLabel": "第39号",
+  "rank": "中吉",
+  "rankDisplay": [
+    {
+      "text": "中吉",
+      "struck": false
+    }
+  ],
+  "characterTitle": "折腾机器的河童",
+  "characterName": "河城荷取",
+  "abilityText": "操纵水程度的能力",
+  "mainOracleText": "机械如河川，流动不停歇。循回电路的想来是血液。",
+  "mainOracleColumns": [
+    "机械如河川，",
+    "流动不停歇。",
+    "循回电路的",
+    "想来是血液。"
+  ],
+  "detailLayers": [
+    {
+      "items": [
+        {
+          "label": "运势",
+          "text": "诸事顺遂，如川奔流。只要不生故障便可无忧。"
+        },
+        {
+          "label": "交易",
+          "text": "诸业皆可盈利。不守商道则凶。"
+        },
+        {
+          "label": "工作",
+          "text": "入职公司恐被压榨。但尚可忍受。"
+        },
+        {
+          "label": "学业",
+          "text": "宜研习工科。"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "label": "运动",
+          "text": "泳技进步。"
+        },
+        {
+          "label": "恋爱",
+          "text": "难生兴致。"
+        },
+        {
+          "label": "健康",
+          "text": "当心干燥，易致身体不适。"
+        },
+        {
+          "label": "出行",
+          "text": "傍水都市为吉。"
+        },
+        {
+          "label": "疾病",
+          "text": "痊愈。将得良药。"
+        },
+        {
+          "label": "物件",
+          "text": "撬棍类物品可带来幸运。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "title": "【评论】上海爱丽丝幻乐团",
+    "paragraphs": [
+      "河童是幻想乡首屈一指的技术集团，凭借未知的工程技术将幻想乡的科技水平维持在极高水准。",
+      "河童们的技术能制造防水机械，多半还比外面世界更加环保，大有打破幻想乡势力平衡之虞。所幸河童似乎对权力漠不关心，幻想乡才得以维持安稳。"
+    ]
+  },
+  "source": {
+    "publication": "東方幻存神籤 / 东方幻存神签",
+    "author": "ZUN",
+    "referenceSite": "THWiki",
+    "referenceUrl": "https://thwiki.cc/东方幻存神签/河城荷取",
+    "dataEntryMethod": "manual-assisted-import",
+    "rightsNote": "Unofficial non-commercial fan data organization and presentation. Text rights belong to original rights holders. Remove or revise upon valid request."
+  },
+  "reviewStatus": "reviewed"
+}
