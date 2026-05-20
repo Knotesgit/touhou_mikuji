@@ -187,10 +187,16 @@ function createDetailLayer(layer, fortune) {
             itemEl.className = "detail-item";
             itemEl.style.setProperty("--detail-item-lines", metrics.lines);
             itemEl.style.setProperty("--detail-item-chars", metrics.length);
-            itemEl.append(
-                createElement("span", "detail-label", item.label || ""),
-                createElement("span", "detail-text", item.text || "")
-            );
+
+            const labelEl = document.createElement("span");
+            labelEl.className = "detail-label";
+            labelEl.appendChild(renderVerticalText(`${item.label || ""}${String.fromCharCode(0xff1a)}`));
+
+            const textEl = document.createElement("span");
+            textEl.className = "detail-text";
+            textEl.appendChild(renderVerticalText(item.text || ""));
+
+            itemEl.append(labelEl, textEl);
             rowEl.appendChild(itemEl);
         });
 
@@ -198,6 +204,30 @@ function createDetailLayer(layer, fortune) {
     });
 
     return layerEl;
+}
+
+const MANUAL_VERTICAL_PUNCTUATION = new Set([
+    ",", ".", "!", "?", ":", ";", "(", ")",
+    0xff0c, 0x3002, 0xff01, 0xff1f, 0xff1a, 0xff1b, 0x3001,
+    0xff08, 0xff09, 0x300c, 0x300d, 0x300e, 0x300f, 0x300a,
+    0x300b, 0x2014, 0x2026, 0x00b7, 0x30fb
+].map((value) => (typeof value === "number" ? String.fromCharCode(value) : value)));
+
+function renderVerticalText(text, options = {}) {
+    const container = document.createElement("span");
+    container.className = options.className
+        ? `manual-vertical-text ${options.className}`
+        : "manual-vertical-text";
+
+    Array.from(String(text || "")).forEach((character) => {
+        const charEl = createElement("span", "manual-v-char", character);
+        if (MANUAL_VERTICAL_PUNCTUATION.has(character)) {
+            charEl.classList.add("manual-v-punct");
+        }
+        container.appendChild(charEl);
+    });
+
+    return container;
 }
 
 function getDetailItemLength(item) {

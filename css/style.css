@@ -414,8 +414,12 @@ h2 {
 
 .detail-item {
     justify-self: center;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.08em;
+    direction: ltr;
     height: var(--detail-row-height, 154px);
     max-height: none;
     min-width: max(1.9em, calc(var(--detail-item-lines, 1) * 1.42em));
@@ -442,6 +446,41 @@ h2 {
 .detail-text {
     color: var(--ink-color);
     white-space: normal;
+}
+
+.detail-label::after {
+    content: none;
+}
+
+.manual-vertical-text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    line-height: 1.05;
+}
+
+.detail-text .manual-vertical-text {
+    height: var(--detail-row-height, 154px);
+    flex-wrap: wrap;
+    align-content: flex-start;
+    direction: rtl;
+}
+
+.manual-v-char {
+    display: block;
+    flex: 0 0 auto;
+    width: 1em;
+    height: 1.05em;
+    text-align: center;
+    line-height: 1.05;
+}
+
+.manual-v-punct {
+    height: 0.9em;
+    font-size: 0.9em;
+    line-height: 0.9;
+    text-align: center;
 }
 
 .review-panel,
